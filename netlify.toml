@@ -1,0 +1,17 @@
+[build]
+  command = "hugo -b $URL && npm run build:functions"
+  publish = "public"
+  functions = "functions"
+
+[build.environment]
+  HUGO_VERSION = "0.59.1"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+  NODE_ENV = "production"
+
+[context.deploy-preview]
+  command = "hugo -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "hugo -b $DEPLOY_PRIME_URL"
