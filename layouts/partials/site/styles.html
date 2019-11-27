@@ -1,3 +1,14 @@
-{{ $s := resources.Get "sass/app.scss" | toCSS | postCSS (dict "config" "postcss.config.js") | minify }}
+{{ if eq (hugo.Environment) "development" }}
 
-<link rel="stylesheet" href="{{ $s.Permalink }}" />
+  {{ $options := (dict "enableSourceMap" true) }}
+  {{ $css := resources.Get "styles/main.scss" | toCSS $options }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+
+{{ else }}
+
+  {{ $options := (dict "outputStyle" "compressed") }}
+  {{ $css := resources.Get "styles/main.scss" | toCSS $options | postCSS (dict "config" "postcss.config.js") }}
+  {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
+
+{{ end }}

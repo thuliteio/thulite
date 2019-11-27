@@ -1,5 +1,12 @@
+const autoprefixer = require('autoprefixer')
+const purgecss = require('@fullhuman/postcss-purgecss')
+
 module.exports = {
   plugins: [
-    require('autoprefixer')
+    autoprefixer(),
+    purgecss({
+      content: ['./layouts/**/*.html'],
+      whitelist: ['lazyloaded']
+    })
   ]
-};
+}

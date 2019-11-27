@@ -4,15 +4,26 @@
   "browserslist": [
     "defaults"
   ],
+  "sass": {
+    "includePaths": [
+      "./node_modules"
+    ]
+  },
   "scripts": {
     "start": "hugo server",
     "build": "hugo && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
-    "server": "hugo server"
+    "server": "hugo server",
+    "clean": "rimraf public resources"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.7.2",
     "netlify-lambda": "^1.6.3",
-    "postcss-cli": "^6.1.3"
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.0"
   }
 }
