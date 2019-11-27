@@ -4,7 +4,7 @@
   functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.59.1"
+  HUGO_VERSION = "0.58.3"
 
 [context.production.environment]
   HUGO_ENV = "production"

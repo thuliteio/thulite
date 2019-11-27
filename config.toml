@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "Atlas"
+title = "Hyas"
 
 enableRobotsTXT = true
 disableAliases = true
