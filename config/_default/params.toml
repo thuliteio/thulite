@@ -1,0 +1,4 @@
+landscapePhotoWidths = [900, 700, 500]
+portraitPhotoWidths = [1500, 1000, 750]
+lqipWidth = "20x"
+themeColor = "#fff"

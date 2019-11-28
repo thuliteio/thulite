@@ -7,7 +7,7 @@
 {{ else }}
 
   {{ $options := (dict "outputStyle" "compressed") }}
-  {{ $css := resources.Get "styles/main.scss" | toCSS $options | postCSS (dict "config" "postcss.config.js") }}
+  {{ $css := resources.Get "styles/main.scss" | toCSS $options | postCSS (dict "config" "config/postcss.config.js") }}
   {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
 

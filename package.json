@@ -13,6 +13,7 @@
     "start": "hugo server",
     "build": "hugo",
     "build:functions": "netlify-lambda build assets/lambda",
+    "build:preview": "hugo -D -F",
     "server": "hugo server",
     "clean": "rimraf public resources functions"
   },
