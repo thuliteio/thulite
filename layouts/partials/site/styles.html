@@ -1,14 +1,10 @@
 {{ if eq (hugo.Environment) "development" }}
-
-  {{ $options := (dict "enableSourceMap" true) }}
-  {{ $css := resources.Get "sass/main.scss" | toCSS $options }}
+  {{ $options := (dict "targetPath" "main.css" "enableSourceMap" true "includePaths" (slice "node_modules")) }}
+  {{ $css := resources.Get "sass/app.scss" | toCSS $options }}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
-
 {{ else }}
-
-  {{ $options := (dict "outputStyle" "compressed") }}
-  {{ $css := resources.Get "sass/main.scss" | toCSS $options | postCSS (dict "config" "config/postcss.config.js") }}
+  {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
+  {{ $css := resources.Get "sass/app.scss" | toCSS $options | postCSS (dict "config" "config/postcss.config.js") }}
   {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
-
 {{ end }}

@@ -1,4 +1,10 @@
-{{ $js := resources.Get "js/app.js" | minify }}
-{{ $secureJS := $js | resources.Fingerprint "sha512" }}
-
-<script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ if eq (hugo.Environment) "development" }}
+  {{ $app := resources.Get "js/app.js" }}
+  {{ $js := slice $app | resources.Concat "main.js" }}
+  <script src="{{ $js.Permalink }}" defer></script>
+{{ else }}
+  {{ $app := resources.Get "js/app.js" | minify }}
+  {{ $js := slice $app | resources.Concat "main.js" }}
+  {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end }}
