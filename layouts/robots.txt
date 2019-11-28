@@ -4,3 +4,4 @@ Disallow: /
 {{ else }}
 Disallow: {{ if ne (getenv "HUGO_ENV") "production" }}/{{ end }}
 {{ end }}
+Sitemap: {{ "sitemap.xml" | absLangURL }}

@@ -1,33 +1,16 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
-    <head>
-
-        {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
-
-        <title>{{ block "title" . }}
-            {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
-        {{ end }}</title>
-
-        {{ range .AlternativeOutputFormats }}
-            <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-        {{ end }}
-
-        {{ block "site/styles" . }}{{ partial "site/styles.html" . }}{{ end }}
-
-    </head>
-    <body>
-
-        {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
-
-        <main class="site-main">
-
-            {{ block "main" . }}{{ end }}
-
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head/head.html" . }}
+  <body>
+    {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+    <div class="wrap container" role="document">
+      <div class="content">
+        <main class="main">
+          {{ block "main" . }}{{ end }}
         </main>
-
-        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
-
-        {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
-
-    </body>
+     </div>
+    </div>
+    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+    {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+  </body>
 </html>

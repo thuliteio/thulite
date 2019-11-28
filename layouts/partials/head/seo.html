@@ -1,0 +1,48 @@
+{{ with .Params.robots -}}
+  <meta name="robots" content="{{ . }}">
+{{ end -}}
+
+{{ if .IsHome -}}
+  <title>{{ .Site.Title }} {{ .Site.Data.seo.titleSeparator }} {{ .Site.Data.seo.titleAddition }}</title>
+{{ else -}}
+  <title>{{ .Title }} {{ .Site.Data.seo.titleSeparator }} {{ .Site.Title }}</title>
+{{ end -}}
+
+{{ with .Description -}}
+  <meta name="description" content="{{ . }}">
+{{ else -}}
+  <meta name="description" content="{{ .Site.Data.seo.description }}">
+{{ end -}}
+
+{{ with .Params.canonical -}}
+  <link rel="canonical" href="{{ . }}">
+{{ else -}}
+  <link rel="canonical" href="{{ .Permalink }}">
+{{ end -}}
+
+{{ template "_internal/twitter_cards.html" . -}}
+<meta name="twitter:site" content="{{ .Site.Data.seo.twitterSite }}">
+<meta name="twitter:creator" content="{{ .Site.Data.seo.twitterCreator }}">
+
+{{ template "_internal/opengraph.html" . -}}
+<meta property="og:locale" content="{{ .Site.Data.seo.ogLocale }}">
+
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}}
+{{ end -}}
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "url": "{{ .Permalink }}",
+    "name": "{{ .Site.Title }}",
+    "sameAs": 
+      [
+        "https://twitter.com/henkverlinde",
+        "https://www.linkedin.com/in/henkverlinde/"
+      ]
+  }
+</script>
+{{ end }}
