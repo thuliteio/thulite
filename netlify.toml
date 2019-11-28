@@ -1,10 +1,9 @@
 [build]
-  command = "hugo -b $URL && npm run build:functions"
+  command = "hugo -b $URL"
   publish = "public"
-  functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.58.3"
+  HUGO_VERSION = "0.59.1"
 
 [context.production.environment]
   HUGO_ENV = "production"

@@ -1,5 +1,5 @@
-/public
-/node_modules
-
-/functions
-/resources
+functions
+node_modules
+public
+resources
+yarn-error.log

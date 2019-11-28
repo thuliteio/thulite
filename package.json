@@ -11,10 +11,10 @@
   },
   "scripts": {
     "start": "hugo server",
-    "build": "hugo && npm run build:functions",
+    "build": "hugo",
     "build:functions": "netlify-lambda build assets/lambda",
     "server": "hugo server",
-    "clean": "rimraf public resources"
+    "clean": "rimraf public resources functions"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
