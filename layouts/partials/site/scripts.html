@@ -1,4 +1,4 @@
-{{ $js := resources.Get "scripts/app.js" | minify }}
+{{ $js := resources.Get "js/app.js" | minify }}
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 
 <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>

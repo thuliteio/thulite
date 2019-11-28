@@ -11,9 +11,9 @@
   },
   "scripts": {
     "start": "hugo server",
-    "build": "hugo",
+    "build": "hugo && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
-    "build:preview": "hugo -D -F",
+    "build:preview": "npm run build -D -F",
     "server": "hugo server",
     "clean": "rimraf public resources functions"
   },
