@@ -1,4 +1,18 @@
-landscapePhotoWidths = [900, 700, 500]
-portraitPhotoWidths = [1500, 1000, 750]
-lqipWidth = "20x"
+title = "Hyas"
+titleSeparator = "-"
+titleAddition = "Hugo starter helping you build fast, modern websites"
+description = "Hyas is a Hugo starter with an easy development workflow helping you build fast, modern websites."
+images = ["social-fallback-image.jpg"]
+twitterSite = "@henkverlinde"
+twitterCreator = "@henkverlinde"
+ogLocale = "en_US"
+schemaType = "Organization"
+schemaLogo = "logo.png"
+schemaTwitter = "https://twitter.com/henkverlinde"
+schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+
 themeColor = "#fff"
+
+# googleAnalytics = "UA-99999999-1"
+
+footer = "This <a href=\"https://jamstack.org/\">JAMstack</a> website is powered by <a href=\"https://github.com/h-enk/notre-dame\">Notre Dame</a>, a Hugo starter with a webpack development workflow. The code and content live on GitHub and the website is hosted on Netlify. The website theme is a Bootstrap port of the Harrison theme by Anders Norén."

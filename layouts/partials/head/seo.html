@@ -1,17 +1,19 @@
 {{ with .Params.robots -}}
   <meta name="robots" content="{{ . }}">
+{{ else -}}
+  <meta name="robots" content="index, follow">
 {{ end -}}
 
 {{ if .IsHome -}}
-  <title>{{ .Site.Title }} {{ .Site.Data.seo.titleSeparator }} {{ .Site.Data.seo.titleAddition }}</title>
+  <title>{{ .Site.Params.title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
 {{ else -}}
-  <title>{{ .Title }} {{ .Site.Data.seo.titleSeparator }} {{ .Site.Title }}</title>
+  <title>{{ .Title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.title }}</title>
 {{ end -}}
 
 {{ with .Description -}}
   <meta name="description" content="{{ . }}">
 {{ else -}}
-  <meta name="description" content="{{ .Site.Data.seo.description }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
 {{ end -}}
 
 {{ with .Params.canonical -}}
@@ -21,28 +23,29 @@
 {{ end -}}
 
 {{ template "_internal/twitter_cards.html" . -}}
-<meta name="twitter:site" content="{{ .Site.Data.seo.twitterSite }}">
-<meta name="twitter:creator" content="{{ .Site.Data.seo.twitterCreator }}">
+<meta name="twitter:site" content="{{ .Site.Params.twitterSite }}">
+<meta name="twitter:creator" content="{{ .Site.Params.twitterCreator }}">
 
 {{ template "_internal/opengraph.html" . -}}
-<meta property="og:locale" content="{{ .Site.Data.seo.ogLocale }}">
+<meta property="og:locale" content="{{ .Site.Params.ogLocale }}">
 
 {{ range .AlternativeOutputFormats -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
 
-{{ if .IsHome }}
+{{ if .IsHome -}}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "url": "{{ .Permalink }}",
-    "name": "{{ .Site.Title }}",
+    "@type": "{{ .Site.Params.schemaType }}",
+    "url": "{{ .Permalink | safeURL }}",
+    "name": "{{ .Site.Params.title }}",
+    "logo": "{{ .Site.BaseURL }}{{ .Site.Params.schemaLogo }}"
     "sameAs": 
       [
-        "https://twitter.com/henkverlinde",
-        "https://www.linkedin.com/in/henkverlinde/"
+        "{{ .Site.Params.schemaTwitter | safeURL }}",
+        "{{ .Site.Params.schemaLinkedIn | safeURL }}"
       ]
   }
 </script>
-{{ end }}
+{{ end -}}

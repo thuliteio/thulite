@@ -1,7 +1,7 @@
 User-agent: *
-{{- if .Site.Params.disallow_search_engines }}
+{{ if eq (hugo.Environment) "production" -}}
+Allow: /
+{{ else -}}
 Disallow: /
-{{ else }}
-Disallow: {{ if ne (getenv "HUGO_ENV") "production" }}/{{ end }}
 {{ end }}
-Sitemap: {{ "sitemap.xml" | absLangURL }}
+Sitemap: {{ "sitemap.xml" | absLangURL -}}

@@ -1,24 +1,12 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Hyas"
-
-# Categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
-rssLimit = 10
-
-disableHugoGeneratorInject = true
-enableRobotsTXT = true
 disableAliases = true
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
-
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-
-paginate = 5
+enableRobotsTXT = true
+languageCode = "en-US"
+paginate = 7
+rssLimit = 10
 
 # add redirects/headers
 [outputs]
@@ -43,41 +31,16 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
-[permalinks]
-  blog = "/:title/"
-
-[menu]
-  [[menu.main]]
-    name = "Profile"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Writing"
-    url = "/blog/"
-    weight = 2
-  [[menu.main]]
-    name = "Tools"
-    url = "/tools/"
-    weight = 3
-  [[menu.social]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/henkverlinde/"
-    weight = 1
-  [[menu.social]]
-    name = "Twitter"
-    url = "https://twitter.com/henkverlinde"
-    weight = 2
-
-[params]
-  disallow_search_engines = false # set robots.txt to disallow everything
-  footer = "This <a href=\"https://jamstack.org/\">JAMstack</a> website is powered by <a href=\"https://github.com/h-enk/notre-dame\">Notre Dame</a>, a Hugo starter with a webpack development workflow. The code and content live on GitHub and the website is hosted on Netlify. The website theme is a Bootstrap port of the Harrison theme by Anders Norén."
-  description = "Text about my cool site"
-  images = ["site-feature-image.jpg"]
-  title = "Henk Verlinde"
-  author = "Henk Verlinde"
-
-[author]
-  name = "Henk Verlinde"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
 
 [sitemap]
   changefreq = "monthly"

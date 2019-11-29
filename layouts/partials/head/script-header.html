@@ -1,8 +1,10 @@
-<noscript><style>img.lazyload { display: none; }</style></noscript>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88189921-1"></script>
+{{ if isset .Site.Params "googleanalytics" -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.Params.googleAnalytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-88189921-1');
+
+  gtag('config', '{{ $.Site.Params.googleAnalytics }}');
 </script>
+{{ end -}}
