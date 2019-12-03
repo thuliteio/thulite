@@ -9,9 +9,12 @@
 
 /** Import theme styles */
 @import "common/global";
+@import "common/syntax";
 @import "components/buttons";
+@import "components/code";
 @import "components/comments";
 @import "components/forms";
+@import "components/images";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";

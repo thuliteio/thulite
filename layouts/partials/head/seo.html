@@ -33,19 +33,4 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
 
-{{ if .IsHome -}}
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "{{ .Site.Params.schemaType }}",
-    "url": "{{ .Permalink | safeURL }}",
-    "name": "{{ .Site.Params.title }}",
-    "logo": "{{ .Site.BaseURL }}{{ .Site.Params.schemaLogo }}",
-    "sameAs": 
-      [
-        "{{ .Site.Params.schemaTwitter | safeURL }}",
-        "{{ .Site.Params.schemaLinkedIn | safeURL }}"
-      ]
-  }
-</script>
-{{ end -}}
+{{ block "head/structured-data" . }}{{ partial "head/structured-data.html" . }}{{ end }}

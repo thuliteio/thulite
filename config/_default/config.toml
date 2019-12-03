@@ -32,13 +32,16 @@ isPlainText = true
 notAlternative = true
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     codeFences = true
     hl_Lines = ""
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = true
-    noClasses = true
+    noClasses = false
     style = "dracula"
     tabWidth = 4
 

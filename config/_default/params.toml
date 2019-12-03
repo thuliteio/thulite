@@ -10,9 +10,17 @@ schemaType = "Organization"
 schemaLogo = "logo.png"
 schemaTwitter = "https://twitter.com/henkverlinde"
 schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaSection = "news"
+siteLinksSearchBox = false
 
 themeColor = "#fff"
 
 # googleAnalytics = "UA-99999999-1"
 
-footer = "This <a href=\"https://jamstack.org/\">JAMstack</a> website is powered by <a href=\"https://github.com/h-enk/notre-dame\">Notre Dame</a>, a Hugo starter with a webpack development workflow. The code and content live on GitHub and the website is hosted on Netlify. The website theme is a Bootstrap port of the Harrison theme by Anders Norén."
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 700, 500]
+portraitPhotoWidths = [1500, 1000, 750]
+lqipWidth = "20x"
+
+footer = "Copyright © 2019 Henk Verlinde - MIT License"

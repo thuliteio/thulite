@@ -1,9 +1,13 @@
 {{ define "main" }}
+<div class="row justify-content-center">
+  <div class="col-lg-7">
   {{ range .Paginator.Pages }}
     <article>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        {{ .Content }}
+        {{ .Description }}
     </article>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
+  </div>
+</div>
 {{ end }}

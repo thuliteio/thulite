@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ partial "head/head.html" . }}
   <body>
-    {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
+    {{ block "header" . }}{{ partial "header/header.html" . }}{{ end }}
     <div class="wrap container" role="document">
       <div class="content">
         <main class="main">
@@ -10,7 +10,8 @@
         </main>
      </div>
     </div>
-    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
-    {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
+    {{ block "section" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
+    {{ block "site/scripts" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
   </body>
 </html>

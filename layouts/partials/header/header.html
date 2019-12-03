@@ -1,0 +1,10 @@
+<header class="navbar navbar-expand-sm navbar-light">
+  <div class="container">
+    <a class="navbar-brand mr-auto" href="{{ .Site.BaseURL }}">{{ .Site.Params.Title }}</a>
+    {{ range .Site.Menus.main }}
+      <span class="navbar-text">
+        <a href="{{ .URL }}">{{- .Name -}}</a>
+      </span>
+    {{ end }}
+  </div>
+</header>

@@ -1,0 +1,71 @@
+.content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 2rem 0 1rem;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    font-size: $font-size-md;
+  }
+
+  .content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-bottom: 1.125rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.section {
+  background: $gray-200;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section p,
+.section a {
+  margin: 0;
+  text-align: center;
+}
+
+.section svg {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-top;
+}

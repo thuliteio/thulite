@@ -1,21 +1,20 @@
-[[menu.main]]
-  name = "Profile"
-  url = "/"
-  weight = 1
-[[menu.main]]
-  name = "Writing"
-  url = "/blog/"
-  weight = 2
-[[menu.main]]
-  name = "Tools"
-  url = "/tools/"
-  weight = 3
+[[main]]
+  name = "News"
+  url = "/news/"
+  weight = 10
 
-[[menu.social]]
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[social]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/henkverlinde/"
-  weight = 1
-[[menu.social]]
+  weight = 10
+
+[[social]]
   name = "Twitter"
   url = "https://twitter.com/henkverlinde"
-  weight = 2
+  weight = 20
