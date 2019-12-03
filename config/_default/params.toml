@@ -24,3 +24,12 @@ portraitPhotoWidths = [1500, 1000, 750]
 lqipWidth = "20x"
 
 footer = "Copyright © 2019 Henk Verlinde - MIT License"
+
+google_fonts = [
+  ["Merriweather", "700"]
+]
+
+embed_google_fonts = false
+
+# heading_font = "Merriweather"
+# body_font = "Arial"
