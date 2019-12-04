@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
-  {{ partial "head/head.html" . }}
+  {{ block "head" . }}{{ partial "head/head.html" . }}{{ end }}
   <body>
     {{ block "header" . }}{{ partial "header/header.html" . }}{{ end }}
     <div class="wrap container" role="document">
@@ -10,8 +10,7 @@
         </main>
      </div>
     </div>
-    {{ block "section" . }}{{ end }}
     {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
-    {{ block "site/scripts" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
+    {{ block "script-footer" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
   </body>
 </html>

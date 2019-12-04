@@ -3,8 +3,8 @@
   <div class="col-lg-7">
   {{ range .Paginator.Pages }}
     <article>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        {{ .Description }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ .Description }}
     </article>
   {{ end }}
   {{ template "_internal/pagination.html" . }}
