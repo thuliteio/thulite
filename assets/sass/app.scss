@@ -1,13 +1,6 @@
 /** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
 
-/** Hugo font variables */
-
-// stylelint-disable
-$font-body: {{ .Param "body_font" | default "null" }};
-$font-heading: {{ .Param "heading_font" | default "null" }};
-// stylelint-enable
-
 /** Import theme variables */
 @import "common/variables";
 
@@ -22,8 +15,8 @@ $font-heading: {{ .Param "heading_font" | default "null" }};
 @import "components/comments";
 @import "components/forms";
 @import "components/images";
-@import "layouts/header";
-@import "layouts/sidebar";
 @import "layouts/footer";
+@import "layouts/header";
 @import "layouts/pages";
 @import "layouts/posts";
+@import "layouts/sidebar";
