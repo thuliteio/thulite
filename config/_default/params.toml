@@ -1,7 +1,7 @@
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "Hugo starter helping you build fast, modern websites"
-description = "Hyas is a Hugo starter with an easy development workflow helping you build fast, modern websites."
+titleAddition = "Hugo starter with a modern development workflow"
+description = "Hugo starter that lets you build better themes faster with improved development tools."
 images = ["social-fallback-image.jpg"]
 twitterSite = "@henkverlinde"
 twitterCreator = "@henkverlinde"

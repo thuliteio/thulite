@@ -1,13 +1,7 @@
 [[main]]
-  name = "News"
-  url = "/news/"
+  name = "GitHub"
+  url = "https://github.com/h-enk/hyas"
   weight = 10
-
-[[main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 20
 
 [[social]]
   name = "LinkedIn"

@@ -1,6 +1,6 @@
 .content {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 h1,
@@ -24,8 +24,8 @@ h6,
   }
 
   .content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   h1,
@@ -46,8 +46,8 @@ h6,
 
 @include media-breakpoint-up(lg) {
   .content {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 

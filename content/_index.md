@@ -1,10 +1,8 @@
 ---
-title: "Congrats. You now have Firefox Browser Developer Edition."
-description: ""
+title : "Congrats. You now have Hyas."
+description: "Hugo starter that lets you build better themes faster with improved development tools."
 date: 2019-12-02T13:47:16+01:00
 draft: false
-images: ["tools-for-motivation-cmR92mJs40w-unsplash.jpg", "jeremy-perkins-TgmC7oCh9Jk-unsplash.jpg"]
-lead: Welcome to your new favorite browser. Get the latest features, fast performance, and the development tools you need to build for the open web.
+images: ["hyas.jpg"]
+lead: "Hugo starter that lets you build better themes faster with improved development tools."
 ---
-
-New to Hyas? [Visit the homepage]() or read our [getting started guide]().
