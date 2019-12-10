@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/h-enk/hyas.svg?style=flat-square)](https://travis-ci.org/h-enk/hyas)
 [![Netlify](https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square)](https://hyas.netlify.com/)
 
-The Smart, Flexible [Hugo](https://gohugo.io/) Starter.
+Hyas is The Smart, Flexible [Hugo](https://gohugo.io/) Starter, helping you create a site that is performant, accessible, and optimized for search engine results ranking.
 
 ## Features
 
