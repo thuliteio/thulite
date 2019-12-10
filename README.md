@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/h-enk/hyas.svg?style=flat-square)](https://travis-ci.org/h-enk/hyas)
 [![Netlify](https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square)](https://hyas.netlify.com/)
 
-Hyas is The Smart, Flexible [Hugo](https://gohugo.io/) Starter, helping you create a site that is performant, accessible, and optimized for search engine results ranking.
+Hyas is The Smart, Flexible [Hugo](https://gohugo.io/) Starter, helping you create a site that is performant, accessible, and optimized for search engine results ranking. Hyas is a son of [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE).
 
 ## Features
 
