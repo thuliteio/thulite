@@ -137,6 +137,3 @@ This will output:
 ## Documentation
 - [Hugo](https://gohugo.io/documentation/)
 - [Goldmark](https://github.com/yuin/goldmark/)
-
-## License
-Hyas builds on [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE). Hyas is Copyright (c) 2019 Henk Verlinde, [MIT License](https://github.com/h-enk/hyas/blob/master/LICENSE).
