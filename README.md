@@ -7,16 +7,12 @@ Hyas is The Smart, Flexible [Hugo](https://gohugo.io/) Starter, helping you crea
 
 ## Features
 
-Hyas provides the following features out of the box:
-- Bootstrap Sass (no JavaScript)
-- Pre configured support for Hugo Pipes, with Sass and Autoprefixer
+- Bootstrap Sass (no JavaScript) and Autoprefixer
 - Check Sass and JavaScript for errors
 - Environment specific configuration
+- Image shortcode with [lazysizes](https://github.com/aFarkas/lazysizes) and [blur up](https://github.com/aFarkas/lazysizes/tree/master/plugins/blur-up) plugin
 - Fingerprinting and [SRI](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (production)
 - Remove unused CSS (production)
-- Base HTML templates with easy customisation/extension
-- Image shortcode with [lazysizes](https://github.com/aFarkas/lazysizes) and [blur up](https://github.com/aFarkas/lazysizes/tree/master/plugins/blur-up) plugin
-- [Configuration](https://github.com/h-enk/hyas/blob/master/netlify.toml) for Netlify deployments
 
 ## Requirements
 
@@ -27,7 +23,7 @@ Make sure all dependencies have been installed:
 - npm >= 6.9.0
 - Yarn >= 1.19.1 (recommended)
 
-## Getting Started
+## Getting started
 
 Create a new Hyas project:
 
@@ -55,7 +51,7 @@ $ yarn start
 - `yarn clean` - Delete temporary directories
 - `yarn build` - Build production theme
 
-## Directory Structure
+## Theme structure
 
 ```shell
 my-hyas-site/               # → Root of your Hyas based theme
@@ -90,5 +86,57 @@ my-hyas-site/               # → Root of your Hyas based theme
 └── yarn.lock               # → Yarn lock file (never edit)
 ```
 
+## Theme setup
+Edit files in `config/` directory.
+
+
+## Theme development
+### Sass
+
+Don't like Bootstrap? Remove it:
+```bash
+# @ my-hyas-site/
+$ yarn remove bootstrap
+```
+Also make sure to update your sass files, like `app.scss`.
+
+### Images
+
+Use the image shortcode:
+```
+{{< img src="image-in-page-bundle.jpg" alt="Text description image" caption="Caption, optional" class="wide" >}}
+```
+
+Configuration in `config/_default/params.toml`:
+
+```toml
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 700, 500]
+portraitPhotoWidths = [1500, 1000, 750]
+lqipWidth = "20x"
+```
+
+### Sitemap
+Exclude a page by adding the following front matter variable:
+```yaml
+sitemap_exclude: true
+```
+
+### Robots
+Add a custom [robots meta tag](https://developers.google.com/search/reference/robots_meta_tag) by adding the following front matter variable:
+```yaml
+robots: "noindex, noarchive"
+```
+This will output:
+
+```html
+<meta name=robots content="noindex, noarchive">
+```
+
+## Documentation
+- [Hugo](https://gohugo.io/documentation/)
+- [Goldmark](https://github.com/yuin/goldmark/)
+
 ## License
-Hyas is the son of [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE). Hyas is Copyright (c) 2019 Henk Verlinde, [MIT License](https://github.com/h-enk/hyas/blob/master/LICENSE).
+Hyas builds on [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE). Hyas is Copyright (c) 2019 Henk Verlinde, [MIT License](https://github.com/h-enk/hyas/blob/master/LICENSE).
