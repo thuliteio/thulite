@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2019-12-16
+### Added
+- custom `layouts/rss.xml` with page option `feed_exclude: true` - [issue 5](https://github.com/h-enk/hyas/issues/5)
+- content `'./content/**/*.md',` to `postcss.config.js` - [issue 2](https://github.com/h-enk/hyas/issues/2)
+
+### Changed
+- set `canonifyURLs = false` in `/config/production/config.toml` and `/config/staging/config.toml` - [issue 3](https://github.com/h-enk/hyas/issues/3)
+
+### Removed
+- `--minify` in `build` command `package.json` - [issue 4](https://github.com/h-enk/hyas/issues/4)
+
 ## [1.0.0] - 2019-12-11
 ### Added
 - [Layouts](https://github.com/h-enk/hyas/tree/master/layouts)
@@ -22,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/h-enk/hyas/releases/tag/v1.0.1
 [1.0.0]: https://github.com/h-enk/hyas/releases/tag/v1.0.0
