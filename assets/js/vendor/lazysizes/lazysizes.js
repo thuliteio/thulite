@@ -556,7 +556,7 @@
 			detail = triggerEvent(elem, 'lazyunveilread').detail;
 
 			if(isAuto){
-				autoSizer.updateElem(elem, true, elem.offsetWidth);
+				 autoSizer.updateElem(elem, true, elem.offsetWidth);
 			}
 
 			elem._lazyRace = true;
@@ -717,7 +717,7 @@
 				addEventListener('resize', debouncedUpdateElementsSizes);
 			},
 			checkElems: debouncedUpdateElementsSizes,
-			updateElem: getSizeElement,
+			updateElem: getSizeElement
 		};
 	})();
 

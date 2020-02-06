@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-02-06
+### Added
+- `<link rel="shortcut icon" href="/path/to/favicon.ico">` - [issue 12](https://github.com/h-enk/hyas/issues/12)
+- breadcrumbList structured data - [issue 11](https://github.com/h-enk/hyas/issues/11)
+- body classes - [issue 10](https://github.com/h-enk/hyas/issues/10)
+- `.stylelintignore` - [issue 9](https://github.com/h-enk/hyas/issues/9)
+- `.eslintignore` - [issue 8](https://github.com/h-enk/hyas/issues/8)
+
+### Changed
+- default theme - [issue 7](https://github.com/h-enk/hyas/issues/7)
+- bumped dependency `lazysizes` to `^5.2`
+- bumped dependency `HUGO_VERSION` to `0.63.2`
+
 ## [1.0.1] - 2019-12-20
 ### Added
 - custom `layouts/rss.xml` with page option `feed_exclude: true` - [issue 5](https://github.com/h-enk/hyas/issues/5)
@@ -33,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/h-enk/hyas/releases/tag/v1.1.0
 [1.0.1]: https://github.com/h-enk/hyas/releases/tag/v1.0.1
 [1.0.0]: https://github.com/h-enk/hyas/releases/tag/v1.0.0

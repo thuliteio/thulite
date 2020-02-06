@@ -1,7 +1,18 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ block "head" . }}{{ partial "head/head.html" . }}{{ end }}
-  <body>
+  {{ if eq .Kind "home" -}}
+    {{ .Scratch.Set "class" "home" }}
+  {{ else if eq .Kind "404" -}}
+    {{ .Scratch.Set "class" "error404" }}
+  {{ else if eq .Kind "page" -}}
+    {{ .Scratch.Set "class" .Type }}
+    {{ .Scratch.Add "class" " single" }}
+  {{ else -}}
+    {{ .Scratch.Set "class" .Type }}
+    {{ .Scratch.Add "class" " list" }}
+  {{ end -}}
+  <body class="{{ .Scratch.Get "class" }}">
     {{ block "header" . }}{{ partial "header/header.html" . }}{{ end }}
     <div class="wrap container" role="document">
       <div class="content">

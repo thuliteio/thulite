@@ -1,13 +1,13 @@
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "The Smart, Flexible Hugo Starter"
-description = "Hyas is The Smart, Flexible Hugo Starter. Create a site in minutes that is performant, accessible, and optimized for search engine results ranking."
-images = ["social-fallback-image.jpg"]
+titleAddition = "Hugo Boilerplate"
+description = "Hugo boilerplate helping you build fast, robust, and adaptable websites."
+images = ["image-hyas.jpg"]
 twitterSite = "@henkverlinde"
 twitterCreator = "@henkverlinde"
 ogLocale = "en_US"
 schemaType = "Organization"
-schemaLogo = "logo.png"
+schemaLogo = "logo-hyas.png"
 schemaTwitter = "https://twitter.com/henkverlinde"
 schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaSection = "news"
@@ -23,4 +23,4 @@ landscapePhotoWidths = [900, 700, 500]
 portraitPhotoWidths = [1500, 1000, 750]
 lqipWidth = "20x"
 
-footer = "Copyright © 2019 Henk Verlinde - MIT License"
+footer = "© 2020 Henk Verlinde - MIT License"

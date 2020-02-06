@@ -27,4 +27,4 @@ $ yarn build
 ## Documentation
 
 - [Hugo](https://gohugo.io/documentation/)
-- [Hyas](https://github.com/h-enk/hyas)
+- [Hyas](https://gethyas.com/)

@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.4",
-    "lazysizes": "^5.2.0-beta1"
+    "lazysizes": "^5.2"
   }
 }
