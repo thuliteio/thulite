@@ -1,10 +1,14 @@
 <header class="navbar navbar-expand-sm navbar-light">
   <div class="container">
-    <a class="navbar-brand mr-auto" href="{{ .Site.BaseURL }}">{{ .Site.Params.Title }}</a>
+    {{ if not .IsHome -}}
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">← {{ .Site.Params.Title }}</a>
+    {{ end -}}
+    <div class="ml-auto">
     {{ range .Site.Menus.main }}
       <span class="navbar-text">
         <a href="{{ .URL }}">{{- .Name -}}</a>
       </span>
     {{ end }}
+    </div>
   </div>
 </header>
