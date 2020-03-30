@@ -30,5 +30,6 @@
   "dependencies": {
     "bootstrap": "^4.4",
     "lazysizes": "^5.2"
-  }
+  },
+  "version": "0.0.0"
 }
