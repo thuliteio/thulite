@@ -18,10 +18,10 @@ Hugo boilerplate helping you build fast, robust, and adaptable websites.
 
 Make sure all dependencies have been installed:
 
-- Hugo >= 0.63.2/extended
-- Node.js >= 10.16.0
-- npm >= 6.9.0
-- Yarn >= 1.19.1 (recommended)
+- Hugo >= 0.68.3/extended
+- Node.js >= 13.11.0
+- npm >= 6.13.7
+- Yarn >= 1.22.0 (recommended)
 
 ## Getting started
 

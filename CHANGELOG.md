@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-03-30
+### Added
+- ga-lite - [issue 15](https://github.com/h-enk/hyas/issues/15)
+- copy script for dep resources - [issue 14](https://github.com/h-enk/hyas/issues/14)
+- flag `--minify` to `build` command
+
+### Changed
+- Bumped `[build.environment]` `netlify.toml`
+- Bumped dependencies `package.json`
+- Update security headers - [issue 17](https://github.com/h-enk/hyas/issues/17)
+- `README.md`
+- `robots` tag logic in `seo.html`
+
+### Removed
+- favicon - [issue 12](https://github.com/h-enk/hyas/issues/12)
+
 ## [1.1.0] - 2020-02-06
 ### Added
 - `<link rel="shortcut icon" href="/path/to/favicon.ico">` - [issue 12](https://github.com/h-enk/hyas/issues/12)
@@ -46,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/h-enk/hyas/releases/tag/v1.2.0
 [1.1.0]: https://github.com/h-enk/hyas/releases/tag/v1.1.0
 [1.0.1]: https://github.com/h-enk/hyas/releases/tag/v1.0.1
 [1.0.0]: https://github.com/h-enk/hyas/releases/tag/v1.0.0

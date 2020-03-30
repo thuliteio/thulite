@@ -1,7 +1,11 @@
-{{ with .Params.robots -}}
-  <meta name="robots" content="{{ . }}">
+{{ if eq .Kind "section" "taxonomy" "taxonomyTerm" -}}
+<meta name="robots" content="noindex, noarchive">
 {{ else -}}
-  <meta name="robots" content="index, follow">
+  {{ with .Params.robots -}}
+    <meta name="robots" content="{{ . }}">
+  {{ else -}}
+    <meta name="robots" content="index, follow">
+  {{ end -}}
 {{ end -}}
 
 {{ if .IsHome -}}
