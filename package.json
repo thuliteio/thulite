@@ -6,11 +6,12 @@
   ],
   "scripts": {
     "start": "hugo server",
-    "build": "hugo && npm run build:functions",
+    "build": "hugo --minify && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
     "build:preview": "npm run build -D -F",
     "server": "hugo server",
     "clean": "rimraf public resources functions",
+    "copy:deps": "node scripts/copy-deps",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint assets/js assets/lambda config",
     "lint:styles": "stylelint \"assets/sass/**/*.{css,sass,scss,sss,less}\"",
@@ -19,17 +20,18 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3",
     "autoprefixer": "^9.7",
-    "eslint": "^6.7",
+    "eslint": "^6.8",
+    "ga-lite": "^2.0.5",
     "netlify-lambda": "^1.6",
-    "postcss-cli": "^6.1",
+    "postcss-cli": "^7.1",
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
-    "stylelint": "^12.0",
-    "stylelint-config-standard": "^19.0"
+    "shelljs": "^0.8.3",
+    "stylelint": "^13.2",
+    "stylelint-config-standard": "^20.0"
   },
   "dependencies": {
     "bootstrap": "^4.4",
     "lazysizes": "^5.2"
-  },
-  "version": "0.0.0"
+  }
 }
