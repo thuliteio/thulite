@@ -1,16 +1,18 @@
 {
   "name": "hyas",
+  "version": "1.2.1",
   "private": true,
   "browserslist": [
     "defaults"
   ],
   "scripts": {
     "start": "hugo server",
-    "build": "hugo --minify && npm run build:functions",
+    "build": "npm run copy:deps && hugo --minify && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
     "build:preview": "npm run build -D -F",
     "server": "hugo server",
     "clean": "rimraf public resources functions",
+    "clean:deps": "node scripts/clean-deps",
     "copy:deps": "node scripts/copy-deps",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint assets/js assets/lambda config",
