@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2020-03-31
+### Added
+- version to package.json - [issue 23](https://github.com/h-enk/hyas/issues/23)
+- `copy:deps` to build command - [issue 22](https://github.com/h-enk/hyas/issues/22)
+- `clean:deps` command
+
 ## [1.2.0] - 2020-03-30
 ### Added
 - ga-lite - [issue 15](https://github.com/h-enk/hyas/issues/15)
@@ -62,7 +68,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.1...HEAD
+[1.2.1]: https://github.com/h-enk/hyas/releases/tag/v1.2.1
 [1.2.0]: https://github.com/h-enk/hyas/releases/tag/v1.2.0
 [1.1.0]: https://github.com/h-enk/hyas/releases/tag/v1.1.0
 [1.0.1]: https://github.com/h-enk/hyas/releases/tag/v1.0.1

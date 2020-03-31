@@ -1,4 +1,4 @@
-{{ $lazysizes := resources.Get "js/lazysizes/lazysizes.min.js" -}}
+{{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
 {{ if eq (hugo.Environment) "development" -}}
   {{ $app := resources.Get "js/app.js" -}}
   {{ $js := slice $lazysizes $app | resources.Concat "main.js" -}}
