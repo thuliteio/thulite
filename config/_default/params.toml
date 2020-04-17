@@ -1,8 +1,8 @@
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "Hugo Boilerplate"
-description = "Hugo boilerplate helping you build fast, robust, and adaptable websites."
-images = ["image-hyas.jpg"]
+titleAddition = "Modern Hugo Starter"
+description = "Hugo starter helping you build modern websites."
+images = ["image-hyas.png"]
 twitterSite = "@henkverlinde"
 twitterCreator = "@henkverlinde"
 ogLocale = "en_US"

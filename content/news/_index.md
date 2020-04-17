@@ -1,9 +1,9 @@
 ---
 title: "News"
-description: ""
-date: 2019-12-02T13:47:16+01:00
+description: "News Hyas"
+date: 2020-04-17T12:17:27+00:00
 draft: true
-images: [""]
+images: ["image-hyas.png"]
 robots: "noindex, noarchive"
 sitemap_exclude: true
 ---
