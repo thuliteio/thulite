@@ -16,7 +16,7 @@
     "copy:deps": "node scripts/copy-deps",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint assets/js assets/lambda config",
-    "lint:styles": "stylelint \"assets/sass/**/*.{css,sass,scss,sss,less}\"",
+    "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "test": "npm run -s lint"
   },
   "devDependencies": {
