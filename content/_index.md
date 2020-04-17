@@ -1,8 +1,8 @@
 ---
 title : "Hyas"
-description: "Hugo boilerplate helping you build fast, robust, and adaptable websites."
-date: 2019-12-02T13:47:16+01:00
+description: "Hugo starter helping you build modern websites."
+date: 2020-04-17T12:18:10+00:00
 draft: false
-images: ["image-hyas.jpg"]
-lead: "Hugo boilerplate helping you build fast, robust, and adaptable websites."
+images: ["image-hyas.png"]
+lead: "Hugo starter helping you build modern websites."
 ---

@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 description: ""
 date: {{ .Date }}
 draft: true
-images: [""]
+images: {{ .Site.Params.images }}
 ---
 
 {{< img src="" alt="" caption="" class="wide" >}}

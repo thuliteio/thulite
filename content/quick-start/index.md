@@ -1,9 +1,9 @@
 ---
 title: "Quick Start"
 description: "A quick start to using Hyas."
-date: 2019-12-04T15:43:37+01:00
+date: 2020-04-17T12:17:54+00:00
 draft: false
-images: ["hyas.jpg"]
+images: ["image-hyas.png"]
 ---
 
 ```bash

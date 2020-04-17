@@ -2,26 +2,26 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ block "head" . }}{{ partial "head/head.html" . }}{{ end }}
   {{ if eq .Kind "home" -}}
-    {{ .Scratch.Set "class" "home" }}
+    {{ .Scratch.Set "class" "home" -}}
   {{ else if eq .Kind "404" -}}
-    {{ .Scratch.Set "class" "error404" }}
+    {{ .Scratch.Set "class" "error404" -}}
   {{ else if eq .Kind "page" -}}
-    {{ .Scratch.Set "class" .Type }}
-    {{ .Scratch.Add "class" " single" }}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " single" -}}
   {{ else -}}
-    {{ .Scratch.Set "class" .Type }}
-    {{ .Scratch.Add "class" " list" }}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
     {{ block "header" . }}{{ partial "header/header.html" . }}{{ end }}
     <div class="wrap container" role="document">
       <div class="content">
-        <main class="main">
-          {{ block "main" . }}{{ end }}
-        </main>
-     </div>
+        {{ block "main" . }}{{ end }}
+      </div>
     </div>
-    {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
+    {{ if ne .Section "docs" }}
+      {{ block "footer" . }}{{ partial "footer/footer.html" . }}{{ end }}
+    {{ end }}
     {{ block "script-footer" . }}{{ partial "footer/script-footer.html" . }}{{ end }}
   </body>
 </html>

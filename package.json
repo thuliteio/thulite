@@ -1,13 +1,13 @@
 {
   "name": "hyas",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "browserslist": [
     "defaults"
   ],
   "scripts": {
     "start": "hugo server",
-    "build": "npm run copy:deps && hugo --minify && npm run build:functions",
+    "build": "hugo --minify && npm run build:functions",
     "build:functions": "netlify-lambda build assets/lambda",
     "build:preview": "npm run build -D -F",
     "server": "hugo server",
@@ -16,7 +16,7 @@
     "copy:deps": "node scripts/copy-deps",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint assets/js assets/lambda config",
-    "lint:styles": "stylelint \"assets/sass/**/*.{css,sass,scss,sss,less}\"",
+    "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "test": "npm run -s lint"
   },
   "devDependencies": {
