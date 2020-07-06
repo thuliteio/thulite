@@ -72,13 +72,11 @@ Click the Deploy to Netlify button:
 - [Hugo](https://gohugo.io/documentation/)
 - [Hyas](https://gethyas.com/)
 
-
 ## Communities
 
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
 
-
 ## Contributing
 
-Contributions are welcome. Check the [contributing guidelines](https://github.com/h-enk/hyas/blob/master/.github/CONTRIBUTING.md) to help you get started.
+Check the [contributing guidelines](https://github.com/h-enk/hyas/blob/master/.github/CONTRIBUTING.md) to get started.
