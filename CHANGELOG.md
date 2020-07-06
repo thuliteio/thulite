@@ -19,6 +19,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `@babel/core`
 - `@babel/preset-env`
 - `babel.config.js`
+- `enableGitInfo = true` in `config/default/config.toml`
+- `opengraph.html`
+- `twitter_cards.html`
 
 ### Changed
 
@@ -31,6 +34,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `baseurl` to `/` in `config/production/config.toml`
 - `baseurl` to `/` in `config/staging/config.toml`
 - `_images.scss`
+- `default.md` and `news.md`
+- `seo.html`
+- `structured-data.html`
 
 ## [1.2.2] - 2020-04-17
 
