@@ -23,7 +23,6 @@ $ yarn build
 - `yarn lint:scripts` -  Check your JavaScript for errors
 - `yarn clean` -  Delete temporary directories
 
-
 ## Documentation
 
 - [Hugo](https://gohugo.io/documentation/)
