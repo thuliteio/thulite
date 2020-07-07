@@ -1,7 +1,7 @@
 [build]
-  publish = "public/"
+  publish = "public"
   command = "yarn build"
-  functions = "functions/"
+  functions = "functions"
 
 [build.environment]
   HUGO_VERSION = "0.73.0"
