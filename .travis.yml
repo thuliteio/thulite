@@ -20,4 +20,4 @@ script:
 env:
   global:
     - PRODUCTION=true
-    - HUGO_RELEASE=0.69.0
+    - HUGO_RELEASE=0.73.0

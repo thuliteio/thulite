@@ -1,10 +1,10 @@
 {{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
 {{ if eq (hugo.Environment) "development" -}}
-  {{ $app := resources.Get "js/app.js" -}}
+  {{ $app := resources.Get "js/app.js" | babel -}}
   {{ $js := slice $lazysizes $app | resources.Concat "main.js" -}}
   <script src="{{ $js.Permalink }}" defer></script>
 {{ else -}}
-  {{ $app := resources.Get "js/app.js" | minify -}}
+  {{ $app := resources.Get "js/app.js" | babel | minify -}}
   {{ $js := slice $lazysizes $app | resources.Concat "main.js" -}}
   {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
   <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
