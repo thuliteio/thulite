@@ -2,15 +2,18 @@ title = "Hyas"
 titleSeparator = "-"
 titleAddition = "Modern Hugo Starter"
 description = "Hugo starter helping you build modern websites."
-images = ["image-hyas.png"]
+images = ["hyas.png"]
 twitterSite = "@henkverlinde"
 twitterCreator = "@henkverlinde"
+facebookAuthor = "verlinde.henk"
+facebookPublisher = "verlinde.henk"
 ogLocale = "en_US"
 schemaType = "Organization"
 schemaLogo = "logo-hyas.png"
 schemaTwitter = "https://twitter.com/henkverlinde"
 schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaSection = "news"
+schemaGitHub = "https://github.com/h-enk"
+schemaSection = "blog"
 siteLinksSearchBox = false
 
 themeColor = "#fff"
@@ -19,8 +22,11 @@ themeColor = "#fff"
 
 quality = 85
 bgColor = "#fff"
-landscapePhotoWidths = [900, 700, 500]
-portraitPhotoWidths = [1500, 1000, 750]
+landscapePhotoWidths = [1000, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 footer = "© 2020 Henk Verlinde - MIT License"
+
+alert = false
+alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>" 

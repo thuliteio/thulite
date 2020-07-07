@@ -22,6 +22,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `enableGitInfo = true` in `config/default/config.toml`
 - `opengraph.html`
 - `twitter_cards.html`
+- `header/alert.html`
+- `layouts/blog/single.html`
+- `layouts/categories/list.html`
+- `layouts/categories/terms.html`
 
 ### Changed
 
@@ -37,6 +41,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `default.md` and `news.md`
 - `seo.html`
 - `structured-data.html`
+- Added `| babel` to `script-footer.html`
+- Dimensions `hyas.png` to 1200 x 630
+- Setup `scss`
+- `layouts/_default_/baseof.html`
+- `404.html`
+- `img.html`
 
 ## [1.2.2] - 2020-04-17
 

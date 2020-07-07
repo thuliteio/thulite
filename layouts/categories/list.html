@@ -2,7 +2,7 @@
 <div class="row justify-content-center">
   <div class="col-lg-7">
     <h1>{{ .Title }}</h1>
-    {{ $paginator := .Paginate (.Data.Pages) -}}
+    {{ $paginator := .Paginate (.Data.Pages.ByDate.Reverse) -}}
     {{ range $paginator.Pages -}}
     <article>
       <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>

@@ -38,6 +38,7 @@ notAlternative = true
       unsafe = true
   [markup.highlight]
     codeFences = true
+    guessSyntax = false
     hl_Lines = ""
     lineNoStart = 1
     lineNos = false
@@ -50,6 +51,23 @@ notAlternative = true
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[taxonomies]
+  category = "categories"
+
+[permalinks]
+  blog = "/:title/"
+
+[related]
+threshold = 80
+includeNewer = true
+toLower = false
+  [[related.indices]]
+  name = "categories"
+  weight = 100
+  [[related.indices]]
+  name = "date"
+  weight = 10
 
 [module]
   [[module.mounts]]

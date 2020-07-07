@@ -6,9 +6,9 @@
 [[social]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/henkverlinde/"
-  weight = 10
+  weight = 20
 
 [[social]]
   name = "Twitter"
   url = "https://twitter.com/henkverlinde"
-  weight = 20
+  weight = 30

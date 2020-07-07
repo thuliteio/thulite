@@ -4,5 +4,5 @@ description: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-images: ["image-hyas.png"]
+images: ["hyas.png"]
 ---
