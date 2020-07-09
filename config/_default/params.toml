@@ -18,8 +18,6 @@ siteLinksSearchBox = false
 
 themeColor = "#fff"
 
-# googleAnalytics = "UA-99999999-1"
-
 quality = 85
 bgColor = "#fff"
 landscapePhotoWidths = [1000, 800, 700, 600, 500]
