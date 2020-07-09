@@ -79,6 +79,3 @@ toLower = false
   [[module.mounts]]
     source = "node_modules/lazysizes"
     target = "assets/js/vendor/lazysizes"
-  [[module.mounts]]
-    source = "node_modules/ga-lite/dist"
-    target = "static/js/vendor/ga-lite"

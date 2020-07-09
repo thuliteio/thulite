@@ -1,6 +1,6 @@
 {
   "name": "hyas",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "private": true,
   "browserslist": [
     "defaults"
@@ -27,7 +27,6 @@
     "@fullhuman/postcss-purgecss": "^1.3",
     "autoprefixer": "^9.8",
     "eslint": "^7.2",
-    "ga-lite": "^2.0.5",
     "markdownlint-cli": "^0.23.2",
     "netlify-lambda": "^1.6",
     "postcss-cli": "^7.1",
