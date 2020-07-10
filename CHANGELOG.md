@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.5] - 2020-07-10
+
+### Changed
+
+- Update for default meta image
+
+
 ## [1.2.4] - 2020-07-09
 
 ### Changed
@@ -149,7 +156,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.4...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.5...HEAD
+[1.2.5]: https://github.com/h-enk/hyas/releases/tag/v1.2.5
 [1.2.4]: https://github.com/h-enk/hyas/releases/tag/v1.2.4
 [1.2.3]: https://github.com/h-enk/hyas/releases/tag/v1.2.3
 [1.2.2]: https://github.com/h-enk/hyas/releases/tag/v1.2.2
