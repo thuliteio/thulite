@@ -4,7 +4,7 @@ description: "A quick start to using Hyas."
 date: 2020-04-17T12:17:54+00:00
 lastmod: 2020-04-17T12:17:54+00:00
 draft: false
-images: ["hyas.png"]
+images: []
 ---
 
 ```bash
