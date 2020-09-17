@@ -4,9 +4,9 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "url": "{{ .Site.BaseURL }}",
+      "url": "{{ "/" | absURL }}",
       "name": "{{ .Site.Params.title }}",
-      "logo": "{{ .Site.BaseURL }}{{ .Site.Params.schemaLogo }}",
+      "logo": "{{ "/" | absURL }}{{ .Site.Params.schemaLogo }}",
       "sameAs": [
         "{{ .Site.Params.schemaTwitter | safeURL }}",
         "{{ .Site.Params.schemaLinkedIn | safeURL }}",
@@ -20,7 +20,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "url": "{{ .Site.BaseURL }}",
+      "url": "{{ "/" | absURL }}",
       "name": "{{ .Site.Params.title }}",
       "sameAs": [
         "{{ .Site.Params.schemaTwitter | safeURL }}",
@@ -35,10 +35,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "url": "{{ .Site.BaseURL }}",
+      "url": "{{ "/" | absURL }}",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "{{ .Site.BaseURL }}?q={search_term_string}",
+        "target": "{{ "/" | absURL }}?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -69,7 +69,7 @@
         {{ if eq .Site.Params.schemaType "Organization" -}}
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ .Site.BaseURL }}{{ .Site.Params.schemaLogo }}"
+          "url": "{{ "/" | absURL }}{{ .Site.Params.schemaLogo }}"
         }
         {{ end -}}
       },
