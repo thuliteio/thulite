@@ -1,16 +1,18 @@
 [build]
   publish = "public"
-  command = "yarn build"
   functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.73.0"
+  HUGO_VERSION = "0.74.3"
   NODE_VERSION = "13.11.0"
   NPM_VERSION = "6.13.7"
   YARN_VERSION = "1.22.4"
 
+[context.production]
+  command = "yarn build -b $URL"
+
 [context.deploy-preview]
-  command = "yarn build:preview"
+  command = "yarn build -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "yarn build"
+  command = "yarn build -b $DEPLOY_PRIME_URL"
