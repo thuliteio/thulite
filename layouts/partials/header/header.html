@@ -1,7 +1,7 @@
 <header class="navbar navbar-expand-sm navbar-light">
   <div class="container">
     {{ if not .IsHome -}}
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}">← {{ .Site.Params.Title }}</a>
+    <a class="navbar-brand" href="{{ "/" | absURL }}">← {{ .Site.Params.Title }}</a>
     {{ end -}}
     <div class="ml-auto">
     {{ range .Site.Menus.main }}
