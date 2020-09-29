@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `./.github/ISSUE_TEMPLATE/bug-report---.md`
+- `./.github/ISSUE_TEMPLATE/feature-request---.md`
+- `./CODE_OF_CONDUCT.md`
+
+### Changed
+
+- `./README.md`
+
+### Removed
+
+- `./.github/CONTRIBUTING.md`
+
 ## [1.2.6] - 2020-09-17
 
 ### Changed

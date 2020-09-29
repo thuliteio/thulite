@@ -9,27 +9,26 @@ Hyas is a Hugo starter helping you build modern websites.
 ## Features
 
 - Lightweight code base
-- 100 scores Google Lighthouse
-- A+ scores [Mozilla Observatory](https://observatory.mozilla.org/)
+- 100 scores [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b)
+- A+ scores [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app)
 - Easily make it your own
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#source-files) Sass (no JavaScript) and [Autoprefixer](https://github.com/postcss/autoprefixer)
 - Check SCSS for errors with [stylelint](https://stylelint.io/)
 - Check JavaScript for errors with [ESLint](https://eslint.org/)
-- Check Markdown for errors with [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
 - Environment specific configuration
 - Image shortcode with [lazysizes](https://github.com/aFarkas/lazysizes) and blur up
 - Fingerprinting and [SRI](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (production)
 - Remove unused CSS (production) with [PurgeCSS](https://github.com/FullHuman/purgecss)
 
-See a working example at [hyas.netlify.app](https://hyas.netlify.app/)
+👉 See a working example at [hyas.netlify.app](https://hyas.netlify.app/)
 
 ## Requirements
 
 Make sure all dependencies have been installed:
 
-- [Hugo](https://gohugo.io/) >= 0.73.0/extended
+- [Hugo](https://gohugo.io/) >= 0.74.3/extended
 - [Node.js](https://nodejs.org/) >= 13.11.0
-- [Yarn](https://yarnpkg.com/) >= 1.22.4 (recommended)
+- [Yarn](https://yarnpkg.com/) >= 1.22.5 (recommended)
 
 ## Get started
 
@@ -62,7 +61,7 @@ $ yarn start
 
 ## Quick start
 
-Click the Deploy to Netlify button:
+Get your Hyas site in 1 min.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h-enk/hyas)
 
@@ -76,7 +75,3 @@ Click the Deploy to Netlify button:
 
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
-
-## Contributing
-
-Check the [contributing guidelines](https://github.com/h-enk/hyas/blob/master/.github/CONTRIBUTING.md) to get started.
