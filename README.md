@@ -16,7 +16,7 @@ Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/h
 
 ### Fast by default
 
-Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b) by default. Hyas removes unused css, prefetches links, and lazy loads images.
+Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=8b7aec005ae7b9e128ad5c4e2f125fea) by default. Hyas removes unused css, prefetches links, and lazy loads images.
 
 ### SEO-ready
 
