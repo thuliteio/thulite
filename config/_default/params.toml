@@ -2,18 +2,22 @@ title = "Hyas"
 titleSeparator = "-"
 titleAddition = "Modern Hugo Starter"
 description = "Hugo starter helping you build modern websites."
+
 images = ["hyas.png"]
+
 twitterSite = "@henkverlinde"
 twitterCreator = "@henkverlinde"
 facebookAuthor = "verlinde.henk"
 facebookPublisher = "verlinde.henk"
 ogLocale = "en_US"
+
 schemaType = "Organization"
 schemaLogo = "logo-hyas.png"
 schemaTwitter = "https://twitter.com/henkverlinde"
 schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaGitHub = "https://github.com/h-enk"
 schemaSection = "blog"
+
 siteLinksSearchBox = false
 
 themeColor = "#fff"

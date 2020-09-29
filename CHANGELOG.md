@@ -7,19 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.7] - 2020-09-29
+
 ### Added
 
 - `./.github/ISSUE_TEMPLATE/bug-report---.md`
 - `./.github/ISSUE_TEMPLATE/feature-request---.md`
 - `./CODE_OF_CONDUCT.md`
+- instant.page
 
 ### Changed
 
 - `./README.md`
+- bumped versions npm dpendencies
 
 ### Removed
 
 - `./.github/CONTRIBUTING.md`
+- `./scripts/clean-deps.js`
+- `./scripts/copy-deps.js`
 
 ## [1.2.6] - 2020-09-17
 
@@ -178,7 +184,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.6...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.7...HEAD
+[1.2.7]: https://github.com/h-enk/hyas/releases/tag/v1.2.7
 [1.2.6]: https://github.com/h-enk/hyas/releases/tag/v1.2.6
 [1.2.5]: https://github.com/h-enk/hyas/releases/tag/v1.2.5
 [1.2.4]: https://github.com/h-enk/hyas/releases/tag/v1.2.4

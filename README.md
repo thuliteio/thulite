@@ -6,28 +6,40 @@
 
 Hyas is a Hugo starter helping you build modern websites.
 
-## Features
+## Why Hyas?
 
-- Lightweight code base
-- 100 scores [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b)
-- A+ scores [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app)
-- Easily make it your own
-- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/#source-files) Sass (no JavaScript) and [Autoprefixer](https://github.com/postcss/autoprefixer)
-- Check SCSS for errors with [stylelint](https://stylelint.io/)
-- Check JavaScript for errors with [ESLint](https://eslint.org/)
-- Environment specific configuration
-- Image shortcode with [lazysizes](https://github.com/aFarkas/lazysizes) and blur up
-- Fingerprinting and [SRI](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (production)
-- Remove unused CSS (production) with [PurgeCSS](https://github.com/FullHuman/purgecss)
+Six reasons why you should use Hyas.
 
-👉 See a working example at [hyas.netlify.app](https://hyas.netlify.app/)
+### Security aware
+
+Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
+
+### Fast by default
+
+Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b) by default. Hyas removes unused css, prefetches links, and lazy loads images.
+
+### SEO-ready
+
+Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
+
+### Development tools
+
+Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
+
+### Bootstrap framework
+
+Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
+
+### Netlify-ready
+
+Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
 
 ## Requirements
 
 Make sure all dependencies have been installed:
 
-- [Hugo](https://gohugo.io/) >= 0.74.3/extended
-- [Node.js](https://nodejs.org/) >= 13.11.0
+- [Hugo](https://gohugo.io/) >= 0.75.1/extended
+- [Node.js](https://nodejs.org/) >= 14.12.0
 - [Yarn](https://yarnpkg.com/) >= 1.22.5 (recommended)
 
 ## Get started
@@ -64,6 +76,10 @@ $ yarn start
 Get your Hyas site in 1 min.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h-enk/hyas)
+
+## Example site
+
+👉 [hyas.netlify.app](https://hyas.netlify.app/)
 
 ## Documentation
 
