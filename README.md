@@ -8,30 +8,19 @@ Hyas is a Hugo starter helping you build modern websites.
 
 ## Why Hyas?
 
-Six reasons why you should use Hyas.
+Six reasons why you should use Hyas:
 
-### Security aware
+1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
 
-Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
+2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b) by default. Hyas removes unused css, prefetches links, and lazy loads images.
 
-### Fast by default
+3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
 
-Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=e45b7560a228939b8e7362288844249b) by default. Hyas removes unused css, prefetches links, and lazy loads images.
+4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
 
-### SEO-ready
+5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
 
-Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
-
-### Development tools
-
-Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-
-### Bootstrap framework
-
-Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
-
-### Netlify-ready
-
+6. __Netlify-ready__. 
 Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
 
 ## Requirements
