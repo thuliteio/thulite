@@ -10,7 +10,7 @@ module.exports = {
         './layouts/**/*.html',
         './content/**/*.md',      
       ],
-      whitelist: [
+      safelist: [
         'lazyloaded',
         ...whitelister([
           './assets/scss/components/_syntax.scss',

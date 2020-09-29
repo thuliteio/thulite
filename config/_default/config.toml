@@ -79,3 +79,6 @@ toLower = false
   [[module.mounts]]
     source = "node_modules/lazysizes"
     target = "assets/js/vendor/lazysizes"
+  [[module.mounts]]
+    source = "node_modules/instant.page"
+    target = "assets/js/vendor/instant.page"
