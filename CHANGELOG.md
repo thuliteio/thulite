@@ -13,7 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Change default to `enableGitInfo = false`. See also [Git fatal error](https://github.com/h-enk/hyas-cli/issues/20)
 
-
 ## [1.2.7] - 2020-09-29
 
 ### Added
