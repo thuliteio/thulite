@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.8] - 2020-10-10
+
+### Changed
+
+- Change default to `enableGitInfo = false`. See also [Git fatal error](https://github.com/h-enk/hyas-cli/issues/20)
+
 ## [1.2.7] - 2020-09-29
 
 ### Added
@@ -184,7 +190,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lazysizes 5.2.0-beta1
 - [Atlas](https://github.com/indigotree/atlas), Copyright (c) 2017 Indigo Tree, [MIT License](https://github.com/indigotree/atlas/blob/master/LICENSE)
 
-[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.7...HEAD
+[Unreleased]: https://github.com/h-enk/hyas/compare/v1.2.8...HEAD
+[1.2.8]: https://github.com/h-enk/hyas/releases/tag/v1.2.8
 [1.2.7]: https://github.com/h-enk/hyas/releases/tag/v1.2.7
 [1.2.6]: https://github.com/h-enk/hyas/releases/tag/v1.2.6
 [1.2.5]: https://github.com/h-enk/hyas/releases/tag/v1.2.5
