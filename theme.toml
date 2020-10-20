@@ -1,0 +1,12 @@
+name = "Hyas"
+license = "MIT"
+licenselink = "https://github.com/h-enk/hyas/blob/master/LICENSE"
+description = "Hugo starter helping you build modern websites"
+homepage = "https://gethyas.com/"
+tags = ["blog", "company"]
+features = ["security aware", "fast by default", "seo-ready"]
+min_version = "0.75.1"
+
+[author]
+  name = "Henk Verlinde"
+  homepage = "https://henkverlinde.com/"
