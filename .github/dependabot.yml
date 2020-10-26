@@ -1,13 +1,11 @@
-version: 1
-update_configs:
-  - package_manager: javascript
-    directory: /
-    update_schedule: live
-    allowed_updates:
-      - match:
-          update_type: security
-    automerged_updates:
-      - match:
-          dependency_type: all
-          update_type: in_range
-    version_requirement_updates: widen_ranges
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
