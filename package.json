@@ -25,7 +25,7 @@
     "@fullhuman/postcss-purgecss": "^3.0",
     "autoprefixer": "^10.0",
     "eslint": "^7.10",
-    "markdownlint-cli": "^0.23",
+    "markdownlint-cli": "^0.24",
     "netlify-lambda": "^2.0",
     "postcss": "^8.1.1",
     "postcss-cli": "^8.0",
