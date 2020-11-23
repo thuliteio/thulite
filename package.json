@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babel/cli": "^7.11",
     "@babel/core": "^7.11",
-    "@babel/preset-env": "^7.11",
+    "@babel/preset-env": "^7.12",
     "@fullhuman/postcss-purgecss": "^3.0",
     "autoprefixer": "^10.0",
     "eslint": "^7.10",
