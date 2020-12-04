@@ -27,7 +27,7 @@
     "eslint": "^7.10",
     "markdownlint-cli": "^0.23",
     "netlify-lambda": "^2.0",
-    "postcss": "^8.1.1",
+    "postcss": "^8.1.14",
     "postcss-cli": "^8.0",
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
