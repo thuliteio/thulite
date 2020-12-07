@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.11",
     "@fullhuman/postcss-purgecss": "^3.0",
     "autoprefixer": "^10.0",
-    "eslint": "^7.10",
+    "eslint": "^7.15",
     "markdownlint-cli": "^0.23",
     "netlify-lambda": "^2.0",
     "postcss": "^8.1.1",
