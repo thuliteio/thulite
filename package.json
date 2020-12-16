@@ -22,20 +22,19 @@
     "@babel/cli": "^7.12",
     "@babel/core": "^7.11",
     "@babel/preset-env": "^7.12",
-    "@fullhuman/postcss-purgecss": "^3.0",
+    "@fullhuman/postcss-purgecss": "^3.1",
     "autoprefixer": "^10.0",
     "bootstrap": "^4.5",
     "eslint": "^7.15",
     "instant.page": "^5.1",
     "lazysizes": "^5.2",
-    "markdownlint-cli": "^0.25",
+    "markdownlint-cli": "^0.26",
     "netlify-lambda": "^2.0",
-    "postcss": "^8.1",
+    "postcss": "^8.2",
     "postcss-cli": "^8.0",
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
     "stylelint": "^13.7",
     "stylelint-config-standard": "^20.0"
-  },
-  "dependencies": {}
+  }
 }
