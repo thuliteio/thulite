@@ -28,7 +28,8 @@ landscapePhotoWidths = [1000, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
-footer = "© 2020 Henk Verlinde - MIT License"
+# Footer
+footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
 
 alert = false
-alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>" 
+alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"

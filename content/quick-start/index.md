@@ -7,25 +7,57 @@ draft: false
 images: []
 ---
 
+How to start a new Hyas project — one pager.
+
+## Requirements
+
+Make sure all dependencies have been installed:
+
+- [Hugo](https://gohugo.io/getting-started/installing/) >= 0.75.0/extended
+- [Node.js](https://nodejs.org/) >= 14.15.0
+
+## Start a new Hyas project
+
+Create a new site, change directories, install npm packages, and start development server.
+
+### Create a new site
+
 ```bash
-# Create a new Hyas project
-$ git clone git@github.com:h-enk/hyas.git my-hyas-site
-
-# Development theme build with live reloading and injection
-$ yarn start
-
-# Production theme build
-$ yarn build
+git clone https://github.com/h-enk/hyas.git my-hyas-site
 ```
+
+### Change directories
+
+```bash
+cd my-hyas-site
+```
+
+### Install npm packages
+
+```bash
+npm install
+```
+
+### Start development server
+
+```bash
+npm run start
+```
+
+Hyas will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
 
 ## Other commands
 
-- `yarn lint:styles` - Check your Sass for errors
-- `yarn lint:scripts` -  Check your JavaScript for errors
-- `yarn clean` -  Delete temporary directories
+Hyas comes with commands for common tasks. [Commands →](https://gethyas.com/docs/prologue/commands/)
 
 ## Documentation
 
 - [Netlify](https://docs.netlify.com/)
 - [Hugo](https://gohugo.io/documentation/)
 - [Hyas](https://gethyas.com/)
+
+## Communities
+
+- [Netlify Community](https://community.netlify.com/)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Hyas Discussions](https://github.com/h-enk/hyas/discussions)

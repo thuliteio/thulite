@@ -1,8 +1,16 @@
 // Color system
 
-$purple:  #3c48d5;
+$blue:        #0366d6;
+$white:       #fff;
+$black:       #333;
+$gray-darker: #586069;
+$gray-dark:   #6a737d;
+$gray:        #dfe2e5;
+$gray-200: #f6f8fa;
+$gray-light:  #fafbfc;
+$blue-dark:   #038;
 
-$primary:   $purple;
+$primary:   $blue;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
@@ -22,15 +30,20 @@ $grid-columns:                12;
 $grid-gutter-width:           48px;
 $grid-row-columns:            6;
 
+// Prefix for :root CSS variables
+
+$variable-prefix:             bs-;
+
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-$font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
+$font-family-base:            var(--#{$variable-prefix}font-sans-serif);
+$font-family-code:            var(--#{$variable-prefix}font-monospace);
 
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
 $font-size-xl:                $font-size-base * 1.375;
@@ -40,8 +53,9 @@ $font-size-sm:                $font-size-base * 0.875;
 
 $line-height-base:            1.5;
 
-$headings-font-family:        null;
+$headings-font-family:        "Inter", $font-family-sans-serif;
 $headings-font-weight:        500;
+$headings-line-height:        1.3;
 
 // Spacing
 //
@@ -54,7 +68,7 @@ $spacer: 1rem;
 // Navbar
 
 $navbar-padding-y:                  $spacer * 1.5;
-$navbar-padding-x:                  $spacer * 1.5;
+$navbar-padding-x:                  $spacer;
 
 // Alerts
 //
@@ -70,3 +84,16 @@ $alert-border-width:                0;
 $alert-bg-level:                    0;
 $alert-border-level:                0;
 $alert-color-level:                 0;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              $primary;
+$link-decoration:                         none;
+$link-shade-percentage:                   20%;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage);
+$link-hover-decoration:                   underline;
+
+$stretched-link-pseudo-element:           after;
+$stretched-link-z-index:                  1;

@@ -82,3 +82,6 @@ toLower = false
   [[module.mounts]]
     source = "node_modules/instant.page"
     target = "assets/js/vendor/instant.page"
+  [[module.mounts]]
+    source = "node_modules/bootstrap"
+    target = "assets/js/vendor/bootstrap"
