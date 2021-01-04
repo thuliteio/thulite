@@ -28,7 +28,7 @@
     "bootstrap": "^5.0.0-beta1",
     "eslint": "^7.15",
     "instant.page": "^5.1",
-    "lazysizes": "^5.2",
+    "lazysizes": "^5.3",
     "markdownlint-cli": "^0.26",
     "netlify-lambda": "^2.0",
     "postcss": "^8.2",
