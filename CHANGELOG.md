@@ -1,9 +1,32 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.3.0](https://github.com/h-enk/hyas/compare/v1.2.8...v1.3.0) (2021-01-07)
+
+
+### Features
+
+* add go.mod ([e9b959f](https://github.com/h-enk/hyas/commit/e9b959f644cccea72227c8fa9316ee9815a4774f))
+
+
+### Bug Fixes
+
+* add tn.png ([684b272](https://github.com/h-enk/hyas/commit/684b27278fbd3ebfa992bf2a7c81ac40ffa78eb4))
+* align with doks files ([a8e346e](https://github.com/h-enk/hyas/commit/a8e346e703d9dfce35d97c1c292da3dc0737a4db))
+
+
+### Dependencies
+
+* bump to latest versions ([ec34e28](https://github.com/h-enk/hyas/commit/ec34e28ae4de8f08f8c185e62283626ca51c2133))
+* bump versions to latest ([07e74a0](https://github.com/h-enk/hyas/commit/07e74a0ed14163ae3302a74c255ae0f4701ad2f2))
+* bump versions to latest ([e5654c7](https://github.com/h-enk/hyas/commit/e5654c744b1123cedef77b6cfb091dfbc22baf77))
+* update to bootstrap 5 ([1393d10](https://github.com/h-enk/hyas/commit/1393d10decc3b45e7335cad817860f0e4025215d))
+
+
+### Documentation
+
+* update changelog ([e92ce94](https://github.com/h-enk/hyas/commit/e92ce9484889bcfa79a33a2d6c31f450754e9622))
 
 ## [1.2.8] - 2020-10-10
 
