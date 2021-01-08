@@ -78,3 +78,7 @@ Hyas comes with [commands](https://gethyas.com/docs/prologue/commands/) for comm
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+
+## Blog
+<!--START_SECTION:feed-->
+<!--END_SECTION:feed-->
