@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/h-enk/hyas/compare/v1.3.1...v1.3.2) (2021-01-12)
+
+
+### Bug Fixes
+
+* bump hyas version manually ([33f0e77](https://github.com/h-enk/hyas/commit/33f0e7766c0045fb0962fbbddafc2f1403c7699d))
+
+
+### Documentation
+
+* update readme ([1ce83d1](https://github.com/h-enk/hyas/commit/1ce83d17e0451d5bb881cde159df3c0db4f6cb95))
+
+
+### Dependencies
+
+* add hugo-bin extended ([f797284](https://github.com/h-enk/hyas/commit/f797284adcbfed117ef78964579425ecc4305a9e))
+* bump versions to latest ([3943972](https://github.com/h-enk/hyas/commit/39439724769bb840bc4c3edc355e978ff8b0a3c3))
+
 ### [1.3.1](https://github.com/h-enk/hyas/compare/v1.3.0...v1.3.1) (2021-01-07)
 
 
