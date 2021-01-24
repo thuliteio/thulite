@@ -31,10 +31,10 @@
     "@babel/cli": "^7.12",
     "@babel/core": "^7.12",
     "@babel/preset-env": "^7.12",
-    "@fullhuman/postcss-purgecss": "^3.1",
+    "@fullhuman/postcss-purgecss": "^4.0",
     "autoprefixer": "^10.2",
     "bootstrap": "^5.0.0-beta1",
-    "eslint": "^7.17",
+    "eslint": "^7.18",
     "hugo-bin": "^0.68.0",
     "instant.page": "^5.1",
     "lazysizes": "^5.3",
@@ -45,7 +45,7 @@
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
     "standard-version": "^9.1",
-    "stylelint": "^13.7",
+    "stylelint": "^13.9",
     "stylelint-config-standard": "^20.0"
   }
 }
