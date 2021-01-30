@@ -36,10 +36,7 @@ Six reasons why you should use Hyas:
 
 ## Requirements
 
-Make sure all dependencies have been installed:
-
-- [Hugo](https://gohugo.io/getting-started/installing/) >= 0.75.0/extended (needed for SCSS processing support)
-- [Node.js](https://nodejs.org/) >= 14.15.0 (needed to install npm packages and run commands)
+Hyas uses npm for dependency management and customized build scripts. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform. I recommend installing the current release.
 
 ## Get started
 

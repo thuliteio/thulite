@@ -11,10 +11,7 @@ How to start a new Hyas project — one pager.
 
 ## Requirements
 
-Make sure all dependencies have been installed:
-
-- [Hugo](https://gohugo.io/getting-started/installing/) >= 0.75.0/extended
-- [Node.js](https://nodejs.org/) >= 14.15.0
+Hyas uses npm for dependency management and customized build scripts. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform. I recommend installing the current release.
 
 ## Start a new Hyas project
 
