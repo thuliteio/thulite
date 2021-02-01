@@ -15,7 +15,7 @@ Hyas uses npm to install dependencies and run commands. Installing npm is pretty
 
 ## Start a new Hyas project
 
-Create a new site, change directories, install npm packages, and start development server.
+Create a new site, change directories, install dependencies, and start development server.
 
 ### Create a new site
 
@@ -29,7 +29,7 @@ git clone https://github.com/h-enk/hyas.git my-hyas-site
 cd my-hyas-site
 ```
 
-### Install npm packages
+### Install dependencies
 
 ```bash
 npm install
