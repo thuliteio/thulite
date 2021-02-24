@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/h-enk/hyas/compare/v1.3.5...v1.4.0) (2021-02-24)
+
+
+### Features
+
+* add check commands ([a9349ff](https://github.com/h-enk/hyas/commit/a9349ff04b517a50a9400c3a99c4ffa7f7e22b0e))
+
+
+### Dependencies
+
+* bump autoprefixer, stylelint, netlify-lambda, eslint, and @fullhuman/postcss-purgecss to latest versions ([78dfeed](https://github.com/h-enk/hyas/commit/78dfeedd57ec870565778d905d3e40d43e438233))
+
+
+### Documentation
+
+* update readme ([25fb636](https://github.com/h-enk/hyas/commit/25fb6366e3689fb7562ea0ab9ae104ad47667c7f))
+* update requirements sections ([7dcc75e](https://github.com/h-enk/hyas/commit/7dcc75e070d7a60be68b5a59a6a5c040b547676c))
+* update requirements sections ([d3c1791](https://github.com/h-enk/hyas/commit/d3c179114cd71c72a1b6aa03d5ecfb0accb894d8))
+* update requirements sections ([3b22f5b](https://github.com/h-enk/hyas/commit/3b22f5ba7984b6687fa7ed549efb358ad5605b1c))
+* update requirements sections ([aebd1d6](https://github.com/h-enk/hyas/commit/aebd1d6d8aa54ca6db19da3bd77c3d6aaddc38fe))
+
 ### [1.3.5](https://github.com/h-enk/hyas/compare/v1.3.4...v1.3.5) (2021-01-12)
 
 ### [1.3.4](https://github.com/h-enk/hyas/compare/v1.3.3...v1.3.4) (2021-01-12)
