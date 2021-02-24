@@ -1,21 +1,17 @@
-# https://js.plainenglish.io/publish-update-npm-packages-with-github-actions-e4d786ffd62a
-
-name: npm publish
-
+name: Npm Publish
 on:
   release:
-    types: [published]
-
+    types: [created]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      — uses: actions/checkout@v2
-      — uses: actions/setup-node@v2
-        with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
-      — run: npm ci
-      — run: npm publish — access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm ci
+    - run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
