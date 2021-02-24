@@ -1,7 +1,6 @@
 {
   "name": "@hyas/core",
   "version": "1.4.1",
-  "private": true,
   "hugo-bin": {
     "buildTags": "extended"
   },
