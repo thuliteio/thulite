@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.3](https://github.com/h-enk/hyas/compare/v1.4.2...v1.4.3) (2021-02-24)
+
+
+### Dependencies
+
+* update package-lock.json ([9a0fc76](https://github.com/h-enk/hyas/commit/9a0fc7677a7799e2546c847f6360cb0111fcac57))
+* update package-lock.json ([c0b6fde](https://github.com/h-enk/hyas/commit/c0b6fde44c0cbf4908fe30b235d0dd826d21325f))
+
 ### [1.4.2](https://github.com/h-enk/hyas/compare/v1.4.1...v1.4.2) (2021-02-24)
 
 ### [1.4.1](https://github.com/h-enk/hyas/compare/v1.4.0...v1.4.1) (2021-02-24)
