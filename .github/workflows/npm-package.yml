@@ -1,7 +1,7 @@
-name: Npm Publish
+name: Npm Package
 on:
   release:
-    types: [created]
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
