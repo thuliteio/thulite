@@ -1,5 +1,5 @@
 {
-  "name": "hyas",
+  "name": "@hyas/core",
   "version": "1.3.5",
   "private": true,
   "hugo-bin": {
