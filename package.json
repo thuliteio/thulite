@@ -1,6 +1,6 @@
 {
   "name": "@hyas/core",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "hugo-bin": {
     "buildTags": "extended"
   },
