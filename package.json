@@ -1,5 +1,6 @@
 {
   "name": "@hyas/core",
+  "description": "Hyas core",
   "version": "1.4.3",
   "hugo-bin": {
     "buildTags": "extended"
@@ -7,6 +8,7 @@
   "browserslist": [
     "defaults"
   ],
+  "repository": "https://github.com/h-enk/hyas",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
