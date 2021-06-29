@@ -1,0 +1,2 @@
+baseURL = "https://hyas.netlify.app/"
+canonifyURLs = true

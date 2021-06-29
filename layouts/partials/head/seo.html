@@ -34,14 +34,8 @@
   <link rel="canonical" href="{{ .Permalink }}">
 {{ end -}}
 
-{{ partial "head/twitter_cards.html" . }}
-<meta name="twitter:site" content="{{ .Site.Params.twitterSite }}">
-<meta name="twitter:creator" content="{{ .Site.Params.twitterCreator }}">
-
 {{ partial "head/opengraph.html" . }}
-<meta property="article:publisher" content="https://www.facebook.com/{{ .Site.Params.facebookPublisher }}">
-<meta property="article:author" content="https://www.facebook.com/{{ .Site.Params.facebookAuthor }}">
-<meta property="og:locale" content="{{ .Site.Params.ogLocale }}">
+{{ partial "head/twitter_cards.html" . }}
 
 {{ range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">

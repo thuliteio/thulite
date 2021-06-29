@@ -3,15 +3,28 @@
   functions = "functions"
 
 [build.environment]
-  HUGO_VERSION = "0.80.0"
-  NODE_VERSION = "15.5.1"
-  NPM_VERSION = "7.3.0"
+  NODE_VERSION = "16.3.0"
+  NPM_VERSION = "7.16.0"
 
 [context.production]
-  command = "hugo -b $URL --gc --minify && npm run build:functions"
+  command = "exec-bin bin/hugo/hugo --gc --minify"
 
 [context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL --gc --minify"
+  command = "exec-bin bin/hugo/hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL --gc --minify"
+  command = "exec-bin bin/hugo/hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.next]
+  command = "exec-bin bin/hugo/hugo --gc --minify"
+
+[context.next.environment]
+  HUGO_ENV = "next"
+
+[dev]
+  framework = "#custom"
+  command = "shx rm -rf public resources && exec-bin bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender"
+  targetPort = 1313
+  port = 8888
+  publish = "public"
+  autoLaunch = false

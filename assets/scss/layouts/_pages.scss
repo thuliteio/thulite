@@ -1,0 +1,21 @@
+p.meta {
+  margin-top: 1rem;
+  font-size: $font-size-base;
+  font-family: $font-family-monospace;
+  color: $gray-dark;
+}
+
+@include media-breakpoint-down(sm) {
+  p.meta {
+    font-size: $font-size-base * 0.9375;
+  }
+}
+
+p.meta a {
+  color: $gray-dark;
+}
+
+p.meta a:hover,
+p.meta a:focus {
+  color: $primary;
+}
