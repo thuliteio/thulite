@@ -18,7 +18,7 @@ module.exports = {
         'tr',
         'th',
         'td',
-        'h5',
+        'h3',
         ...whitelister([
           // './assets/scss/components/_buttons.scss',
           './assets/scss/components/_code.scss',
