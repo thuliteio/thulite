@@ -33,6 +33,11 @@ baseName = "_headers"
 isPlainText = true
 notAlternative = true
 
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10s"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
