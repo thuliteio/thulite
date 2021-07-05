@@ -5,3 +5,4 @@ resources
 # Local Netlify folder
 .netlify
 TODO
+yarn.lock

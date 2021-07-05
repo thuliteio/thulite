@@ -1,17 +1,5 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-lg-7 pb-5 text-center">
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Params.Lead | safeHTML }}</p>
-    <a class="btn btn-dark px-3" href="{{ "quick-start/" | absURL }}" role="button">Quick Start</a>
-    <a class="btn btn-outline-dark px-3" href="https://gethyas.com/" role="button">View Docs</a>
-    <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/hyas">GitHub v{{ $data := getJSON "https://raw.githubusercontent.com/h-enk/hyas/master/package.json" }}{{ $data.version }}</a></p>
-  </div>
-</div>
-{{ end }}
-
-{{ define "section" }}
-<section class="section container-fluid">
-  {{- .Content -}}
-</section>
+  {{ partial "slider" . }}
+  <p class="text-center">{{ .Params.Lead | safeHTML }}</p>
+  <section>{{- .Content -}}</section>
 {{ end }}

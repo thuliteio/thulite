@@ -1,12 +1,39 @@
-<header class="navbar navbar-light">
-  <div class="container">
-    <a class="navbar-brand monospace" href="{{ "/" | absURL }}">{{ .Site.Params.Title }}</a>
-    <div class="ms-auto">
-    {{ range .Site.Menus.main }}
-      <span class="navbar-text">
-        <a href="{{ .URL }}">{{- .Name -}}</a>
-      </span>
-    {{ end }}
+<header class="container">
+  <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+    <div id="logo">
+      <a href="{{ "/" | absURL }}" class="navbar-brand" >
+        <img src="/images/logo.png" alt="{{ .Site.Title }} Logo" class="img-fluid"/>
+      </a>
     </div>
-  </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     {{ $currentPage := . }}
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+        {{ range site.Menus.main }}
+        {{ if .HasChildren }}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> {{ .Name }} </a>
+          <div class="dropdown-menu">
+            {{ range .Children }} 
+            {{- $page_url:= $currentPage.Permalink | absLangURL }} 
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }} 
+            {{- $sonuc := eq $menu_item_url $page_url }}
+              <a class="dropdown-item {{ if $sonuc }}active{{ end }}" title="{{ .Name}}" href="{{ .URL  }}">{{ .Name }}</a>
+            {{ end }}
+          </div>
+        </li>
+        {{ else }}
+        <li class="nav-item">
+          {{- $page_url:= $currentPage.Permalink | absLangURL }} {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }} {{- $sonuc := eq $menu_item_url $page_url }}
+          <a class="nav-link {{ if $sonuc }}active{{ end }} " title="{{ .Name}}" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }} 
+        {{ end }}
+      </ul>
+    </div>
+
+  </nav>
+
 </header>

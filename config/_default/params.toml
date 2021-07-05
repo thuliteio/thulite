@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Hyas"
+title = "site"
 titleSeparator = "-"
 titleAddition = "Modern Hugo Starter"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+description = "tanım işte site tanımı."
 
 ## Open Graph
 images = ["hyas.png"]
@@ -20,20 +20,20 @@ twitterCreator = "@henkverlinde"
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Hyas"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
-schemaLocale = "en-US"
+schemaAuthor = "Cem Kaan KÖSALI"
+schemaAuthorTwitter = " twitter.com/kaanguru2"
+schemaAuthorLinkedIn = "https://linkedin.com/in/cemkaan/"
+schemaAuthorGitHub = "https://github.com/cemkaan"
+schemaLocale = "tr"
 schemaLogo = "logo-hyas.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
 schemaImage = "hyas.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/gethyas"
+schemaTwitter = "https://twitter.com/kaanguru2"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/hyas"
+schemaGitHub = "https://github.com/cemkaan/hyas"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -50,9 +50,9 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+footer = """ Web Tasarım <a href="https://cemkaan.com/" target="_blank" >CemKaan.com</a> """ 
+copyRight = "Copyright (c) 2021 Cem Kaan"
 
 # Alert
 alert = false
-alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"
+alertText = "Deliver web projects 10x faster. "

@@ -1,5 +1,11 @@
-<footer class="footer text-muted">
-  <div class="container">
-    <p class="m-0 text-center">{{ .Site.Params.footer | safeHTML }}</p>
+<footer class="py-3 bg-light text-muted">
+  <div class="container clearfix">
+    <p class="text-center">{{ .Site.Params.footer | safeHTML }}</p>
+    {{ range .Site.Menus.social }}
+    <span class="navbar-text">
+      {{- .Pre }}
+      <a href="{{ .URL }}">{{- .Name -}}</a>
+    </span>
+    {{ end }}
   </div>
 </footer>
