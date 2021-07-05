@@ -1,18 +1,18 @@
 [[main]]
   name = "Hakkımızda"
-  url = "/"
+  url = "/hakkimizda"
   weight = 10
 [[main]]
   name = "Ürünlerimiz"
-  url = "/"
+  url = "/urunlerimiz"
   weight = 15
 [[main]]
   name = "Hizmetlerimiz"
-  url = "/"
+  url = "/hizmetlerimiz"
   weight = 20
 [[main]]
   name = "İletişim"
-  url = "/"
+  url = "/iletisim"
   weight = 25
 
 [[social]]
