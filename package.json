@@ -12,11 +12,11 @@
   },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
-    "create": "exec-bin bin/hugo/hugo new",
+    "create": "hugo new",
     "prestart": "npm run clean",
-    "start": "exec-bin bin/hugo/hugo server  --bind=0.0.0.0 --disableFastRender",
+    "start": "hugo server --disableFastRender",
     "prebuild": "npm run clean",
-    "build": "exec-bin bin/hugo/hugo --gc --minify",
+    "build": "hugo --gc --minify",
     "build:preview": "npm run build -D -F",
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json bin node_modules ",
@@ -24,13 +24,12 @@
     "lint:scripts": "eslint assets/js config functions",
     "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint *.md content/**/*.md",
-    "server": "exec-bin bin/hugo/hugo server",
+    "server": "hugo server",
     "test": "npm run -s lint",
     "env": "env",
     "precheck": "npm version",
-    "check": "exec-bin bin/hugo/hugo version",
+    "check": "hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
@@ -53,8 +52,5 @@
     "shx": "^0.3.3",
     "stylelint": "^13.13",
     "stylelint-config-standard": "^22.0"
-  },
-  "otherDependencies": {
-    "hugo": "0.84.0"
   }
 }
