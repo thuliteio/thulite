@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://hyas-next.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -83,19 +83,4 @@ toLower = false
   name = "date"
   weight = 10
 
-[module]
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
-    source = "node_modules/lazysizes"
-    target = "assets/js/vendor/lazysizes"
-  [[module.mounts]]
-    source = "node_modules/instant.page"
-    target = "assets/js/vendor/instant.page"
-  [[module.mounts]]
-    source = "node_modules/bootstrap"
-    target = "assets/js/vendor/bootstrap"
+

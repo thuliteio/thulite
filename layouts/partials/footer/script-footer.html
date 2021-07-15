@@ -1,12 +1,20 @@
-{{ $lazysizes := resources.Get "js/vendor/lazysizes/lazysizes.min.js" -}}
-{{ if eq (hugo.Environment) "development" -}}
-  {{ $app := resources.Get "js/app.js" | babel -}}
-  {{ $js := slice $lazysizes $app | resources.Concat "main.js" -}}
-  <script src="{{ $js.Permalink }}" defer></script>
-{{ else -}}
-  {{ $instantPage := resources.Get "js/vendor/instant.page/instantpage.js" | minify -}}
-  {{ $app := resources.Get "js/app.js" | babel | minify -}}
-  {{ $js := slice $lazysizes $instantPage $app | resources.Concat "main.js" -}}
-  {{ $secureJS := $js | resources.Fingerprint "sha512" -}}
-  <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+
+{{ partial "footer/esbuild" (dict "src" "js/bootstrap.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/assets.js" "load" "async" "transpile" true) -}}
+
+{{/* EXAMPLE - only load script for production 
+{{ if eq (hugo.Environment) "production" -}}
+{{ partial "footer/esbuild" (dict "src" "js/instantpage.js" "load" "async" "transpile" false) -}}
 {{ end -}}
+*/}}
+
+{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
+{{ if eq .Type "gallery" }}
+{{ partial "scripts/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
+{{ end }}
+*/}}
+
+
+
+
+
