@@ -1,3 +1,4 @@
+// bootstrap js is a larger library so it is downloaded async seperately
 'use strict';
 
 // bootstrap js - import the whole library
