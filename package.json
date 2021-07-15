@@ -55,6 +55,6 @@
     "stylelint-config-standard": "^22.0"
   },
   "otherDependencies": {
-    "hugo": "0.84.0"
+    "hugo": "0.85.0"
   }
 }
