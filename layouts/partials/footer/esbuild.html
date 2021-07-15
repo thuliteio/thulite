@@ -1,0 +1,18 @@
+{{/*  {{ partial "footer/esbuild" (dict "src" "js/file.js" "load" "async/defer" "babel" true/false) }}  */}}
+
+{{ $src := .src }}
+{{ $js := "" }}
+{{ if .babel }}
+{{ $js = resources.Get $src | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint}}
+{{ else if site.IsServer }}
+{{ $js = resources.Get $src| js.Build (dict  "sourceMap" "inline") | fingerprint }}
+{{ else }}
+{{ $js = resources.Get $src | js.Build (dict "minify" true ) | fingerprint }}
+{{ end }}
+
+
+<script async
+  type="text/javascript" 
+  src="{{ $js.RelPermalink }}" 
+  integrity="{{ $js.Data.Integrity }}">
+</script>
