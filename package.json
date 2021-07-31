@@ -41,6 +41,7 @@
     "@popperjs/core": "^2.9.2",
     "autoprefixer": "^10.3",
     "bootstrap": "^5.0",
+    "if-env": "^1.0.4",
     "instant.page": "^5.1",
     "lazysizes": "^5.3",
     "postcss": "^8.3",
