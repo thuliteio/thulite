@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ partial "head/head.html" . }}
-  {{ if eq .Kind "home" -}}
-    {{ .Scratch.Set "class" "home" -}}
-  {{ else if eq .Kind "404" -}}
-    {{ .Scratch.Set "class" "error404" -}}
-  {{ else if eq .Kind "page" -}}
-    {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " single" -}}
-  {{ else -}}
-    {{ .Scratch.Set "class" .Type -}}
-    {{ .Scratch.Add "class" " list" -}}
+  {{ $template := "" }}
+  {{ $type := "default" }}
+  {{ if ne .Type "page" }}
+    {{ $type = .Type }}
+  {{ end }}
+  {{ if or (eq .Kind "404") (eq .Kind "page") }}
+    {{ $template = "single" }}
+  {{ else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "taxonomyTerm") -}}
+    {{ $template = "list" }}
   {{ end -}}
-  <body class="{{ .Scratch.Get "class" }}">
+  {{ .Scratch.Set "class" (slice .Kind $template $type) -}}
+  <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ if and .IsHome .Site.Params.alert }}
       {{ partial "header/alert.html" . }}
     {{ end }}
