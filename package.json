@@ -14,9 +14,11 @@
     "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin bin/hugo/hugo new",
     "prestart": "npm run clean",
-    "start": "exec-bin bin/hugo/hugo server  --bind=0.0.0.0 --disableFastRender",
+    "start": "exec-bin bin/hugo/hugo server  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
+    "start:lan": "exec-bin bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.1.10 --port=1313",
     "prebuild": "npm run clean",
     "build": "exec-bin bin/hugo/hugo --gc --minify",
+    "build:lan": "exec-bin bin/hugo/hugo --gc --minify --baseURL=http://192.168.1.10:8080",
     "build:preview": "npm run build -D -F",
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json bin node_modules ",
@@ -35,19 +37,19 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.14",
-    "@babel/core": "^7.14",
-    "@babel/preset-env": "^7.14",
+    "@babel/core": "^7.15",
+    "@babel/preset-env": "^7.15",
     "@fullhuman/postcss-purgecss": "^4.0",
-    "@popperjs/core": "^2.9.2",
+    "@popperjs/core": "^2.9",
     "auto-changelog": "^2.3.0",
     "autoprefixer": "^10.3",
-    "bootstrap": "^5.0",
-    "eslint": "^7.30",
+    "bootstrap": "^5.1",
+    "eslint": "^7.32",
     "exec-bin": "^1.0.0",
-    "hugo-installer": "^3.0.1",
+    "hugo-installer": "^3.1",
     "instant.page": "^5.1",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.27",
+    "markdownlint-cli": "^0.28",
     "postcss": "^8.3",
     "postcss-cli": "^8.3",
     "purgecss-whitelister": "^2.4",
@@ -56,6 +58,6 @@
     "stylelint-config-standard": "^22.0"
   },
   "otherDependencies": {
-    "hugo": "0.85.0"
+    "hugo": "0.87.0"
   }
 }
