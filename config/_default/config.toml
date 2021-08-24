@@ -72,6 +72,9 @@ notAlternative = true
 [permalinks]
   blog = "/:title/"
 
+[minify.tdewolff.html]
+  keepWhitespace = false
+
 [related]
 threshold = 80
 includeNewer = true
