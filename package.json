@@ -47,12 +47,12 @@
     "eslint": "^7.32",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
-    "instant.page": "^5.1",
     "lazysizes": "^5.3",
     "markdownlint-cli": "^0.28",
     "postcss": "^8.3",
     "postcss-cli": "^8.3",
     "purgecss-whitelister": "^2.4",
+    "quicklink": "^2.2.0",
     "shx": "^0.3.3",
     "stylelint": "^13.13",
     "stylelint-config-standard": "^22.0"
