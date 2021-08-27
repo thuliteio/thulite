@@ -1,15 +1,19 @@
-{{/* USAGE:  {{ partial "footer/esbuild" (dict "src" "js/file.js" "load" "async/defer" "transpile" true/false) }}  */}}
+{{/* USAGE:  {{ partial "footer/esbuild" (dict "src" "js/file.js" "targetPath" "main.js" "load" "async/defer" "transpile" true/false) }}  */}}
 {{ $src := .src -}}
+{{ $targetPath := .targetPath | default $src -}}
+{{ $load := .load -}}
 {{ $js := "" -}}
+
 {{ if .transpile -}}
-{{ $js = resources.Get $src | js.Build | babel (dict "noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint -}}
+  {{ $js = resources.Get $src | js.Build | babel ("noComments" true "minified" true "compact" true "config" "config/babel.config.js") | fingerprint "sha512" -}}
 {{ else if eq (hugo.Environment) "development" -}}
-{{ $js = resources.Get $src| js.Build (dict  "sourceMap" "inline") | fingerprint -}}
-{{ else }}
-{{ $js = resources.Get $src | js.Build (dict "minify" true ) | fingerprint -}}
+  {{ $js = resources.Get $src | js.Build (dict "targetPath" $targetPath "sourceMap" "inline") | fingerprint "sha512" -}}
+{{ else -}}
+  {{ $js = resources.Get $src | js.Build (dict "targetPath" $targetPath "minify" true ) | fingerprint "sha512" -}}
 {{ end -}}
-<script async
-  type="text/javascript" 
-  src="{{- $js.RelPermalink -}}" 
+
+{{ print "<script " $load | safeHTML }}
+  type="text/javascript"
+  src="{{- $js.RelPermalink -}}"
   integrity="{{- $js.Data.Integrity -}}">
 </script>
