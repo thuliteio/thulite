@@ -1,17 +1,30 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ partial "head/head.html" . }}
+
   {{ $template := "" }}
-  {{ $type := "default" }}
-  {{ if ne .Type "page" }}
-    {{ $type = .Type }}
-  {{ end }}
-  {{ if or (eq .Kind "404") (eq .Kind "page") }}
+  {{ if or (eq .Kind "404") (eq .Kind "page") (eq .Kind "home")}}
     {{ $template = "single" }}
-  {{ else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "taxonomyTerm") -}}
+  {{ else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") -}}
     {{ $template = "list" }}
   {{ end -}}
-  {{ .Scratch.Set "class" (slice .Kind $template $type) -}}
+
+  {{ $name := "" }}
+  {{ if eq .Kind "taxonomy" }}
+    {{ $name = printf "taxonomy %s" .Data.Plural }}
+  {{ else if eq .Kind "term" }}
+    {{ $name = printf "term %s" .Section}}
+  {{ else if .Section }}
+    {{ $name = printf "section %s" .Section }}
+  {{ else if eq .Kind "page" }}
+    {{ $name = .File.ContentBaseName }}
+  {{ else if eq .Kind "home" }}
+    {{ $name = "home" }}
+  {{ else if eq .Kind "404" }}
+    {{ $name = "error404" }}
+  {{ end }}
+
+  {{ .Scratch.Set "class" (slice $template $name) -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ if and .IsHome .Site.Params.alert }}
       {{ partial "header/alert.html" . }}
