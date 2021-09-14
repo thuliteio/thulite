@@ -31,16 +31,18 @@
     "env": "env",
     "precheck": "npm version",
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
+    "latest:hugo": "gh release view --repo gohugoio/hugo",
+    "latest:hyas": "gh release view --repo h-enk/hyas",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14",
+    "@babel/cli": "^7.15",
     "@babel/core": "^7.15",
     "@babel/preset-env": "^7.15",
     "@fullhuman/postcss-purgecss": "^4.0",
-    "@popperjs/core": "^2.9",
+    "@popperjs/core": "^2.10",
     "auto-changelog": "^2.3.0",
     "autoprefixer": "^10.3",
     "bootstrap": "^5.1",
@@ -58,6 +60,6 @@
     "stylelint-config-standard": "^22.0"
   },
   "otherDependencies": {
-    "hugo": "0.87.0"
+    "hugo": "0.88.1"
   }
 }
