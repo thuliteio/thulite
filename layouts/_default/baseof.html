@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ partial "head/head.html" . }}
-  {{- partial "head/body-class.html" -}}
+  {{- partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
     {{ if and .IsHome .Site.Params.alert }}
       {{ partial "header/alert.html" . }}
