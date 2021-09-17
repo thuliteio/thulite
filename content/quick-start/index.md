@@ -9,6 +9,16 @@ images: []
 
 How to start a new Hyas project — one pager.
 
+* [Home Page](/)
+* [Local Anchor](#create-a-new-site)
+* [External Page](https://gethyas.com/)
+* [Email Henk](mailto:henk@getdoks.org)
+* <henk@getdoks.org>
+
+![Kenai, United States](mckayla-crump-715292-unsplash.jpg "Photo by <a href='https://unsplash.com/@funkmastacrump'>McKayla Crump</a> on <a href='https://unsplash.com/@funkmastacrump'>Unsplash</a>")
+
+![Hugo logo](apple-touch-icon.png)
+
 ## Requirements
 
 Hyas uses npm to install dependencies and run commands. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
@@ -49,12 +59,12 @@ Hyas comes with commands for common tasks. [Commands →](https://gethyas.com/do
 
 ## Documentation
 
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
-- [Hyas](https://gethyas.com/)
+* [Netlify](https://docs.netlify.com/)
+* [Hugo](https://gohugo.io/documentation/)
+* [Hyas](https://gethyas.com/)
 
 ## Communities
 
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-- [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+* [Netlify Community](https://community.netlify.com/)
+* [Hugo Forums](https://discourse.gohugo.io/)
+* [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
