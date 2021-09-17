@@ -12,54 +12,31 @@ rssLimit = 10
 
 # add redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
-suffixes = [""]
-delimiter = ""
+  suffixes = [""]
+  delimiter = ""
 
 # add output format for netlify _redirects
 [outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
 
 # add output format for netlify _headers
 [outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
 
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
     maxAge = "10s"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      linkify = false
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-      [markup.goldmark.parser.attribute]
-        block = true
-        title = true
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = false
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = false
-    style = "dracula"
-    tabWidth = 4
 
 [sitemap]
   changefreq = "monthly"
@@ -76,14 +53,12 @@ notAlternative = true
   keepWhitespace = false
 
 [related]
-threshold = 80
-includeNewer = true
-toLower = false
-  [[related.indices]]
-  name = "categories"
-  weight = 100
-  [[related.indices]]
-  name = "date"
-  weight = 10
-
-
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+    name = "categories"
+    weight = 100
+    [[related.indices]]
+    name = "date"
+    weight = 10
