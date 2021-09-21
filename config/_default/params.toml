@@ -9,7 +9,6 @@ description = "Hyas is a Hugo starter helping you build modern websites that are
 ## Open Graph
 images = ["hyas.png"]
 ogLocale = "en_US"
-domainTLD = "gethyas.com"
 titleHome = "Hyas Hugo Starter"
 
 ## Twitter Cards
@@ -34,10 +33,6 @@ schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/gethyas"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/h-enk/hyas"
-schemaSection = "blog"
-
-## Sitelinks Search Box
-siteLinksSearchBox = false
 
 ## Chrome Browser
 themeColor = "#fff"
@@ -48,9 +43,12 @@ bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
+smallLimit = "300"
 
 # Footer
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
+
+# Feed
 copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
 
 # Alert
