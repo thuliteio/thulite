@@ -38,26 +38,26 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15",
-    "@babel/core": "^7.15",
-    "@babel/preset-env": "^7.15",
+    "@babel/cli": "^7.16",
+    "@babel/core": "^7.16",
+    "@babel/preset-env": "^7.16",
     "@fullhuman/postcss-purgecss": "^4.0",
     "@popperjs/core": "^2.10",
     "auto-changelog": "^2.3.0",
-    "autoprefixer": "^10.3",
+    "autoprefixer": "^10.4",
     "bootstrap": "^5.1",
-    "eslint": "^7.32",
+    "eslint": "^8.1",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.28",
+    "markdownlint-cli": "^0.29",
     "postcss": "^8.3",
-    "postcss-cli": "^8.3",
+    "postcss-cli": "^9.0",
     "purgecss-whitelister": "^2.4",
     "quicklink": "^2.2.0",
     "shx": "^0.3.3",
-    "stylelint": "^13.13",
-    "stylelint-config-standard": "^22.0"
+    "stylelint": "^14.0",
+    "stylelint-config-standard-scss": "^2.0.1"
   },
   "otherDependencies": {
     "hugo": "0.88.1"
