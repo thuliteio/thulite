@@ -7,7 +7,7 @@
 {{- $name := "" -}}
 {{- if eq .Kind "taxonomy" -}}
   {{- $name = printf "taxonomy %s" .Data.Plural -}}
-{{- else if eq .Kind "term" -}}-
+{{- else if eq .Kind "term" -}}
   {{- $name = printf "term %s" .Section -}}
 {{- else if .Section -}}
   {{- $name = printf "section %s" .Section -}}
