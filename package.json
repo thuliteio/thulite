@@ -50,7 +50,7 @@
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.29",
+    "markdownlint-cli": "^0.30",
     "postcss": "^8.3",
     "postcss-cli": "^9.0",
     "purgecss-whitelister": "^2.4",
