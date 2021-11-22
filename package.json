@@ -57,7 +57,7 @@
     "quicklink": "^2.2.0",
     "shx": "^0.3.3",
     "stylelint": "^14.0",
-    "stylelint-config-standard-scss": "^2.0.1"
+    "stylelint-config-standard-scss": "^3.0.0"
   },
   "otherDependencies": {
     "hugo": "0.88.1"
