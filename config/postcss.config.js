@@ -19,6 +19,7 @@ module.exports = {
         'th',
         'td',
         'h3',
+        'alert-link',
         ...whitelister([
           // './assets/scss/components/_buttons.scss',
           './assets/scss/components/_code.scss',

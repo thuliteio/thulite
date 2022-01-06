@@ -1,3 +1,7 @@
+{{ if .Site.Params.alert -}}
+  {{ partial "header/alert.html" . }}
+{{ end -}}
+
 <header class="navbar navbar-light">
   <div class="container">
     <a class="navbar-brand monospace" href="{{ "/" | absURL }}">{{ .Site.Params.Title }}</a>
