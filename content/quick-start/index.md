@@ -11,7 +11,10 @@ How to start a new Hyas project — one pager.
 
 ## Requirements
 
-Hyas uses npm to install dependencies and run commands. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
+- [Git](https://git-scm.com/): latest source release
+- [Node.js](https://nodejs.org/) (includes npm): latest LTS version or newer
+
+Hyas uses npm to centralize dependency management, making it easy to update resources, build tooling, plugins, and build scripts.
 
 ## Start a new Hyas project
 
