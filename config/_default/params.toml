@@ -52,5 +52,6 @@ footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\
 copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
 
 # Alert
-alert = false
+alert = true
+alertDismissable = true
 alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"
