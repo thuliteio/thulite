@@ -1,0 +1,4 @@
+{{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
+  {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
+  <script>{{ $alertInit.Content | safeJS }}</script>
+{{- end -}}

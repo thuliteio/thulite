@@ -4,15 +4,17 @@ if (announcement !== null) {
 
   var id = announcement.dataset.id;
 
-  if (localStorage.getItem('global-alert-' + id) === null ) {
+  /*
+  if (localStorage.getItem(id) === null ) {
 
     announcement.classList.remove('d-none');
 
   }
+  */
 
   announcement.addEventListener('closed.bs.alert', () => {
 
-    localStorage.setItem('global-alert-' + id, 'closed');
+    localStorage.setItem(id, 'closed');
 
   });
 
