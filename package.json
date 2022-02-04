@@ -1,7 +1,7 @@
 {
   "name": "@hyas/core",
   "description": "Hyas core",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "browserslist": [
     "defaults"
   ],
@@ -38,15 +38,15 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.16",
-    "@babel/core": "^7.16",
+    "@babel/cli": "^7.17",
+    "@babel/core": "^7.17",
     "@babel/preset-env": "^7.16",
     "@fullhuman/postcss-purgecss": "^4.1",
     "@popperjs/core": "^2.11",
-    "auto-changelog": "^2.3.0",
+    "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.1",
-    "eslint": "^8.6",
+    "eslint": "^8.8",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
@@ -55,11 +55,11 @@
     "postcss-cli": "^9.1",
     "purgecss-whitelister": "^2.4",
     "quicklink": "^2.2.0",
-    "shx": "^0.3.3",
-    "stylelint": "^14.2",
+    "shx": "^0.3",
+    "stylelint": "^14.3",
     "stylelint-config-standard-scss": "^3.0"
   },
   "otherDependencies": {
-    "hugo": "0.91.2"
+    "hugo": "0.92.1"
   }
 }
