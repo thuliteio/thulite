@@ -45,6 +45,10 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "320"
 
+### Image template
+defaultImage = "default-image.png" # put in `./assets/images/`
+fillImage = "1280x720 Center" # normalize image size
+
 # Footer
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
 
