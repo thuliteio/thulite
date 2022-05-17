@@ -1,7 +1,10 @@
 {
   "name": "@hyas/core",
   "description": "Hyas core",
-  "version": "1.5.6",
+  "version": "1.5.7",
+  "engines": {
+		"node": ">=16.15.0"
+	},
   "browserslist": [
     "defaults"
   ],
@@ -41,13 +44,13 @@
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.17",
-    "@babel/preset-env": "^7.16",
+    "@babel/preset-env": "^7.17",
     "@fullhuman/postcss-purgecss": "^4.1",
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.1",
-    "eslint": "^8.11",
+    "eslint": "^8.15",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
@@ -58,10 +61,10 @@
     "purgecss-whitelister": "^2.4",
     "quicklink": "^2.2.0",
     "shx": "^0.3",
-    "stylelint": "^14.6",
+    "stylelint": "^14.8",
     "stylelint-config-standard-scss": "^3.0"
   },
   "otherDependencies": {
-    "hugo": "0.95.0"
+    "hugo": "0.99.0"
   }
 }
