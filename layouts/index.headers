@@ -7,6 +7,7 @@ https://:project.pages.dev/*
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://www.google.com https://tagmanager.google.com *.googletagmanager.com; style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com; img-src 'self' data: https://googleads.g.doubleclick.net https://www.google.com https://ssl.gstatic.com https://www.gstatic.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.g.doubleclick.net *.google.com; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.g.doubleclick.net *.google.com; frame-src https://bid.g.doubleclick.net; manifest-src 'self'
+  Permissions-Policy: "geolocation=(self); midi=();notifications=();push=();sync-xhr=();accelerometer=(); gyroscope=(); magnetometer=(); payment=(); camera=(); microphone=();usb=(); xr=();speaker=(self);vibrate=();fullscreen=(self);"
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
