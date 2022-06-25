@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Hyas"
+title = "Henrik Söderlund"
 titleSeparator = "-"
 titleAddition = "Modern Hugo Starter"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+description = "A personal showcase"
 
 ## Open Graph
 images = ["hyas.png"]
@@ -12,17 +12,17 @@ ogLocale = "en_US"
 titleHome = "Hyas Hugo Starter"
 
 ## Twitter Cards
-twitterSite = "@gethyas"
-twitterCreator = "@henkverlinde"
+twitterSite = "@henkis"
+twitterCreator = "@henkis"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Hyas"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaAuthor = "Henrik Söderlund"
+schemaAuthorTwitter = "https://twitter.com/henkis"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/henriksoderlund/"
+schemaAuthorGitHub = "https://github.com/henkis"
 schemaLocale = "en-US"
 schemaLogo = "logo-hyas.png"
 schemaLogoWidth = 512
@@ -30,9 +30,9 @@ schemaLogoHeight = 512
 schemaImage = "hyas.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/gethyas"
+schemaTwitter = "https://twitter.com/henkis"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/hyas"
+schemaGitHub = "https://github.com/henkisdabro/"
 
 ## Chrome Browser
 themeColor = "#fff"
@@ -50,10 +50,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1280x720 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
+footer = "Powered by <a href=\"https://pages.cloudflare.com/\">Cloudflare Pages</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2022 Henrik Söderlund"
 
 # Alert
 alert = false
