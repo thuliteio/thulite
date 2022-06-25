@@ -6,7 +6,7 @@ https://:project.pages.dev/*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src 'self'; manifest-src 'self'; connect-src 'self'; font-src 'self'; img-src 'self' data:; script-src 'unsafe-inline'; style-src 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://www.google.com https://tagmanager.google.com *.googletagmanager.com 'nonce-dXNlcj0iaGVsbG8iLGRvbWFpbj0iaGVua3ZlcmxpbmRlLmNvbSIsZG9jdW1lbnQud3JpdGUodXNlcisiQCIrZG9tYWluKTs=' 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk='; style-src 'self' https://tagmanager.google.com https://fonts.googleapis.com; img-src 'self' data: https://googleads.g.doubleclick.net https://www.google.com https://ssl.gstatic.com https://www.gstatic.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.g.doubleclick.net *.google.com *.google.<TLD>; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.g.doubleclick.net *.google.com *.google.<TLD>; frame-src https://bid.g.doubleclick.net; manifest-src 'self'
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
