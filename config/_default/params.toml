@@ -16,9 +16,9 @@ twitterSite = "@henkis"
 twitterCreator = "@henkis"
 
 ## JSON-LD
-# schemaType = "Person"
-schemaType = "Organization"
-schemaName = "Hyas"
+schemaType = "Person"
+# schemaType = "Organization"
+schemaName = "Henrik Söderlund"
 schemaAuthor = "Henrik Söderlund"
 schemaAuthorTwitter = "https://twitter.com/henkis"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henriksoderlund/"
