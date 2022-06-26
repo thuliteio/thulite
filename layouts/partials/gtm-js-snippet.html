@@ -1,0 +1,13 @@
+<!-- Kindly borrowed from https://github.com/martijnvv/GTM-integration-Hugo/blob/master/gtm.html -->
+{{ if .Site.Params.gtm_id}}{{ if .Site.Params.gtm_endpoint}}  
+  <link href='https://{{ .Site.Params.gtm_endpoint }}' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://{{ .Site.Params.gtm_endpoint }}'>
+  {{ else }}
+  <link href='https://www.googletagmanager.com' rel="preconnect" crossorigin>
+  <link rel="dns-prefetch" href='https://www.googletagmanager.com'>{{ end }}
+
+{{ if .Site.Params.gtm_id}}<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://{{ if .Site.Params.gtm_endpoint }}{{ .Site.Params.gtm_endpoint }}{{ else }}www.googletagmanager.com{{ end }}/gtm.js?id='+i+dl+'{{ if not hugo.IsProduction }}{{ .Site.Params.gtm_staging_env_query }}{{ end }}';f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','{{ .Site.Params.gtm_id }}');</script>{{ end }}{{ end }}

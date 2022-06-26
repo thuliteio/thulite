@@ -3,7 +3,7 @@
   {{ partial "head/head.html" . }}
   {{- partial "head/body-class.html" . -}}
   <body class="{{ delimit (.Scratch.Get "class") " " }}">
-    {{ partial "head/gtm-noscript-snippet.html" . }}
+    {{ if not .Site.IsServer}}{{ if .Site.Params.gtm_id}}{{ partial "gtm-noscript-snippet.html" . }}{{ end }}{{ end }}
     {{ partial "header/header.html" . }}
     <div class="wrap container" role="document">
       <div class="content">

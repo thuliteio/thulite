@@ -1,0 +1,1 @@
+<noscript><iframe src="https://{{ if .Site.Params.gtm_endpoint}}{{ .Site.Params.gtm_endpoint }}{{ else }}www.googletagmanager.com{{ end }}/ns.html?id={{ .Site.Params.gtm_id }}{{ if not hugo.IsProduction }}{{ .Site.Params.gtm_staging_env_query }}{{ end }}'" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -1,0 +1,24 @@
+  
+  <script>
+	window.dataLayer = window.dataLayer || [];
+	window.dataLayer.push({
+		{{- if .ExpiryDate}}'pageExpiryDate': '{{ .ExpiryDate.format  "2006-01-02"  }}',{{- end }}
+		'pagePublishDate': '{{ .PublishDate.Format "2006-01-02" }}',
+		'pageModifiedDate': '{{ .Lastmod.Format "2006-01-02"  }}',
+		{{- if eq .Kind "page" }}'pageReadingTimeMinutes': {{ .ReadingTime }},
+		'pageReadingTimeSeconds': {{- $readTime := mul (div (countwords .Content) 220.0) 60 }}{{- math.Round $readTime}},
+		'pageWordCount': {{- .WordCount }},
+		'pageFuzzyWordCount': {{- .FuzzyWordCount }},{{- else }}{{- end }}
+		'pageKind': '{{ .Kind }}',
+		'pageId': '{{ with .File }}{{ .UniqueID }}{{ end }}',
+		'pageTitle': '{{ .LinkTitle }}',
+		'pagePermalink': '{{ .Permalink }}',
+		'pageType': '{{ .Type }}',
+		'pageTranslated': {{ .IsTranslated }},
+		{{- if .Params.author -}} 'pageAuthor': '{{ if .Params.author -}}{{ .Params.author }}{{- else if .Site.Author.name -}}{{ .Site.Author.name }}{{- end }}',{{- end }}	
+		{{- if .Params.categories}}{{$category := index (.Params.categories) 0}}'pageCategory':'{{ $category }}', {{- end }}
+		{{- if .Params.tags}}'pageTags':'{{ delimit .Params.tags "|" }}', {{- end }}
+		{{- if .IsHome }}'pageType2': 'home',{{- else if eq .Kind "taxonomy" }}'pageType2': 'tag',{{- else if eq .Type "page" }}'pageType2': 'page',{{- else }}'pageType2': 'post',{{- end }}
+		'pageLanguage': '{{ .Language }}'
+	 });
+  </script>
