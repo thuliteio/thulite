@@ -16,10 +16,18 @@ twitterSite = "@henkis"
 twitterCreator = "@henkis"
 
 ## Google Tag Manager
-gtm_id = "GTM-FWR4"
-gtm_endpoint = ""
-gtm_datalayer = "basic"
-gtm_staging_env_query = "&gtm_auth=dhxfPfIIp62NuQfRTdCd1w&gtm_preview=env-8&gtm_cookies_win=x"
+gtm_id = "GTM-FWR4" # enter GTM container ID in format "GTM-XXXXXX"
+gtm_endpoint = "" # enter hostname of GTM server-side endpoint. if unavailable leave blank ""
+gtm_datalayer = "basic" # set value to "basic" to build and populate a dataLayer array with unique page metadata
+
+## optional - Google Tag Manager Staging/Development Environment 
+### create an additional "environment" from within the GTM Admin interface 
+### extract the gtm_auth and gtm_preview query parameters from the 'src' URL query in the GTM snippet provided
+### this gtm environment snippet activates whenever the HUGO_ENVIRONMENT variable is not set to 'production'
+gtm_env_param_gtm_auth = "dhxfPfIIp62NuQfRTdCd1w"
+gtm_env_param_gtm_preview = "env-8"
+
+## Other
 wordCount = true
 
 ## JSON-LD
