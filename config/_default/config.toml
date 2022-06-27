@@ -33,6 +33,13 @@ rssLimit = 10
   isPlainText = true
   notAlternative = true
 
+[imaging]
+  anchor = "Smart"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 80
+  resampleFilter = "Box"
+
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"

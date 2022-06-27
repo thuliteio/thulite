@@ -4,12 +4,12 @@
 title = "Henrik Söderlund"
 titleSeparator = "-"
 titleAddition = "Modern Hugo Starter"
-description = "A personal showcase"
+description = "Personal showcase, explorations and ideas"
 
 ## Open Graph
 images = ["hyas.png"]
 ogLocale = "en_US"
-titleHome = "Hyas Hugo Starter"
+titleHome = "Henrik Söderlund"
 
 ## Twitter Cards
 twitterSite = "@henkis"

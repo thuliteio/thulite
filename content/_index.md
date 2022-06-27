@@ -1,9 +1,9 @@
 ---
-title : "Modern Hugo Starter"
-description: "Hugo starter helping you build modern websites."
-lead: "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
-date: 2020-04-17T12:18:10+00:00
-lastmod: 2020-04-17T12:18:10+00:00
+title : "Henrik Söderlund"
+description: "showcase, explorations and ideas"
+lead: "Ad Tech, Operations, Tag Management & Web Analytics. Director at Creme Digital."
+date: 2022-06-27T12:18:10+00:00
+lastmod: 2022-06-27T12:18:10+00:00
 draft: false
 images: []
 ---

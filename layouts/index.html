@@ -1,11 +1,14 @@
 {{ define "main" }}
+{{ $image := resources.Get "images/henrik_profile_beard-modified_small.png" }}
+{{ $image := $image.Resize "x180 webp" }}
 <div class="row justify-content-center">
-  <div class="col-lg-7 pb-5 text-center">
+  <div class="col-lg-7 pb-5 text-center">  
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     <h1>{{ .Title }}</h1>
     <p>{{ .Params.Lead | safeHTML }}</p>
-    <a class="btn btn-dark px-3" href="{{ "quick-start/" | absURL }}" role="button">Quick Start</a>
+    <!-- <a class="btn btn-dark px-3" href="{{ "quick-start/" | absURL }}" role="button">Quick Start</a>
     <a class="btn btn-outline-dark px-3" href="https://gethyas.com/" role="button">View Docs</a>
-    <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/hyas">GitHub v{{ $data := getJSON "package.json" }}{{ $data.version }}</a></p>
+    <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/hyas">GitHub v{{ $data := getJSON "package.json" }}{{ $data.version }}</a></p> -->
   </div>
 </div>
 {{ end }}

@@ -1,8 +1,8 @@
 ---
 title: "Blog"
-description: "Hyas Blog"
-date: 2020-04-17T12:17:27+00:00
-lastmod: 2020-04-17T12:17:27+00:00
+description: "Posts"
+date: 2022-06-27T12:18:10+00:00
+lastmod: 2022-06-27T12:18:10+00:00
 draft: false
 images: []
 _build:
