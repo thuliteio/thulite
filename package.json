@@ -1,10 +1,10 @@
 {
   "name": "@hyas/core",
   "description": "Hyas core",
-  "version": "1.5.7",
+  "version": "1.5.8-alpha.1",
   "engines": {
-		"node": ">=16.15.0"
-	},
+    "node": ">=16.15.0"
+  },
   "browserslist": [
     "defaults"
   ],
@@ -42,29 +42,29 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17",
-    "@babel/core": "^7.17",
-    "@babel/preset-env": "^7.17",
+    "@babel/cli": "^7.18",
+    "@babel/core": "^7.18",
+    "@babel/preset-env": "^7.18",
     "@fullhuman/postcss-purgecss": "^4.1",
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
-    "bootstrap": "^5.1",
-    "eslint": "^8.15",
+    "bootstrap": "^5.2.0-beta1",
+    "eslint": "^8.18",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.4.0",
-    "netlify-plugin-submit-sitemap": "^0.3.0",
+    "netlify-plugin-submit-sitemap": "^0.4.0",
     "postcss": "^8.4",
-    "postcss-cli": "^9.1",
+    "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
     "quicklink": "^2.2.0",
     "shx": "^0.3",
-    "stylelint": "^14.8",
-    "stylelint-config-standard-scss": "^3.0"
+    "stylelint": "^14.9",
+    "stylelint-config-standard-scss": "^4.0"
   },
   "otherDependencies": {
-    "hugo": "0.99.0"
+    "hugo": "0.101.0"
   }
 }
