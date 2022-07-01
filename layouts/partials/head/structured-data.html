@@ -1,20 +1,44 @@
 {{ $baseURL := "/" | absURL -}}
 
-{{ $dot := . -}}
-{{ $dot.Scratch.Set "path" "" -}}
-{{ $dot.Scratch.Set "breadcrumb" slice -}}
-
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
-{{ $.Scratch.Add "path" .Site.BaseURL -}}
-
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-  {{ range $index, $element := split $url "/" -}}
-    {{ $dot.Scratch.Add "path" $element -}}
-    {{ $.Scratch.Add "path" "/" -}}
-    {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-  {{ end -}}
-{{ end -}}
+{{- /* create local scratch instance
+  ----------------------------------------------------------------------------- */ -}}
+{{- $scratch := newScratch -}}
+{{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1
+  breadcrumb structured markup json-ld */ -}}
+{{- /* recursive partial which sets all levels of breadcrumb, except the current page
+  ----------------------------------------------------------------------------- */ -}}
+{{- $scratch.Set "count" 1 -}}
+{{- define "partials/inline/breadcrumbData" -}}
+  {{- $scratchCtx := .scratch -}}
+  {{- with .parent }}
+    {{ partial "inline/breadcrumbData" (dict "scratch" $scratchCtx "parent" .Parent) }}
+    {{- $scratchCtx.Add "listItem" (slice (dict 
+      "@type" "ListItem"
+      "position" ($scratchCtx.Get "count")
+      "name" (.Title | humanize | title)
+      "item" .Permalink
+    )) -}}
+    {{- $scratchCtx.Add "count" 1 -}}
+  {{- end }}
+{{- end -}}
+{{ partial "inline/breadcrumbData" (dict "scratch" $scratch "parent" .Parent) }}
+{{- /* set the breadcrumb info for the current page
+  ----------------------------------------------------------------------------- */ -}}
+{{- $scratch.Add "listItem" (slice (dict 
+  "@type" "ListItem"
+  "position" ($scratch.Get "count")
+  "name" (.Title | humanize | title)
+)) -}}
+{{- /* set up the data for jsonify by addding it to scratch 
+  ---------------------------------------------------------------------------- */ -}}
+{{- $scratch.SetInMap "breadcrumb" "@context" "https://schema.org" -}}
+{{- $scratch.SetInMap "breadcrumb" "@type" "BreadcrumbList" -}}
+{{- $scratch.SetInMap "breadcrumb" "itemListElement" ($scratch.Get "listItem") -}}
+{{- /* use jsonify and scratch.Get to print json markup
+--------------------------------------------------------- */ -}}
+<script type="application/ld+json">
+{{- $scratch.Get "breadcrumb" | jsonify (dict "prefix" " " "indent" "  ") | safeJS -}}
+</script>
 
 <script type="application/ld+json">
 {
@@ -114,25 +138,6 @@
       "potentialAction": [{
         "@type": "ReadAction", "target": [{{ .Permalink }}]
       }]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": {{ print .Permalink "#/schema/breadcrumb/1" }},
-      "name": "Breadcrumbs",
-      "itemListElement": [{{ $list := $.Scratch.Get "breadcrumb" }}{{ $len := (len $list) }}{{ range $index, $element := $list }}{{ if ne .position 1 }},{{ end }}{
-        "@type": "ListItem",
-        "position": {{ .position }},
-        "item": {
-          {{ if ne (add $index 1) $len -}}
-          "@type": "WebPage",
-          "@id": {{ .url }},
-          "url": {{ .url }},
-          "name": "{{ .name | humanize | title }}"
-          {{ else -}}
-          "@id": {{ .url }}
-          {{ end -}}
-        }
-        }{{ end }}]
     },
 
     {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "tutorial") (eq .Section "showcase")) -}}
