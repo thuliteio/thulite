@@ -89,6 +89,13 @@ git clone https://github.com/h-enk/hyas-child-theme.git my-hyas-site && cd my-hy
 git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
 ```
 
+<details>
+<summary>Help me choose</summary>
+
+Not sure which one is for you? Pick the child theme.
+
+</details>
+
 ### 2. Install dependencies
 
 ```bash
