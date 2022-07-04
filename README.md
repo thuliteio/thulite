@@ -23,6 +23,9 @@
   <a href="https://github.com/h-enk/hyas/releases">
     <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
   </a>
+  <a href="https://www.npmjs.com/package/@hyas/core">
+    <img src="https://img.shields.io/npm/v/@hyas/core?style=flat-square" alt="npm (scoped)">
+  </a>
   <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22">
     <img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
   </a>
@@ -36,12 +39,6 @@
 ## Demo
 
 - [hyas.netlify.app](https://hyas.netlify.app/)
-
-## Quick start
-
-Get your Hyas site in 1 min.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h-enk/hyas)
 
 ## Why Hyas?
 
@@ -61,10 +58,8 @@ Six reasons why you should use Hyas:
 
 ## Requirements
 
-- [Git](https://git-scm.com/): latest source release
-- [Node.js](https://nodejs.org/) (includes npm): latest LTS version or newer
-
-Hyas uses npm to centralize dependency management, making it easy to update resources, build tooling, plugins, and build scripts.
+- [Git](https://git-scm.com/) — latest source release
+- [Node.js](https://nodejs.org/) — latest LTS version or newer
 
 ## Get started
 
