@@ -67,34 +67,9 @@ Start a new Hyas project in three steps:
 
 ### 1. Create a new site
 
-Hyas is available as a child theme and a starter theme.
-
-#### Child theme
-
-- Intended for novice to intermediate users
-- Intended for minor customizations
-- [Easily update npm packages](https://gethyas.com/docs/help/how-to-update/) — __including__ [Hyas](https://www.npmjs.com/package/@hyas/core)
-
-```bash
-git clone https://github.com/h-enk/hyas-child-theme.git my-hyas-site && cd my-hyas-site
-```
-
-#### Starter theme
-
-- Intended for intermediate to advanced users
-- Intended for major customizations
-- [Easily update npm packages](https://gethyas.com/docs/help/how-to-update/)
-
 ```bash
 git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
 ```
-
-<details>
-<summary>Help me choose</summary>
-
-Not sure which one is for you? Pick the child theme.
-
-</details>
 
 ### 2. Install dependencies
 
