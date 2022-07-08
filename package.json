@@ -1,7 +1,7 @@
 {
   "name": "@hyas/core",
   "description": "Hyas core",
-  "version": "1.5.8-alpha.2",
+  "version": "1.5.8",
   "engines": {
     "node": ">=16.16.0"
   },
