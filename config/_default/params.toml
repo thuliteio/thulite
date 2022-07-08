@@ -52,13 +52,20 @@ schemaGitHub = "https://github.com/henkisdabro/"
 ## Chrome Browser
 themeColor = "#fff"
 
-# Images
+# Images - Temporarily left in place for backward compatibility
 quality = 85
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "320"
+
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template
 defaultImage = "default-image.png" # put in `./assets/images/`

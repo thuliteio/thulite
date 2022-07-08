@@ -9,7 +9,7 @@
 </h1>
 
 <h3 align="center">
-  Modern Hugo starter
+  Modern Hugo Starter
 </h3>
 
 <p align="center">
@@ -22,6 +22,9 @@
   </a>
   <a href="https://github.com/h-enk/hyas/releases">
     <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
+  </a>
+  <a href="https://www.npmjs.com/package/@hyas/core">
+    <img src="https://img.shields.io/npm/v/@hyas/core?style=flat-square" alt="npm (scoped)">
   </a>
   <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22">
     <img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
@@ -37,19 +40,13 @@
 
 - [hyas.netlify.app](https://hyas.netlify.app/)
 
-## Quick start
-
-Get your Hyas site in 1 min.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/h-enk/hyas)
-
 ## Why Hyas?
 
 Six reasons why you should use Hyas:
 
 1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
 
-2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=73a46ae67cbe2f70318635b09a548ff0) by default. Hyas removes unused css, prefetches links, and lazy loads images.
+2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=bc1047434376aa5b3e50cf637f8a5b40) by default. Hyas removes unused css, prefetches links, and lazy loads images.
 
 3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
 
@@ -61,10 +58,8 @@ Six reasons why you should use Hyas:
 
 ## Requirements
 
-- [Git](https://git-scm.com/): latest source release
-- [Node.js](https://nodejs.org/) (includes npm): latest LTS version or newer
-
-Hyas uses npm to centralize dependency management, making it easy to update resources, build tooling, plugins, and build scripts.
+- [Git](https://git-scm.com/) — latest source release
+- [Node.js](https://nodejs.org/) — latest LTS version or newer
 
 ## Get started
 
