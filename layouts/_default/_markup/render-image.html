@@ -1,3 +1,5 @@
+{{/* Temporarily left in place for backward compatibility */}}
+
 {{ $image := "" -}}
 {{ if (urls.Parse .Destination).IsAbs }}
   {{ $image = resources.GetRemote .Destination -}}
