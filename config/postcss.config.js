@@ -7,6 +7,9 @@ module.exports = {
     autoprefixer(),
     purgecss({
       content: [
+        './node_modules/@hyas/core/layouts/**/*.html',
+        './node_modules/@hyas/seo/layouts/**/*.html',
+        './node_modules/@hyas/themes-starter-bootstrap/layouts/**/*.html',
         './layouts/**/*.html',
         './content/**/*.md',
       ],
@@ -21,10 +24,10 @@ module.exports = {
         'h3',
         'alert-link',
         ...whitelister([
-          './assets/scss/components/_alerts.scss',
-          // './assets/scss/components/_buttons.scss',
-          './assets/scss/components/_code.scss',
-          // './assets/scss/components/_syntax.scss',
+          './node_modules/@hyas/themes-starter-bootstrap/assets/scss/common/_variables.scss',
+          './node_modules/@hyas/themes-starter-bootstrap/assets/scss/components/_alerts.scss',
+          './node_modules/@hyas/themes-starter-bootstrap/assets/scss/components/_code.scss',
+          // './node_modules/@hyas/themes-starter-bootstrap/assets/scss/components/_syntax.scss',
         ]),
       ],
     }),
