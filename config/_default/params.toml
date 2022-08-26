@@ -52,7 +52,7 @@ imageImageSizes = ["480","720","1080","1280","1600","2048"]
 singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
-### Image template
+### Image template - Temporarily left in place for backward compatibility
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1280x720 Center" # normalize image size
 
