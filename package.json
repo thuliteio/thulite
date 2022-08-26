@@ -1,7 +1,7 @@
 {
-  "name": "@hyas/core",
-  "description": "Hyas core",
-  "version": "1.5.8",
+  "name": "Hyas",
+  "description": "Hugo powered framework for building Jamstack websites",
+  "version": "1.6.0",
   "engines": {
     "node": ">=16.16.0"
   },
@@ -10,9 +10,6 @@
   ],
   "repository": "https://github.com/h-enk/hyas",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
@@ -31,7 +28,8 @@
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
     "server": "exec-bin node_modules/.bin/hugo/hugo server",
-    "test": "npm run -s lint",
+    "test:dev": "npm run -s lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "env": "env",
     "precheck": "npm version",
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
