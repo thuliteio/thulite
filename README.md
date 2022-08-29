@@ -23,9 +23,6 @@
   <a href="https://github.com/h-enk/hyas/releases">
     <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
   </a>
-  <a href="https://www.npmjs.com/package/@hyas/core">
-    <img src="https://img.shields.io/npm/v/@hyas/core?style=flat-square" alt="npm (scoped)">
-  </a>
   <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22">
     <img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
   </a>
