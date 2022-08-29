@@ -34,7 +34,7 @@
   </a>
 </p>
 
-![Hyas — Modern Hugo Starter](https://raw.githubusercontent.com/h-enk/hyas/master/images/tn.png)
+![Hyas — Modern Hugo Starter](https://raw.githubusercontent.com/h-enk/hyas/master/static/images/hyas-screenshot.png)
 
 ## Demo
 

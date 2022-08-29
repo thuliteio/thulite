@@ -3,7 +3,8 @@
   "description": "Hugo powered framework for building Jamstack websites",
   "version": "1.6.0",
   "engines": {
-    "node": ">=16.16.0"
+    "node": ">=16.17.0",
+    "npm": ">=8.15.0"
   },
   "browserslist": [
     "defaults"

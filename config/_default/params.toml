@@ -3,11 +3,11 @@
 ## Homepage
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "Modern Hugo Starter"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "Hugo-powered Framework"
+description = "Hyas is a Hugo-powered framework for building Jamstack websites."
 
 ## Open Graph
-images = ["hyas.png"]
+images = ["images/hyas-schema-image.png"]
 ogLocale = "en_US"
 titleHome = "Hyas Hugo Starter"
 
@@ -24,10 +24,10 @@ schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/h-enk"
 schemaLocale = "en-US"
-schemaLogo = "logo-hyas.png"
+schemaLogo = "images/hyas-schema-logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "hyas.png"
+schemaImage = "images/hyas-schema-image.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/gethyas"
