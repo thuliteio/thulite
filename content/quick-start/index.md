@@ -14,29 +14,23 @@ How to start a new Hyas project — one pager.
 - [Git](https://git-scm.com/) — latest source release
 - [Node.js](https://nodejs.org/) — latest LTS version or newer
 
-## Start a new Hyas project
+## Get started
 
-Create a new site, change directories, install dependencies, and start development server.
+Start a new Hyas project in three steps:
 
-### Create a new site
-
-```bash
-git clone https://github.com/h-enk/hyas.git my-hyas-site
-```
-
-### Change directories
+### 1. Create a new site
 
 ```bash
-cd my-hyas-site
+git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
 ```
 
-### Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Start development server
+### 3. Start development server
 
 ```bash
 npm run start
