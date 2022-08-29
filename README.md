@@ -9,11 +9,11 @@
 </h1>
 
 <h3 align="center">
-  Modern Hugo Starter
+  Hugo-powered Framework
 </h3>
 
 <p align="center">
-  Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default.
+  Hyas is a Hugo-powered framework for building Jamstack websites.
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
   </a>
 </p>
 
-![Hyas — Modern Hugo Starter](https://raw.githubusercontent.com/h-enk/hyas/master/static/images/hyas-screenshot.png)
+![Hyas — Hugo-powered Framework](https://raw.githubusercontent.com/h-enk/hyas/master/static/images/hyas-screenshot.png)
 
 ## Demo
 
