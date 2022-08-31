@@ -9,11 +9,11 @@
 </h1>
 
 <h3 align="center">
-  Hugo-powered Framework
+  Build websites faster
 </h3>
 
 <p align="center">
-  Hyas is a Hugo-powered framework for building Jamstack websites.
+  Hyas is a Hugo-powered Jamstack framework for building production-ready websites.
 </p>
 
 <p align="center">

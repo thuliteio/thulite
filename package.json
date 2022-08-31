@@ -1,6 +1,6 @@
 {
   "name": "Hyas",
-  "description": "Hugo powered framework for building Jamstack websites",
+  "description": "Hugo-powered Jamstack framework for building production-ready websites",
   "version": "1.6.0",
   "engines": {
     "node": ">=16.17.0",

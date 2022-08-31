@@ -3,8 +3,8 @@
 ## Homepage
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "Hugo-powered Framework"
-description = "Hyas is a Hugo-powered framework for building Jamstack websites."
+titleAddition = "Build websites faster"
+description = "Hyas is a Hugo-powered Jamstack framework for building production-ready websites."
 
 ## Open Graph
 images = ["images/hyas-schema-image.png"]
