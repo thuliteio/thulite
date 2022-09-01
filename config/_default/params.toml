@@ -37,6 +37,13 @@ schemaGitHub = "https://github.com/h-enk/hyas"
 ## Chrome Browser
 themeColor = "#fff"
 
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
+
 # Images - Temporarily left in place for backward compatibility
 quality = 85
 bgColor = "#fff"
@@ -44,13 +51,6 @@ landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "320"
-
-# Images
-imageResponsive = true
-imageConvertTo = "webp"
-imageImageSizes = ["480","720","1080","1280","1600","2048"]
-singleSize = false
-imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template - Temporarily left in place for backward compatibility
 defaultImage = "default-image.png" # put in `./assets/images/`
