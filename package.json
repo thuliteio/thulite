@@ -40,6 +40,10 @@
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "dependencies": {
+    "lazysizes": "^5.3",
+    "quicklink": "^2.2.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.18",
     "@babel/core": "^7.18",
@@ -53,13 +57,11 @@
     "eslint": "^8.19",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
-    "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.4.0",
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "postcss": "^8.4",
     "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
-    "quicklink": "^2.2.0",
     "shx": "^0.3",
     "stylelint": "^14.9",
     "stylelint-config-standard-scss": "^4.0"
