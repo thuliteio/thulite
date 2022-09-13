@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "lazysizes": "^5.3",
-    "quicklink": "^2.2.0"
+    "quicklink": "^2.2.0",
+    "bootstrap": "^5.2.0-beta1"
   },
   "devDependencies": {
     "@babel/cli": "^7.18",
@@ -53,7 +54,6 @@
     "@popperjs/core": "^2.11",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
-    "bootstrap": "^5.2.0-beta1",
     "eslint": "^8.19",
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
