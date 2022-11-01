@@ -1,27 +1,18 @@
 <p align="center">
-  <a href="https://gethyas.com/">
-    <img alt="Doks" src="https://hyas.netlify.app/hyas.svg" width="60">
+  <a href="https://gethyas.com/" target="_blank">
+    <img alt="Hyas logo" src="https://gethyas.com/hyas.svg" width="180">
   </a>
 </p>
-
-<h1 align="center">
-  Hyas
-</h1>
-
-<h3 align="center">
-  Build websites faster
-</h3>
-
-<p align="center">
-  Hyas is a Hugo-powered Jamstack framework for building production-ready websites.
-</p>
-
+<br>
 <p align="center">
   <a href="https://github.com/h-enk/hyas/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub">
   </a>
   <a href="https://github.com/h-enk/hyas/releases">
     <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
+  </a>
+  <a href="https://www.npmjs.com/package/hyas">
+    <img src="https://img.shields.io/npm/v/hyas?style=flat-square" alt="npm (scoped)">
   </a>
   <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22">
     <img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
@@ -31,60 +22,45 @@
   </a>
 </p>
 
-![Hyas — Hugo-powered Framework](https://raw.githubusercontent.com/h-enk/hyas/master/static/images/hyas-screenshot.png)
+# Hyas ⚡️
 
-## Demo
+> Hugo-powered Jamstack framework
 
-- [hyas.netlify.app](https://hyas.netlify.app/)
+- Hugo-powered
+- Jamstack
+- Community
+- Security aware
+- Fast by default
+- SEO-ready
+- Development tools
+- Bootstrap framework
+- Netlify-ready
 
-## Why Hyas?
+## Prerequisites
 
-Six reasons why you should use Hyas:
+Hyas requires [Node.js](https://nodejs.org/) v16.17.0 or higher.
 
-1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
+## Create a new project
 
-2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=bc1047434376aa5b3e50cf637f8a5b40) by default. Hyas removes unused css, prefetches links, and lazy loads images.
-
-3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
-
-4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-
-5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
-
-6. __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
-
-## Requirements
-
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
-
-## Get started
-
-Start a new Hyas project in three steps:
-
-### 1. Create a new site
+With NPM:
 
 ```bash
-git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
+npm create hyas@latest
 ```
 
-### 2. Install dependencies
+With Yarn:
 
 ```bash
-npm install
+npm create hyas
 ```
 
-### 3. Start development server
+With PNPM:
 
 ```bash
-npm run start
+pnpm create hyas
 ```
 
-Hyas will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
-
-## Other commands
-
-Hyas comes with [commands](https://gethyas.com/docs/prologue/commands/) for common tasks.
+Then follow the prompts!
 
 ## Documentation
 
@@ -97,6 +73,18 @@ Hyas comes with [commands](https://gethyas.com/docs/prologue/commands/) for comm
 - [Netlify Community](https://community.netlify.com/)
 - [Hugo Forums](https://discourse.gohugo.io/)
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+
+## Packages
+
+| Package                                           | Version (click for changelogs)                                                                                                       |
+| ------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
+| [hyas](packages/vite)                             | [![vite version](https://img.shields.io/npm/v/vite.svg?label=%20)](packages/vite/CHANGELOG.md)                                       |
+| [@hyas/core](packages/plugin-vue)         | [![plugin-vue version](https://img.shields.io/npm/v/@vitejs/plugin-vue.svg?label=%20)](packages/plugin-vue/CHANGELOG.md)             |
+| [@hyas-seo](packages/plugin-vue-jsx) | [![plugin-vue-jsx version](https://img.shields.io/npm/v/@vitejs/plugin-vue-jsx.svg?label=%20)](packages/plugin-vue-jsx/CHANGELOG.md) |
+| [@hyas-images](packages/plugin-react)     | [![plugin-react version](https://img.shields.io/npm/v/@vitejs/plugin-react.svg?label=%20)](packages/plugin-react/CHANGELOG.md)       |
+| [@hyas/themes-starter-bootstrap](packages/plugin-legacy)   | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md)    |
+| [@hyas/themes-doks](packages/plugin-legacy)   | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md)
+| [create-hyas](packages/create-vite)               | [![create-vite version](https://img.shields.io/npm/v/create-vite.svg?label=%20)](packages/create-vite/CHANGELOG.md)                  |
 
 ## Sponsors
 
