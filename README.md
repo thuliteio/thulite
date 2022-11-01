@@ -42,7 +42,7 @@ Hyas requires [Node.js](https://nodejs.org/) v16.17.0 or higher.
 
 ## Create a new project
 
-With NPM:
+With npm:
 
 ```bash
 npm create hyas@latest
@@ -51,10 +51,10 @@ npm create hyas@latest
 With Yarn:
 
 ```bash
-npm create hyas
+yarn create hyas
 ```
 
-With PNPM:
+With pnpm:
 
 ```bash
 pnpm create hyas
