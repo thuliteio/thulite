@@ -1,7 +1,7 @@
 {
-  "name": "Hyas",
-  "description": "Hugo-powered Jamstack framework for building production-ready websites",
-  "version": "1.6.0",
+  "name": "hyas",
+  "description": "Hugo-powered Jamstack framework for building production-ready websites faster",
+  "version": "2.0.0",
   "engines": {
     "node": ">=16.17.0",
     "npm": ">=8.15.0"
@@ -33,40 +33,35 @@
     "test": "npm run -s lint:markdown",
     "env": "env",
     "precheck": "npm version",
-    "check": "exec-bin node_modules/.bin/hugo/hugo version",
+    "check": "npm list",
+    "postcheck": "exec-bin node_modules/.bin/hugo/hugo version",
     "latest:hugo": "gh release view --repo gohugoio/hugo",
     "latest:hyas": "gh release view --repo h-enk/hyas",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18",
-    "@babel/core": "^7.18",
-    "@babel/preset-env": "^7.18",
-    "@fullhuman/postcss-purgecss": "^4.1",
-    "@hyas/core": "^0.1.1",
-    "@hyas/images": "^0.2.3",
-    "@hyas/seo": "^0.1.2",
-    "@hyas/themes-starter-bootstrap": "^0.1.2",
-    "@popperjs/core": "^2.11",
-    "auto-changelog": "^2.4",
-    "autoprefixer": "^10.4",
-    "bootstrap": "^5.2.0-beta1",
-    "eslint": "^8.19",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@hyas/core": "^0.1.2",
+    "auto-changelog": "^2.4.0",
+    "eslint": "^8.26.0",
     "exec-bin": "^1.0.0",
-    "hugo-installer": "^3.1",
-    "lazysizes": "^5.3",
-    "markdownlint-cli2": "^0.4.0",
+    "hugo-installer": "^4.0.1",
+    "lazysizes": "^5.3.2",
+    "markdownlint-cli2": "^0.5.1",
     "netlify-plugin-submit-sitemap": "^0.4.0",
-    "postcss": "^8.4",
-    "postcss-cli": "^10.0",
-    "purgecss-whitelister": "^2.4",
-    "quicklink": "^2.2.0",
-    "shx": "^0.3",
-    "stylelint": "^14.9",
-    "stylelint-config-standard-scss": "^4.0"
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
+    "purgecss-whitelister": "^2.4.0",
+    "quicklink": "^2.3.0",
+    "shx": "^0.3.4",
+    "stylelint": "^14.14.0",
+    "stylelint-config-standard-scss": "^6.0.0"
   },
   "otherDependencies": {
-    "hugo": "0.101.0"
+    "hugo": "0.105.0"
   }
 }
