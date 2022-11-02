@@ -24,17 +24,17 @@
 
 # Hyas ⚡️
 
-> Hugo-powered Jamstack framework
+> Hugo-powered Jamstack framework for building production-ready websites
 
-- Hugo-powered
-- Jamstack
-- Community
-- Security aware
-- Fast by default
-- SEO-ready
-- Development tools
-- Bootstrap framework
-- Netlify-ready
+- __Hugo-powered__. Build your multi-page website with the flexibility and speed of Hugo. Hyas installs Hugo locally in your project.
+- __Jamstack__. Build a web experience decoupled from data and business logic with the Jamstack architectural approach.
+- __Community__. Contribute to Hyas code, documentation, or discussions. Share your ideas, or get help on Discussions.
+- __Security aware__. Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.
+- __Fast by default__. Get 100 scores on Google Lighthouse by default. Hyas removes unused css, prefetches links, and lazy loads images.
+- __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
+- __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
+- __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
+- __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
 
 ## Prerequisites
 
