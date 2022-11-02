@@ -62,6 +62,6 @@ npm create hyas@latest
 
 ## Backers
 
-Support the Hyas project by becoming a backer. Your avatar will show up here.
+Support this project by becoming a backer. Your avatar will show up here.
 
 [![Backers](https://opencollective.com/hyas/tiers/backer.svg)](https://opencollective.com/hyas)
