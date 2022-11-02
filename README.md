@@ -42,11 +42,13 @@ npm create hyas@latest
 
 - [Hyas](https://gethyas.com/)
 - [Hugo](https://gohugo.io/documentation/)
+- [Netlify](https://docs.netlify.com/)
 
 ## Communities
 
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
 - [Hugo Forums](https://discourse.gohugo.io/)
+- [Netlify Community](https://community.netlify.com/)
 
 ## Packages
 
