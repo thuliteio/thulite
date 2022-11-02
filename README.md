@@ -76,15 +76,15 @@ Then follow the prompts!
 
 ## Packages
 
-| Package                                           | Version (click for changelogs)                                                                                                       |
+| Package                                           | Version                                                                                                       |
 | ------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [hyas](packages/vite)                             | [![vite version](https://img.shields.io/npm/v/vite.svg?label=%20)](packages/vite/CHANGELOG.md)                                       |
-| [@hyas/core](packages/plugin-vue)         | [![plugin-vue version](https://img.shields.io/npm/v/@vitejs/plugin-vue.svg?label=%20)](packages/plugin-vue/CHANGELOG.md)             |
-| [@hyas-seo](packages/plugin-vue-jsx) | [![plugin-vue-jsx version](https://img.shields.io/npm/v/@vitejs/plugin-vue-jsx.svg?label=%20)](packages/plugin-vue-jsx/CHANGELOG.md) |
-| [@hyas-images](packages/plugin-react)     | [![plugin-react version](https://img.shields.io/npm/v/@vitejs/plugin-react.svg?label=%20)](packages/plugin-react/CHANGELOG.md)       |
-| [@hyas/themes-starter-bootstrap](packages/plugin-legacy)   | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md)    |
-| [@hyas/themes-doks](packages/plugin-legacy)   | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md)
-| [create-hyas](packages/create-vite)               | [![create-vite version](https://img.shields.io/npm/v/create-vite.svg?label=%20)](packages/create-vite/CHANGELOG.md)                  |
+| [hyas](https://github.com/h-enk/hyas)                             | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)                                       |
+| [@hyas/core](https://github.com/h-enk/hyas-core)         | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest)             |
+| [@hyas-seo](https://github.com/h-enk/hyas-seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/h-enk/hyas-seo/releases/latest) |
+| [@hyas-images](https://github.com/h-enk/hyas-images)     | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest)       |
+| [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap)   | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest)    |
+| [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks)   | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest)
+| [create-hyas](https://github.com/gethyas/create-hyas)               | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest)                  |
 
 ## Sponsors
 
