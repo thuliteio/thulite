@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gethyas.com/">
-    <img alt="Hyas logo" src="https://gethyas.com/hyas.svg" width="180">
+    <img alt="Hyas logo" src="https://gethyas.com/favicon.svg" width="180">
   </a>
 </p>
 <br>
@@ -63,6 +63,13 @@ npm create hyas@latest
 | [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks) | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest) |
 
 ## Sponsors
+
+<a href="https://www.netlify.com/">
+    <img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="150">
+</a>
+<a href="https://www.algolia.com/">
+    <img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="150">
+</a>
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 
