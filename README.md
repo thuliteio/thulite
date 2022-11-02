@@ -32,6 +32,8 @@ Hugo-powered Jamstack framework for building production-ready websites faster
 
 ## Get started
 
+Create a new project:
+
 ```bash
 npm create hyas@latest
 ```
