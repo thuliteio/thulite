@@ -22,45 +22,21 @@
   </a>
 </p>
 
-# Hyas ⚡️
+# Hyas
 
-> Hugo-powered Jamstack framework for building production-ready websites faster
+Hugo-powered Jamstack framework for building production-ready websites faster
 
-- __Hugo-powered__. Build your multi-page website with the flexibility and speed of [Hugo](https://gohugo.io/). Hyas installs Hugo locally in your project.
-- __Jamstack__. Build a web experience decoupled from data and business logic with the [Jamstack](https://jamstack.org/) architectural approach.
-- __Community__. Contribute to Hyas code, documentation, or discussions. Share your ideas, or get help on [Discussions](https://github.com/h-enk/hyas/discussions).
-- __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
-- __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=73a46ae67cbe2f70318635b09a548ff0) by default. Hyas removes unused css, prefetches links, and lazy loads images.
-- __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
-- __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-- __Bootstrap framework__. Build robust, flexible, and intuitive websites with [Bootstrap](https://getbootstrap.com/). Or use any other front-end framework if you prefer.
-- __Netlify-ready__. Deploy to [Netlify](https://www.netlify.com/) with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
+## Requirements
 
-## Prerequisites
+- [Node.js](https://nodejs.org/) — v16.17.0 or higher
 
-Hyas requires [Node.js](https://nodejs.org/) v16.17.0 or higher.
+## Get started
 
-## Create a new project
-
-With npm:
+Create a new project:
 
 ```bash
 npm create hyas@latest
 ```
-
-With Yarn:
-
-```bash
-yarn create hyas
-```
-
-With pnpm:
-
-```bash
-pnpm create hyas
-```
-
-Then follow the prompts!
 
 ## Documentation
 
@@ -76,7 +52,7 @@ Then follow the prompts!
 
 ## Packages
 
-| Package | Version |
+| Package | Release Notes |
 | :--- | :--- |
 | [hyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
 | [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
