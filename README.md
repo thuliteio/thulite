@@ -40,20 +40,20 @@ npm create hyas@latest
 
 ## Documentation
 
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
 - [Hyas](https://gethyas.com/)
+- [Hugo](https://gohugo.io/documentation/)
+- [Netlify](https://docs.netlify.com/)
 
 ## Communities
 
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Netlify Community](https://community.netlify.com/)
 
 ## Packages
 
 | Package | Release Notes |
-| :--- | :--- |
+| --- | --- |
 | [hyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
 | [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
 | [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
