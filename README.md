@@ -54,8 +54,6 @@ npm create hyas@latest
 
 ## Sponsors
 
-Support this project by becoming a sponsor.
-
 <a href="https://www.netlify.com/"><img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="200"></a>
 <a href="https://www.algolia.com/"><img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="200"></a>
 
