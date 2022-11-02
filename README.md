@@ -33,8 +33,8 @@
 - __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=73a46ae67cbe2f70318635b09a548ff0) by default. Hyas removes unused css, prefetches links, and lazy loads images.
 - __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
 - __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-- __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
-- __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
+- __Bootstrap framework__. Build robust, flexible, and intuitive websites with [Bootstrap](https://getbootstrap.com/). Or use any other front-end framework if you prefer.
+- __Netlify-ready__. Deploy to [Netlify](https://www.netlify.com/) with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
 
 ## Prerequisites
 
