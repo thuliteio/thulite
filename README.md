@@ -64,9 +64,9 @@ npm create hyas@latest
 
 ## Sponsors
 
-<a href="https://www.netlify.com/"><img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="200"></a><a href="https://www.algolia.com/"><img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="200"></a>
-
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+<a href="https://www.netlify.com/"><img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="200"></a><a href="https://www.algolia.com/"><img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="200"></a>
 
 [![OC sponsor 0](https://opencollective.com/hyas/tiers/sponsor/0/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/0/website)
 [![OC sponsor 1](https://opencollective.com/hyas/tiers/sponsor/1/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/1/website)
