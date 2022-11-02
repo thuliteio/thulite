@@ -55,12 +55,12 @@ npm create hyas@latest
 | Package | Release Notes |
 | :--- | :--- |
 | [hyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
+| [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
 | [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
 | [@hyas-seo](https://github.com/h-enk/hyas-seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/h-enk/hyas-seo/releases/latest) |
 | [@hyas-images](https://github.com/h-enk/hyas-images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest) |
 | [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap) | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest) |
 | [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks) | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest) |
-| [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
 
 ## Sponsors
 
