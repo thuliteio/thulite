@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://gethyas.com/" target="_blank">
+  <a href="https://gethyas.com/">
     <img alt="Hyas logo" src="https://gethyas.com/hyas.svg" width="180">
   </a>
 </p>
@@ -8,7 +8,7 @@
   <a href="https://github.com/h-enk/hyas/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub">
   </a>
-  <a href="https://github.com/h-enk/hyas/releases">
+  <a href="https://github.com/h-enk/hyas/releases/latest">
     <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
   </a>
   <a href="https://www.npmjs.com/package/hyas">
@@ -76,15 +76,15 @@ Then follow the prompts!
 
 ## Packages
 
-| Package                                           | Version                                                                                                       |
-| ------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [hyas](https://github.com/h-enk/hyas)                             | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)                                       |
-| [@hyas/core](https://github.com/h-enk/hyas-core)         | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest)             |
+| Package | Version |
+| :--- | :--- |
+| [hyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
+| [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
 | [@hyas-seo](https://github.com/h-enk/hyas-seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/h-enk/hyas-seo/releases/latest) |
-| [@hyas-images](https://github.com/h-enk/hyas-images)     | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest)       |
-| [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap)   | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest)    |
-| [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks)   | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest)
-| [create-hyas](https://github.com/gethyas/create-hyas)               | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest)                  |
+| [@hyas-images](https://github.com/h-enk/hyas-images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest) |
+| [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap) | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest) |
+| [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks) | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest) |
+| [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
 
 ## Sponsors
 
