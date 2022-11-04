@@ -7,30 +7,6 @@
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/seo/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@hyas/images/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "node_modules/@hyas/themes-starter-bootstrap/archetypes"
-  target = "archetypes"
-
-[[mounts]]
-  source = "node_modules/@hyas/themes-starter-bootstrap/assets"
-  target = "assets"
-
-[[mounts]]
-  source = "node_modules/@hyas/themes-starter-bootstrap/layouts"
-  target = "layouts"
-
-[[mounts]]
-  source = "archetypes"
-  target = "archetypes"
-
-[[mounts]]
   source = "assets"
   target = "assets"
 

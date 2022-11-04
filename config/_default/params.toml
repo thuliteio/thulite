@@ -4,65 +4,6 @@
 title = "Hyas"
 titleSeparator = "-"
 titleAddition = "Build websites faster"
-description = "Hyas is a Hugo-powered Jamstack framework for building production-ready websites."
-
-## Open Graph
-images = ["images/hyas-schema-image.png"]
-ogLocale = "en_US"
-titleHome = "Hyas Hugo Starter"
-
-## Twitter Cards
-twitterSite = "@gethyas"
-twitterCreator = "@henkverlinde"
-
-## JSON-LD
-# schemaType = "Person"
-schemaType = "Organization"
-schemaName = "Hyas"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
-schemaLocale = "en-US"
-schemaLogo = "images/hyas-schema-logo.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "images/hyas-schema-image.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/gethyas"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/hyas"
-
-## Chrome Browser
-themeColor = "#fff"
-
-# Images
-imageResponsive = true
-imageConvertTo = "webp"
-imageImageSizes = ["480","720","1080","1280","1600","2048"]
-singleSize = false
-imageAddClass = "img-fluid lazyload blur-up"
-
-# Images - Temporarily left in place for backward compatibility
-quality = 85
-bgColor = "#fff"
-landscapePhotoWidths = [900, 800, 700, 600, 500]
-portraitPhotoWidths = [800, 700, 600, 500]
-lqipWidth = "20x"
-smallLimit = "320"
-
-### Image template - Temporarily left in place for backward compatibility
-defaultImage = "default-image.png" # put in `./assets/images/`
-fillImage = "1280x720 Center" # normalize image size
-
-# Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
 
 # Feed
 copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
-
-# Alert
-alert = false
-alertDismissable = true
-alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"
