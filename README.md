@@ -1,108 +1,60 @@
 <p align="center">
   <a href="https://gethyas.com/">
-    <img alt="Doks" src="https://hyas.netlify.app/hyas.svg" width="60">
+    <img alt="Hyas logo" src="https://gethyas.com/favicon.svg" width="180">
   </a>
 </p>
-
-<h1 align="center">
-  Hyas
-</h1>
-
-<h3 align="center">
-  Modern Hugo Starter
-</h3>
-
+<br>
 <p align="center">
-  Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default.
+  <a href="https://github.com/h-enk/hyas/blob/master/LICENSE"><img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub"></a>
+  <a href="https://github.com/h-enk/hyas/releases/latest"><img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)"></a>
+  <a href="https://www.npmjs.com/package/hyas"><img src="https://img.shields.io/npm/v/hyas?style=flat-square" alt="npm (scoped)"></a>
+  <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22"><img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)"></a>
+  <a href="https://app.netlify.com/sites/hyas/deploys"><img src="https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square" alt="Netlify"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/h-enk/hyas/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub">
-  </a>
-  <a href="https://github.com/h-enk/hyas/releases">
-    <img src="https://img.shields.io/github/v/release/h-enk/hyas?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
-  </a>
-  <a href="https://www.npmjs.com/package/@hyas/core">
-    <img src="https://img.shields.io/npm/v/@hyas/core?style=flat-square" alt="npm (scoped)">
-  </a>
-  <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22">
-    <img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
-  </a>
-  <a href="https://app.netlify.com/sites/hyas/deploys">
-    <img src="https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square" alt="Netlify">
-  </a>
-</p>
+# Hyas
 
-![Hyas — Modern Hugo Starter](https://raw.githubusercontent.com/h-enk/hyas/master/images/tn.png)
-
-## Demo
-
-- [hyas.netlify.app](https://hyas.netlify.app/)
-
-## Why Hyas?
-
-Six reasons why you should use Hyas:
-
-1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/hyas.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
-
-2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=bc1047434376aa5b3e50cf637f8a5b40) by default. Hyas removes unused css, prefetches links, and lazy loads images.
-
-3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
-
-4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-
-5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap. Or use any other front-end framework if you prefer.
-
-6. __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
+Hugo-powered Jamstack framework for building production-ready websites faster
 
 ## Requirements
 
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
+- [Node.js](https://nodejs.org/) — v16.17.0 or higher
 
 ## Get started
 
-Start a new Hyas project in three steps:
-
-### 1. Create a new site
+Create a new project:
 
 ```bash
-git clone https://github.com/h-enk/hyas.git my-hyas-site && cd my-hyas-site
+npm create hyas@latest
 ```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start development server
-
-```bash
-npm run start
-```
-
-## Other commands
-
-Hyas comes with [commands](https://gethyas.com/docs/prologue/commands/) for common tasks.
 
 ## Documentation
 
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
 - [Hyas](https://gethyas.com/)
+- [Hugo](https://gohugo.io/documentation/)
 
 ## Communities
 
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
 - [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+- [Hugo Forums](https://discourse.gohugo.io/)
+
+## Packages
+
+| Package | Release Notes |
+| --- | --- |
+| [hyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/hyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
+| [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
+| [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
+| [@hyas-seo](https://github.com/h-enk/hyas-seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/h-enk/hyas-seo/releases/latest) |
+| [@hyas-images](https://github.com/h-enk/hyas-images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest) |
+| [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap) | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest) |
+| [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks) | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest) |
 
 ## Sponsors
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
-
+<a href="https://www.netlify.com/"><img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="200"></a>
+<a href="https://www.algolia.com/"><img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="200"></a>
+<br>
 [![OC sponsor 0](https://opencollective.com/hyas/tiers/sponsor/0/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/0/website)
 [![OC sponsor 1](https://opencollective.com/hyas/tiers/sponsor/1/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/1/website)
 

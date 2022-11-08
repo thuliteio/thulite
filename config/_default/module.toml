@@ -1,7 +1,15 @@
 [[mounts]]
-  source = "layouts"
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/images/layouts"
+  source = "assets"
+  target = "assets"
+
+[[mounts]]
+  source = "layouts"
   target = "layouts"
