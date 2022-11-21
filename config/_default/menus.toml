@@ -3,12 +3,12 @@
   url = "https://github.com/henkisdabro/"
   weight = 10
 
-[[social]]
+[[sociallinkedin]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/henriksoderlund/"
   weight = 20
 
-[[social]]
+[[socialtwitter]]
   name = "Twitter"
   url = "https://twitter.com/henkis/"
   weight = 30

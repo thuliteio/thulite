@@ -11,6 +11,11 @@
         <a href="{{ .URL }}">{{- .Name -}}</a>
       </span>
     {{ end }}
+    {{ range .Site.Menus.sociallinkedin }}
+    <span class="navbar-text">
+      <a href="{{ .URL }}">{{- .Name -}}</a>
+    </span>
+  {{ end }}
     </div>
   </div>
 </header>
