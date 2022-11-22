@@ -3,39 +3,31 @@ title : "Skills"
 description: "Henrik Söderlund's Skills"
 date: 2022-11-22T08:42:22+08:00
 lastmod: 2022-11-22T08:42:22+08:00
-draft: false
+draft: true
 images: []
 ---
 
 ## Ad Platform Experience
 
-`Meta` `Google Ads` `Teads` `Yahoo DSP` `TikTok` `Snapchat` `Spotify Ads` `Linkedin` `Microsoft Bing` `Taboola` `Outbrain` `Quora` `Zemanta` `Twitter Ads` `Reddit` `Tencent Global Ads` `AdsMurai`
+Deep practical and theoretical experience with a plethora of self-serve advertising platforms, including attribution models, pixel implementation, Conversions API & server-to-server tracking. 
 
-## Github 👩🏻‍💻
-
-**Notable contributions:**
-
-Collation of global list of URL parameter fur use as exclusion, inclusion, filtering of analytics and/or ad platform pixel trigger critera.
-
-- [Collection of Platform Click ID Parameters](https://github.com/cremedigital/platform-url-click-id-parameters)
-
-Google Tag Manager Public Community templates (submitted to Google)
-
-- [IPmeta Tag Template for GA4](https://github.com/cremedigital/gtm-templates-ipmeta-ga4)
-
-- [Google Chat Tag Template & Formatting Guideline](https://github.com/cremedigital/gtm-templates-web-google-chat-webhook)
-
-## Company Wiki Build
-
-📷
+`Meta` `Google Ads Search` `Google Ads Display` `Google Ads Performance Max` `Google Ads Youtube` `Google Ads Discovery` `Teads + Cookieless` `Yahoo DSP` `TikTok Ads` `Zemanta` `Snapchat` `Spotify` `Linkedin` `Microsoft Bing` `Taboola` `Outbrain` `Quora` `Twitter Ads` `Reddit` `Tencent Global` `AdsMurai`
 
 ## Dashboards & Visualization
 
-📷
+Well-versed with planning and building of interactive data visualization tools such as Looker Studio (prev. Google Datastudio) and Microsoft Power BI, coupled with data-ingestion services such as [Supermetrics](https://supermetrics.com/), Google Bigquery and SQL queries. 
+
+Featured Build:
+
+**Campaign & Website Performance Dashboard**
 
 ![](screely-1669110504856.png)
 
-<!-- [F J Benjamin Reporting Dashboard](https://docs.google.com/spreadsheets/d/1qkfAaBlBQf9I49dO7we5yFu_ru98gTJz8L-DyDM_S4U/edit#gid=676303345)
+<!-- **Campaign Reporting Dashboard**
+
+![](screely-1669119333228.png)
+
+[F J Benjamin Reporting Dashboard](https://docs.google.com/spreadsheets/d/1qkfAaBlBQf9I49dO7we5yFu_ru98gTJz8L-DyDM_S4U/edit#gid=676303345)
 
 [F J Benjamin Shopify Sales Dash](https://datastudio.google.com/reporting/bb6f9559-14f1-42f8-a7c4-42ca4e359b39/page/qfNwC)
 
@@ -46,6 +38,12 @@ Google Tag Manager Public Community templates (submitted to Google)
 [Eastspring Performance](https://datastudio.google.com/reporting/d8aa726c-cacc-45ea-97e8-17251c457f37/page/nVtSC)
  -->
 
+
+## Company Wiki Build
+
+Using no-code tools such as Notion, Coda, Tana or Craft, below is a screenshot of an in-depth "Company Wiki" built to provide a knowledge base for company staff to find critical information pertaining to their role, such as claim forms, employee handbook, cheat sheets, guides and tutorials.
+
+![](screely-1669119970117.png)
 
 <!-- ## Ad Tech Proposals -->
 
@@ -71,6 +69,19 @@ Audits and/or Full-scale enterprise GA+GTM deployments, including pre-sales, cli
 
 ## Advertising & MarTech Training & Mentorship 🎓
 
+## Github Code Contribution👩🏻‍💻
+
+**Notable contributions to Github:**
+
+Collation of global list of URL parameter fur use as exclusion, inclusion, filtering of analytics and/or ad platform pixel trigger critera.
+
+- [Collection of Platform Click ID Parameters](https://github.com/cremedigital/platform-url-click-id-parameters)
+
+Google Tag Manager Public Community templates (submitted to Google)
+
+- [IPmeta Tag Template for GA4](https://github.com/cremedigital/gtm-templates-ipmeta-ga4)
+
+- [Google Chat Tag Template & Formatting Guideline](https://github.com/cremedigital/gtm-templates-web-google-chat-webhook)
 ## Development of Agency Tracking System 🎲
 
 Development, Iteration and Maintenance of Agency Campaign Tracker and Financial System.
@@ -163,8 +174,4 @@ Development, Iteration and Maintenance of Agency Campaign Tracker and Financial 
 `Automation`
 `Google Apps Script`
 
-<div class="row justify-content-center pt-5">
-  <div class="col-lg-7 pb-5 text-center">  
-    <a class="btn btn-outline-dark px-3 py-2" href="https://www.dropbox.com/s/zxajgv6pz2xxjb8/Henrik%20Soederlund%20-%20Resume.pdf?dl=1" role="button">Download my full Resume</a>
-  </div>
-</div>
+{{< request-resume-button >}}
