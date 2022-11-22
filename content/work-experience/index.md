@@ -38,7 +38,7 @@ Orchestrated the conceptualization, development and subsequent launch of a Tag M
 
 - Ranked as a company top-3 presenter following a 2-day-intensive training course in audience presentation skills led by a 3rd-party training outfit.
 
-## Erp Sales Consultant & It Department Manager
+## ERP Sales Consultant & IT Department Manager
 
 **KSRS [Malaysia]**
 
