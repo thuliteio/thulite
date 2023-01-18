@@ -7,13 +7,13 @@
 <p align="center">
   <a href="https://github.com/h-enk/hyas/blob/master/LICENSE"><img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub"></a>
   <a href="https://www.npmjs.com/package/gethyas"><img src="https://img.shields.io/npm/v/gethyas?style=flat-square" alt="npm (scoped)"></a>
-  <a href="https://github.com/h-enk/hyas/actions?query=workflow%3A%22Hyas+CI%22"><img src="https://img.shields.io/github/workflow/status/h-enk/hyas/Hyas%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)"></a>
+  <a href="https://github.com/gethyas/hyas/actions/workflows/node.js-ci.yml?query=workflow%3A%22Hyas+CI%22"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/gethyas/hyas/node.js-ci.yml?style=flat-square"></a>
   <a href="https://app.netlify.com/sites/hyas/deploys"><img src="https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square" alt="Netlify"></a>
 </p>
 
 # Hyas
 
-Hugo-powered Jamstack framework for building production-ready websites faster
+Framework for building Hugo websites faster
 
 ## Requirements
 
@@ -41,13 +41,13 @@ npm create hyas@latest
 
 | Package | Release Notes |
 | --- | --- |
-| [gethyas](https://github.com/h-enk/hyas) | [![hyas version](https://img.shields.io/npm/v/gethyas.svg?label=%20)](https://github.com/h-enk/hyas/releases/latest)|
+| [gethyas](https://github.com/gethyas/hyas/releases) | [![gethyas version](https://img.shields.io/npm/v/gethyas.svg?label=%20)](https://github.com/gethyas/hyas/releases/latest)|
 | [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
-| [@hyas/core](https://github.com/h-enk/hyas-core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/h-enk/hyas-core/releases/latest) |
-| [@hyas-seo](https://github.com/h-enk/hyas-seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/h-enk/hyas-seo/releases/latest) |
-| [@hyas-images](https://github.com/h-enk/hyas-images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/h-enk/hyas-images/releases/latest) |
-| [@hyas/themes-starter-bootstrap](https://github.com/h-enk/hyas-themes-starter-bootstrap) | [![hyas-themes-starter-bootstrap version](https://img.shields.io/npm/v/@hyas/themes-starter-bootstrap.svg?label=%20)](https://github.com/h-enk/hyas-themes-starter-bootstrap/releases/latest) |
-| [@hyas/themes-doks](https://github.com/h-enk/hyas-themes-doks) | [![hyas-themes-doks version](https://img.shields.io/npm/v/@hyas/themes-doks.svg?label=%20)](https://github.com/h-enk/hyas-themes-doks/releases/latest) |
+| [@hyas/core](https://github.com/gethyas/core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/gethyas/core/releases/latest) |
+| [@hyas-seo](https://github.com/gethyas/seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest) |
+| [@hyas-images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
+| [@hyas/bolt](https://github.com/gethyas/bolt) | [![hyas-bolt version](https://img.shields.io/npm/v/@hyas/bolt.svg?label=%20)](https://github.com/gethyas/bolt/releases/latest) |
+| [@hyas/doks](https://github.com/gethyas/doks) | [![hyas-doks version](https://img.shields.io/npm/v/@hyas/doks.svg?label=%20)](https://github.com/gethyas/doks/releases/latest) |
 
 ## Sponsors
 
