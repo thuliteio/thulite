@@ -44,8 +44,9 @@ npm create hyas@latest
 | [gethyas](https://github.com/gethyas/hyas) | [![gethyas version](https://img.shields.io/npm/v/gethyas.svg?label=%20)](https://github.com/gethyas/hyas/releases/latest)|
 | [create-hyas](https://github.com/gethyas/create-hyas) | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest) |
 | [@hyas/core](https://github.com/gethyas/core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/gethyas/core/releases/latest) |
-| [@hyas-seo](https://github.com/gethyas/seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest) |
-| [@hyas-images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
+| [@hyas/seo](https://github.com/gethyas/seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest) |
+| [@hyas/images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
+| [@hyas/bootstrap](https://github.com/gethyas/bootstrap) | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest) |
 | [@hyas/bolt](https://github.com/gethyas/bolt) | [![hyas-bolt version](https://img.shields.io/npm/v/@hyas/bolt.svg?label=%20)](https://github.com/gethyas/bolt/releases/latest) |
 | [@hyas/doks](https://github.com/gethyas/doks) | [![hyas-doks version](https://img.shields.io/npm/v/@hyas/doks.svg?label=%20)](https://github.com/gethyas/doks/releases/latest) |
 
