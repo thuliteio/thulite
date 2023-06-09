@@ -5,7 +5,7 @@
 </p>
 <br>
 <p align="center">
-  <a href="https://github.com/h-enk/hyas/blob/master/LICENSE"><img src="https://img.shields.io/github/license/h-enk/hyas?style=flat-square" alt="GitHub"></a>
+  <a href="https://github.com/gethyas/hyas/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gethyas/hyas?style=flat-square" alt="GitHub"></a>
   <a href="https://www.npmjs.com/package/gethyas"><img src="https://img.shields.io/npm/v/gethyas?style=flat-square" alt="npm (scoped)"></a>
   <a href="https://github.com/gethyas/hyas/actions/workflows/node.js-ci.yml?query=workflow%3A%22Hyas+CI%22"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/gethyas/hyas/node.js-ci.yml?style=flat-square"></a>
   <a href="https://app.netlify.com/sites/hyas/deploys"><img src="https://img.shields.io/netlify/895a161c-86be-48a2-8c57-a8c5d68cd1a4?style=flat-square" alt="Netlify"></a>
@@ -13,7 +13,7 @@
 
 # Hyas
 
-Framework for building Hugo websites faster
+The all-in-one Hugo framework designed for ease of use.
 
 ## Requirements
 
@@ -29,12 +29,12 @@ npm create hyas@latest
 
 ## Documentation
 
-- [Hyas](https://gethyas.com/)
+- [Hyas](https://docs.gethyas.com/)
 - [Hugo](https://gohugo.io/documentation/)
 
 ## Communities
 
-- [Hyas Discussions](https://github.com/h-enk/hyas/discussions)
+- [Hyas Discussions](https://github.com/gethyas/hyas/discussions)
 - [Hugo Forums](https://discourse.gohugo.io/)
 
 ## Packages
@@ -47,14 +47,15 @@ npm create hyas@latest
 | [@hyas/seo](https://github.com/gethyas/seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest) |
 | [@hyas/images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
 | [@hyas/bootstrap](https://github.com/gethyas/bootstrap) | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest) |
+| [@hyas/inline-svg](https://github.com/gethyas/inline-svg) | [![hyas-inline-svg version](https://img.shields.io/npm/v/@hyas/inline-svg.svg?label=%20)](https://github.com/gethyas/inline-svg/releases/latest) |
 | [@hyas/bolt](https://github.com/gethyas/bolt) | [![hyas-bolt version](https://img.shields.io/npm/v/@hyas/bolt.svg?label=%20)](https://github.com/gethyas/bolt/releases/latest) |
 | [@hyas/doks](https://github.com/gethyas/doks) | [![hyas-doks version](https://img.shields.io/npm/v/@hyas/doks.svg?label=%20)](https://github.com/gethyas/doks/releases/latest) |
+| [@hyas/doks-core](https://github.com/gethyas/doks-core) | [![hyas-doks-core version](https://img.shields.io/npm/v/@hyas/doks-core.svg?label=%20)](https://github.com/gethyas/doks-core/releases/latest) |
 
 ## Sponsors
 
-<a href="https://www.netlify.com/"><img alt="Netlify logo" src="https://gethyas.com/images/sponsors/netlify.svg" width="200"></a>
-<a href="https://www.algolia.com/"><img alt="Algolia logo" src="https://gethyas.com/images/sponsors/algolia.svg" width="200"></a>
-<br>
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
 [![OC sponsor 0](https://opencollective.com/hyas/tiers/sponsor/0/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/0/website)
 [![OC sponsor 1](https://opencollective.com/hyas/tiers/sponsor/1/avatar.svg)](https://opencollective.com/hyas/tiers/sponsor/1/website)
 
