@@ -9,7 +9,4 @@ _build:
   render: true
   list: always
   publishResources: true
-robots: "noindex, noarchive"
-sitemap_exclude: true
-feed_exclude: true
 ---

@@ -3,7 +3,4 @@
 ## Homepage
 title = "Hyas"
 titleSeparator = "-"
-titleAddition = "Build websites faster"
-
-# Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+titleAddition = "Build Hugo websites easier and faster"

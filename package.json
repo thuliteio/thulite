@@ -1,7 +1,7 @@
 {
   "name": "gethyas",
-  "description": "Hugo-powered Jamstack framework for building production-ready websites faster",
-  "version": "2.0.5",
+  "version": "2.0.6",
+  "description": "Hyas",
   "engines": {
     "node": ">=16.17.0",
     "npm": ">=8.15.0"
@@ -9,14 +9,9 @@
   "browserslist": [
     "defaults"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/h-enk/hyas"
-  },
-  "license": "MIT",
   "scripts": {
-    "predev": "npm run clean:build",
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --gc --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
+    "dev:gitpod": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "check": "npm run check:scripts && npm run check:styles && npm run check:markdown",
     "check:scripts": "eslint config",
@@ -24,8 +19,7 @@
     "check:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "fix:markdown": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
     "test": "npm run check",
-    "prebuild": "npm run clean:build",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
     "clean": "npm run clean:build && npm run clean:install",
     "clean:build": "shx rm -rf public resources .hugo_build.lock",
@@ -36,6 +30,20 @@
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethyas/hyas"
+  },
+  "keywords": [
+    "hyas",
+    "hugo"
+  ],
+  "author": "Henk Verlinde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethyas/hyas/issues"
+  },
+  "homepage": "https://github.com/gethyas/hyas#readme",
   "dependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
@@ -62,5 +70,6 @@
   },
   "otherDependencies": {
     "hugo": "0.113.0"
-  }
+  },
+  "packageManager": "pnpm@8.3.1"
 }
