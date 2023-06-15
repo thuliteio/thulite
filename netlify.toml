@@ -3,8 +3,8 @@
   functions = "functions"
 
 [build.environment]
-  NODE_VERSION = "16.17.0"
-  NPM_VERSION = "8.15.0"
+  NODE_VERSION = "18.12.1"
+  NPM_VERSION = "8.19.2"
 
 [context.production]
   command = "npm run build"
@@ -35,7 +35,7 @@
 
 [dev]
   framework = "#custom"
-  command = "npm run start"
+  command = "npm run dev"
   targetPort = 1313
   port = 8888
   publish = "public"

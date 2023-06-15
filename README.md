@@ -17,7 +17,7 @@ The all-in-one Hugo framework designed for ease of use.
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) — v16.17.0 or higher
+- [Node.js](https://nodejs.org/) — LTS or higher
 
 ## Get started
 
