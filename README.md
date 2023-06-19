@@ -1,4 +1,4 @@
-![Modern website build tool](.github/assets/banner.png)
+![Build something amazing](.github/assets/banner.png)
 
 <p align="center">
   <br/>
