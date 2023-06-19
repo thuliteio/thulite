@@ -1,6 +1,6 @@
 {
   "name": "gethyas",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Hyas",
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
