@@ -39,7 +39,6 @@ copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
 [minify.tdewolff.html]
   keepWhitespace = false
 
-
 [related]
   threshold = 80
   includeNewer = true
