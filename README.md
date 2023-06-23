@@ -44,10 +44,9 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.gethya
 | [@hyas/core](https://github.com/gethyas/core) | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/gethyas/core/releases/latest) |
 | [@hyas/seo](https://github.com/gethyas/seo) | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest) |
 | [@hyas/images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
-| [@hyas/bootstrap](https://github.com/gethyas/bootstrap) | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest) |
 | [@hyas/inline-svg](https://github.com/gethyas/inline-svg) | [![hyas-inline-svg version](https://img.shields.io/npm/v/@hyas/inline-svg.svg?label=%20)](https://github.com/gethyas/inline-svg/releases/latest) |
-| [@hyas/bolt](https://github.com/gethyas/bolt) | [![hyas-bolt version](https://img.shields.io/npm/v/@hyas/bolt.svg?label=%20)](https://github.com/gethyas/bolt/releases/latest) |
-| [@hyas/doks](https://github.com/gethyas/doks) | [![hyas-doks version](https://img.shields.io/npm/v/@hyas/doks.svg?label=%20)](https://github.com/gethyas/doks/releases/latest) |
+| [@hyas/bootstrap](https://github.com/gethyas/bootstrap) | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest) |
+| [@hyas/bolt-core](https://github.com/gethyas/bolt-core) | [![hyas-bolt-core version](https://img.shields.io/npm/v/@hyas/bolt-core.svg?label=%20)](https://github.com/gethyas/bolt-core/releases/latest) |
 | [@hyas/doks-core](https://github.com/gethyas/doks-core) | [![hyas-doks-core version](https://img.shields.io/npm/v/@hyas/doks-core.svg?label=%20)](https://github.com/gethyas/doks-core/releases/latest) |
 
 ## Links
