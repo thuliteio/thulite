@@ -46,6 +46,7 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.gethya
 | [@hyas/images](https://github.com/gethyas/images) | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest) |
 | [@hyas/inline-svg](https://github.com/gethyas/inline-svg) | [![hyas-inline-svg version](https://img.shields.io/npm/v/@hyas/inline-svg.svg?label=%20)](https://github.com/gethyas/inline-svg/releases/latest) |
 | [@hyas/bootstrap](https://github.com/gethyas/bootstrap) | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest) |
+| [@hyas/tailwindcss](https://github.com/gethyas/tailwindcss) | [![hyas-tailwindcss version](https://img.shields.io/npm/v/@hyas/tailwindcss.svg?label=%20)](https://github.com/gethyas/tailwindcss/releases/latest) |
 | [@hyas/bolt-core](https://github.com/gethyas/bolt-core) | [![hyas-bolt-core version](https://img.shields.io/npm/v/@hyas/bolt-core.svg?label=%20)](https://github.com/gethyas/bolt-core/releases/latest) |
 | [@hyas/doks-core](https://github.com/gethyas/doks-core) | [![hyas-doks-core version](https://img.shields.io/npm/v/@hyas/doks-core.svg?label=%20)](https://github.com/gethyas/doks-core/releases/latest) |
 
