@@ -3,13 +3,14 @@ labels: ["Showcase"]
 body:
   - type: markdown
     attributes:
-      value: |
-        Thank you for taking the time to submit your website! Please fill out this form as completely as possible.
-        
-        What we look for when reviewing submissions:
+      value: |       
+        What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
+
         - Your website is built with Hyas.
         - Your website is public.
         - Your website is an example.
+
+        Thank you for sharing your project with the Hyas community!
   - type: input
     id: name
     attributes:
