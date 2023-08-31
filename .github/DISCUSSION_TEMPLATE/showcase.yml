@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Short description
+      label: Description
       description: A clear and concise description of what your site is about.
     validations:
       required: false
