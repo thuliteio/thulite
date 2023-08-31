@@ -1,0 +1,55 @@
+title: "Submit your site"
+labels: ["Showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ##  Quick checklist
+        Thank you for taking the time to submit your website! Please fill out this form as completely as possible.
+
+        ✅ My website is built with Hyas.
+        ✅ My website is public.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Your website's name.
+      placeholder: My super cool site
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Your website's URL.
+      placeholder: 'https://example.com/'
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: A clear and concise description of what your site is about.
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: A clear and concise description of why you think your site should be added to the showcase.
+      placeholder: This is what makes my website an example.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label:  I agree to the [Terms of Service](https://gethyas.com/terms/).
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        ##  Next steps
+        
+        We wil review your site and let you know if your website will be published to the [Showcase](https://gethyas.com/showcase/).
