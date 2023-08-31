@@ -1,4 +1,4 @@
-title: "[Submit site] "
+title: ""
 labels: ["Showcase"]
 body:
   - type: markdown
@@ -10,7 +10,7 @@ body:
 
         - Your website is built with Hyas.
         - Your website is public.
-        - Your website is an example.
+        - Your website is a showcase.
   - type: input
     id: name
     attributes:
@@ -39,7 +39,7 @@ body:
     attributes:
       label: Why?
       description: A clear and concise description of why you think your site should be added to the showcase.
-      placeholder: This is what makes my website an example.
+      placeholder: This is what makes my website a showcase.
     validations:
       required: false
   - type: checkboxes
