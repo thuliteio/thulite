@@ -1,5 +1,5 @@
-title: "Submit your site"
-labels: ["Showcase"]
+name: "Submit your site"
+labels: []
 body:
   - type: markdown
     attributes:
@@ -9,6 +9,8 @@ body:
 
         ✅ My website is built with Hyas.
         ✅ My website is public.
+
+        We wil review your site and let you know if your website will be published to the [Showcase](https://gethyas.com/showcase/).
   - type: input
     id: name
     attributes:
@@ -47,9 +49,3 @@ body:
       options:
         - label:  I agree to the [Terms of Service](https://gethyas.com/terms/).
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        ##  Next steps
-        
-        We wil review your site and let you know if your website will be published to the [Showcase](https://gethyas.com/showcase/).
