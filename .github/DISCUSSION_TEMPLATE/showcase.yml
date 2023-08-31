@@ -12,16 +12,16 @@ body:
         - Your website is public
         - Your website is a showcase
   - type: input
-    id: website-name
+    id: site-name
     attributes:
-      label: Website name
+      label: Site name
       placeholder: My super cool site
     validations:
       required: true
   - type: input
-    id: public-website-url
+    id: public-url
     attributes:
-      label: Public website URL
+      label: Public URL
       placeholder: 'https://example.com/'
     validations:
       required: true
