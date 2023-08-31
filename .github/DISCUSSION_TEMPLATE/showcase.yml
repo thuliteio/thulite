@@ -8,9 +8,9 @@ body:
         
         What we look for when reviewing submissions to the [Showcase](https://gethyas.com/showcase/):
 
-        - Your website is built with Hyas.
-        - Your website is public.
-        - Your website is a showcase.
+        - Your website is built with Hyas
+        - Your website is public
+        - Your website is a showcase
   - type: input
     id: name
     attributes:
