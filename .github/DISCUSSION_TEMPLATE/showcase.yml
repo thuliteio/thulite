@@ -1,16 +1,15 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "[Submit site] "
+labels: ["Showcase"]
 body:
   - type: markdown
     attributes:
       value: |
-        ##  Quick checklist
         Thank you for taking the time to submit your website! Please fill out this form as completely as possible.
 
         ✅ My website is built with Hyas.
         ✅ My website is public.
 
-        We wil review your site and let you know if your website will be published to the [Showcase](https://gethyas.com/showcase/).
+        We wil review your website and let you know if it gets published at the [Showcase](https://gethyas.com/showcase/).
   - type: input
     id: name
     attributes:
