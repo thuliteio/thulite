@@ -10,8 +10,6 @@ body:
         - Your website is built with Hyas.
         - Your website is public.
         - Your website is an example.
-
-        We will let you know if your website gets published at the [Showcase](https://gethyas.com/showcase/).
   - type: input
     id: name
     attributes:
