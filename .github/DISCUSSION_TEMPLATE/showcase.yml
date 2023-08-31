@@ -6,40 +6,37 @@ body:
       value: |
         Thank you for sharing your website with the Hyas community!
         
-        What we look for when reviewing submissions to the [Showcase](https://gethyas.com/showcase/):
+        What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
 
         - Your website is built with Hyas
         - Your website is public
         - Your website is a showcase
   - type: input
-    id: name
+    id: website-name
     attributes:
-      label: Name
-      description: Your website's name.
+      label: Website name
       placeholder: My super cool site
     validations:
       required: true
   - type: input
-    id: url
+    id: public-website-url
     attributes:
-      label: URL
-      description: Your website's URL.
+      label: Public website URL
       placeholder: 'https://example.com/'
     validations:
       required: true
   - type: textarea
-    id: description
+    id: short-description
     attributes:
-      label: Description
-      description: A clear and concise description of what your site is about.
+      label: Short description
+      placeholder: A short description of your site. This will be displayed on the showcase list page.
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: why
+    id: full-description
     attributes:
-      label: Why?
-      description: A clear and concise description of why you think your site should be added to the showcase.
-      placeholder: This is what makes my website a showcase.
+      label: Full description
+      placeholder: A full description of your site.
     validations:
       required: false
   - type: checkboxes
