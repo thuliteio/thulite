@@ -4,7 +4,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for sharing your project with the Hyas community! What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
+        Thank you for sharing your project with the Hyas community!
+        
+        What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
 
         - Your website is built with Hyas.
         - Your website is public.
