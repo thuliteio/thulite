@@ -1,6 +1,6 @@
 {
   "name": "gethyas",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Hyas",
   "author": "Hyas",
   "license": "MIT",
@@ -30,33 +30,33 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
-    "@babel/cli": "^7.22.5",
-    "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@hyas/core": "^1.0.1",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.43.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.48.0",
     "exec-bin": "^1.0.0",
     "http-server": "^14.1.1",
     "hugo-installer": "^4.0.1",
     "lazysizes": "^5.3.2",
-    "markdownlint-cli2": "^0.8.1",
+    "markdownlint-cli2": "^0.9.2",
     "modern-css-reset": "^1.4.0",
     "netlify-plugin-submit-sitemap": "^0.4.0",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.29",
     "postcss-cli": "^10.1.0",
     "purgecss-whitelister": "^2.4.0",
     "quicklink": "^2.3.0",
     "shx": "^0.3.4",
-    "stylelint": "^15.8.0",
-    "stylelint-config-standard-scss": "^9.0.0"
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard-scss": "^11.0.0"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0"
   },
   "otherDependencies": {
-    "hugo": "0.114.0"
+    "hugo": "0.118.2"
   },
   "engines": {
     "node": ">=16.12.0"
