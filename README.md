@@ -4,7 +4,7 @@
   <br/>
   <a href="https://gethyas.com/">Hyas</a> is a website build tool for the modern web &mdash;
   <br/>
-  Hugo's speed and flexibility meets npm's 
+  Hugo's speed and flexibility meet npm's 
    ease of use.
   <br/><br/>
 </p>

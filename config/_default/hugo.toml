@@ -14,6 +14,9 @@ summarylength = 20 # 70 (default)
 
 copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
 
+[build.buildStats]
+  enable = true
+
 [social]
   twitter = "gethyas"
 
@@ -28,7 +31,19 @@ copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = "30m"
+    maxAge = -1
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  [caches.images]
+    dir = ":cacheDir/images"
+    maxAge = "1440h"
+  [caches.assets]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  [caches.getresource]
+    dir = ":cacheDir/:project"
+    maxage = '1h'
 
 [taxonomies]
   category = "categories"
@@ -52,10 +67,3 @@ copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
     [[related.indices]]
     name = "date"
     weight = 10
-
-[imaging]
-  anchor = 'Smart'
-  bgColor = '#fff'
-  hint = 'photo'
-  quality = 90
-  resampleFilter = 'Lanczos'

@@ -6,25 +6,34 @@ module.exports = {
   plugins: [
     autoprefixer(),
     purgecss({
-      content: [
-        './node_modules/@hyas/core/layouts/**/*.html',
-        // './layouts/**/*.html',
-        './content/**/*.md',
+      content: [ './hugo_stats.json' ],
+      extractors: [
+        {
+          extractor: (content) => {
+            const els = JSON.parse(content).htmlElements;
+            return els.tags.concat(els.classes, els.ids);
+          },
+          extensions: ['json'],
+        },
+      ],
+      dynamicAttributes: [
+        'aria-expanded',
+        'id',
+        'size',
+        'type',
       ],
       safelist: [
+        'active',
+        'disabled',
+        'hidden',
+        'show',
+        'img-fluid',
+        'blur-up',
         'lazyloaded',
-        'table',
-        'thead',
-        'tbody',
-        'tr',
-        'th',
-        'td',
-        'h1',
-        'h2',
-        'h3',
-        'alert-link',
         ...whitelister([
-          './node_modules/@hyas/core/assets/scss/app.scss',
+          './assets/scss/**/*.css',
+          './assets/scss/**/*.scss',
+          './node_modules/katex/dist/katex.css',
         ]),
       ],
     }),
