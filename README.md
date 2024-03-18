@@ -21,7 +21,7 @@ The recommended way to install the latest version of Hyas is by running the comm
 npm create hyas@latest
 ```
 
-Looking for help? Start with our [Getting Started](https://docs.gethyas.com/start-here/getting-started/) guide.
+Looking for help? Start with our [Getting Started](https://docs.gethyas.com/getting-started/) guide.
 
 ## Documentation
 
