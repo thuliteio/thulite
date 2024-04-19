@@ -1,14 +1,14 @@
 [[main]]
   name = "GitHub"
-  url = "https://github.com/h-enk/hyas"
+  url = "https://github.com/gethyas/hyas"
   weight = 10
 
 [[social]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/henkverlinde/"
+  name = "Mastodon"
+  url = "https://fosstodon.org/@hyas"
   weight = 20
 
 [[social]]
   name = "Twitter"
-  url = "https://twitter.com/henkverlinde"
+  url = "https://twitter.com/gethyas"
   weight = 30

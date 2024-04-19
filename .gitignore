@@ -1,8 +1,6 @@
-.eslintcache
-.stylelintcache
-.netlify
+.env
 .hugo_build.lock
-yarn-error.log
+.netlify
 node_modules
 public
 resources
