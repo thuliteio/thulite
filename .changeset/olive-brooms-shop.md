@@ -1,5 +1,0 @@
----
-"gethyas": patch
----
-
-Update dependencies
