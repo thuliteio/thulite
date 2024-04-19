@@ -16,7 +16,12 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@hyas/core": "^1.2.0"
+    "@hyas/core": "^1.2.1"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
+    "prettier": "^3.2.5"
   },
   "engines": {
     "node": ">=20.11.0"
