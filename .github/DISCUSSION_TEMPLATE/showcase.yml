@@ -1,48 +1,48 @@
-title: "[Showcase] "
-labels: ["Showcase"]
+title: '[Showcase] '
+labels: ['Showcase']
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for sharing your website with the Hyas community!
-        
-        What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
+    - type: markdown
+      attributes:
+          value: |
+              Thank you for sharing your website with the Hyas community!
 
-        - Your website is built with Hyas
-        - Your website is public
-        - Your website is a showcase
-  - type: input
-    id: site-name
-    attributes:
-      label: Site name
-      placeholder: My super cool site
-    validations:
-      required: true
-  - type: input
-    id: public-url
-    attributes:
-      label: Public URL
-      placeholder: 'https://example.com/'
-    validations:
-      required: true
-  - type: textarea
-    id: short-description
-    attributes:
-      label: Short description
-      placeholder: A short description of your site. This will be displayed on the showcase list page.
-    validations:
-      required: true
-  - type: textarea
-    id: full-description
-    attributes:
-      label: Full description
-      placeholder: A full description of your site.
-    validations:
-      required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Terms
-      options:
-        - label:  I agree to the [Terms of Service](https://gethyas.com/terms/).
+              What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
+
+              - Your website is built with Hyas
+              - Your website is public
+              - Your website is a showcase
+    - type: input
+      id: site-name
+      attributes:
+          label: Site name
+          placeholder: My super cool site
+      validations:
           required: true
+    - type: input
+      id: public-url
+      attributes:
+          label: Public URL
+          placeholder: 'https://example.com/'
+      validations:
+          required: true
+    - type: textarea
+      id: short-description
+      attributes:
+          label: Short description
+          placeholder: A short description of your site. This will be displayed on the showcase list page.
+      validations:
+          required: true
+    - type: textarea
+      id: full-description
+      attributes:
+          label: Full description
+          placeholder: A full description of your site.
+      validations:
+          required: false
+    - type: checkboxes
+      id: terms
+      attributes:
+          label: Terms
+          options:
+              - label: I agree to the [Terms of Service](https://gethyas.com/terms/).
+                required: true

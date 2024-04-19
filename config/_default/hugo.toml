@@ -1,5 +1,5 @@
 title = "Hyas"
-baseurl = "/"
+baseurl = "http://localhost/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -12,13 +12,10 @@ paginate = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
-copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
+copyRight = "Copyright (c) 2020-2024 Hyas"
 
 [build.buildStats]
   enable = true
-
-[social]
-  twitter = "gethyas"
 
 [outputs]
   home = ["HTML"]
@@ -27,23 +24,6 @@ copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
-
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = -1
-  [caches.getcsv]
-    dir = ":cacheDir/:project"
-    maxAge = -1
-  [caches.images]
-    dir = ":cacheDir/images"
-    maxAge = "1440h"
-  [caches.assets]
-    dir = ":cacheDir/:project"
-    maxAge = -1
-  [caches.getresource]
-    dir = ":cacheDir/:project"
-    maxage = '1h'
 
 [taxonomies]
   category = "categories"
@@ -67,3 +47,10 @@ copyRight = "Copyright (c) 2020-2023 Henk Verlinde"
     [[related.indices]]
     name = "date"
     weight = 10
+
+[imaging]
+  anchor = "Center"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 85
+  resampleFilter = "Lanczos"

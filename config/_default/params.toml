@@ -1,6 +1,7 @@
-# Meta Data for SEO
+# Hugo
+title = "My Hyas project"
+description = "Congrats on setting up a new Hyas project!"
+images = ["cover.png"]
 
-## Homepage
-title = "Hyas"
-titleSeparator = "-"
-titleAddition = "Build something amazing"
+[social]
+  twitter = "gethyas"
