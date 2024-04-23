@@ -1,5 +1,11 @@
 # gethyas
 
+## 2.4.2
+
+### Patch Changes
+
+- [#479](https://github.com/gethyas/hyas/pull/479) [`4287619`](https://github.com/gethyas/hyas/commit/4287619758d7c2e7ace9277eef30f40ffaa6fced) Thanks [@h-enk](https://github.com/h-enk)! - Install prettier and vite as devDependencies
+
 ## 2.4.1
 
 ### Patch Changes
