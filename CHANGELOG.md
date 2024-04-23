@@ -1,5 +1,11 @@
 # gethyas
 
+## 2.4.1
+
+### Patch Changes
+
+- [#478](https://github.com/gethyas/hyas/pull/478) [`e5e0c58`](https://github.com/gethyas/hyas/commit/e5e0c58c5e088f06bcb38510406010a3cfc4dc4f) Thanks [@h-enk](https://github.com/h-enk)! - Add vite dependency
+
 ## 2.4.0
 
 ### Minor Changes
