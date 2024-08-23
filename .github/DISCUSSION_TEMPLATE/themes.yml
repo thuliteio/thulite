@@ -4,11 +4,11 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thank you for sharing your theme with the Hyas community!
+              Thank you for sharing your theme with the Thulite community!
 
-              What we look for when reviewing submissions to [Themes](https://gethyas.com/themes/):
+              What we look for when reviewing submissions to [Themes](https://thulite.io/themes/):
 
-              - Uses the latest release of Hyas
+              - Uses the latest release of Thulite
               - Free theme source code is available in a public repo
               - All npm dependencies used are public
     - type: input
@@ -51,5 +51,5 @@ body:
       attributes:
           label: Terms
           options:
-              - label: I agree to the [Terms of Service](https://gethyas.com/terms/).
+              - label: I agree to the [Terms of Service](https://thulite.io/terms/).
                 required: true

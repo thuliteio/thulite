@@ -4,11 +4,11 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thank you for sharing your integration with the Hyas community!
+              Thank you for sharing your integration with the Thulite community!
 
-              What we look for when reviewing submissions to [Integrations](https://gethyas.com/integrations/):
+              What we look for when reviewing submissions to [Integrations](https://thulite.io/integrations/):
 
-              - Works with the latest release of Hyas
+              - Works with the latest release of Thulite
               - Free integration source code is available in a public repo
               - All npm dependencies used are public
     - type: input
@@ -44,5 +44,5 @@ body:
       attributes:
           label: Terms
           options:
-              - label: I agree to the [Terms of Service](https://gethyas.com/terms/).
+              - label: I agree to the [Terms of Service](https://thulite.io/terms/).
                 required: true

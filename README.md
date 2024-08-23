@@ -2,7 +2,7 @@
 
 <p align="center">
   <br/>
-  <a href="https://gethyas.com/">Hyas</a> is a website build tool for the modern web &mdash;
+  <a href="https://thulite.io/">Thulite</a> is a website build tool for the modern web &mdash;
   <br/>
   Hugo's speed and flexibility meet npm's
    ease of use.
@@ -12,52 +12,52 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/) — `v20.11.0` or higher
-- [Hugo](https://gohugo.io/) extended edition — `v0.124.0` or higher
+- [Hugo](https://gohugo.io/) extended edition — `v0.131.0` or higher
 
 ## Install
 
-The recommended way to install the latest version of Hyas is by running the command below:
+The recommended way to install the latest version of Thulite is by running the command below:
 
 ```bash
-npm create hyas@latest
+npm create thulite@latest
 ```
 
-Looking for help? Start with our [Getting Started](https://docs.gethyas.com/getting-started/) guide.
+Looking for help? Start with our [Getting Started](https://docs.thulite.io/getting-started/) guide.
 
 ## Documentation
 
-Visit our [official documentation](https://docs.gethyas.com/).
+Visit our [official documentation](https://docs.thulite.io).
 
 ## Support
 
-Having trouble? Get help in the official [Hyas Discussions](https://github.com/gethyas/hyas/discussions).
+Having trouble? Get help in the official [Thulite Discussions](https://github.com/orgs/thuliteio/discussions).
 
 ## Contributing
 
-New contributors welcome! Check out our [Contributor Guides](https://docs.gethyas.com/contribute/) for help getting started.
+New contributors welcome! Check out our [Contributor Guides](https://docs.thulite.io/contribute/) for help getting started.
 
 ## Packages
 
-| Package                                                     | Release Notes                                                                                                                                       |
-| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [gethyas](https://github.com/gethyas/hyas)                  | [![gethyas version](https://img.shields.io/npm/v/gethyas.svg?label=%20)](https://github.com/gethyas/hyas/releases/latest)                           |
-| [create-hyas](https://github.com/gethyas/create-hyas)       | [![create-hyas version](https://img.shields.io/npm/v/create-hyas.svg?label=%20)](https://github.com/gethyas/create-hyas/releases/latest)            |
-| [@hyas/core](https://github.com/gethyas/core)               | [![hyas-core version](https://img.shields.io/npm/v/@hyas/core.svg?label=%20)](https://github.com/gethyas/core/releases/latest)                      |
-| [@hyas/seo](https://github.com/gethyas/seo)                 | [![hyas-seo version](https://img.shields.io/npm/v/@hyas/seo.svg?label=%20)](https://github.com/gethyas/seo/releases/latest)                         |
-| [@hyas/images](https://github.com/gethyas/images)           | [![hyas-images version](https://img.shields.io/npm/v/@hyas/images.svg?label=%20)](https://github.com/gethyas/images/releases/latest)                |
-| [@hyas/inline-svg](https://github.com/gethyas/inline-svg)   | [![hyas-inline-svg version](https://img.shields.io/npm/v/@hyas/inline-svg.svg?label=%20)](https://github.com/gethyas/inline-svg/releases/latest)    |
-| [@hyas/bootstrap](https://github.com/gethyas/bootstrap)     | [![hyas-bootstrap version](https://img.shields.io/npm/v/@hyas/bootstrap.svg?label=%20)](https://github.com/gethyas/bootstrap/releases/latest)       |
-| [@hyas/tailwindcss](https://github.com/gethyas/tailwindcss) | [![hyas-tailwindcss version](https://img.shields.io/npm/v/@hyas/tailwindcss.svg?label=%20)](https://github.com/gethyas/tailwindcss/releases/latest) |
-| [@hyas/bolt-core](https://github.com/gethyas/bolt-core)     | [![hyas-bolt-core version](https://img.shields.io/npm/v/@hyas/bolt-core.svg?label=%20)](https://github.com/gethyas/bolt-core/releases/latest)       |
-| [@hyas/doks-core](https://github.com/gethyas/doks-core)     | [![hyas-doks-core version](https://img.shields.io/npm/v/@hyas/doks-core.svg?label=%20)](https://github.com/gethyas/doks-core/releases/latest)       |
+| Package                                                          | Release Notes                                                                                                                                               |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [thulite](https://github.com/thuliteio/thulite)                  | [![thulite version](https://img.shields.io/npm/v/thulite.svg?label=%20)](https://github.com/thuliteio/thulite/releases/latest)                              |
+| [create-thulite](https://github.com/thuliteio/create-thulite)    | [![create-thulite version](https://img.shields.io/npm/v/create-thulite.svg?label=%20)](https://github.com/thuliteio/create-thulite/releases/latest)         |
+| [@thulite/core](https://github.com/thuliteio/core)               | [![thulite-core version](https://img.shields.io/npm/v/@thulite/core.svg?label=%20)](https://github.com/thuliteio/core/releases/latest)                      |
+| [@thulite/seo](https://github.com/thuliteio/seo)                 | [![thulite-seo version](https://img.shields.io/npm/v/@thulite/seo.svg?label=%20)](https://github.com/thuliteio/seo/releases/latest)                         |
+| [@thulite/images](https://github.com/thuliteio/images)           | [![thulite-images version](https://img.shields.io/npm/v/@thulite/images.svg?label=%20)](https://github.com/thuliteio/images/releases/latest)                |
+| [@thulite/inline-svg](https://github.com/thuliteio/inline-svg)   | [![thulite-inline-svg version](https://img.shields.io/npm/v/@thulite/inline-svg.svg?label=%20)](https://github.com/thuliteio/inline-svg/releases/latest)    |
+| [@thulite/bootstrap](https://github.com/thuliteio/bootstrap)     | [![thulite-bootstrap version](https://img.shields.io/npm/v/@thulite/bootstrap.svg?label=%20)](https://github.com/thuliteio/bootstrap/releases/latest)       |
+| [@thulite/tailwindcss](https://github.com/thuliteio/tailwindcss) | [![thulite-tailwindcss version](https://img.shields.io/npm/v/@thulite/tailwindcss.svg?label=%20)](https://github.com/thuliteio/tailwindcss/releases/latest) |
+| [@thulite/bolt-core](https://github.com/thuliteio/bolt-core)     | [![thulite-bolt-core version](https://img.shields.io/npm/v/@thulite/bolt-core.svg?label=%20)](https://github.com/thuliteio/bolt-core/releases/latest)       |
+| [@thulite/doks-core](https://github.com/thuliteio/doks-core)     | [![thulite-doks-core version](https://img.shields.io/npm/v/@thulite/doks-core.svg?label=%20)](https://github.com/thuliteio/doks-core/releases/latest)       |
 
 ## Links
 
 - [License (MIT)](LICENSE)
-- [Code of Conduct](https://github.com/gethyas/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Project Funding](https://github.com/gethyas/.github/blob/main/FUNDING.md)
-- [Website](https://gethyas.com/)
+- [Code of Conduct](https://github.com/thuliteio/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Project Funding](https://github.com/thuliteio/.github/blob/main/FUNDING.md)
+- [Website](https://thulite.io/)
 
 ## Sponsors
 
-Hyas is supported by Netlify, Algolia, and several other amazing organizations and inidviduals. [Sponsor Hyas!](https://github.com/gethyas/.github/blob/main/FUNDING.md) ❤️
+Thulite is free, open source software made possible by by Netlify, Algolia, and several other amazing organizations and inidviduals. [Sponsor Thulite](https://github.com/thuliteio/.github/blob/main/FUNDING.md) ❤️
