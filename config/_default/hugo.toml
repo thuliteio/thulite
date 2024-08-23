@@ -1,4 +1,4 @@
-title = "Hyas"
+title = "Thulite"
 baseurl = "http://localhost/"
 canonifyURLs = false
 disableAliases = true
@@ -12,7 +12,7 @@ paginate = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2020-2024 Thulite"
 
 [build.buildStats]
   enable = true

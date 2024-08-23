@@ -4,11 +4,11 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thank you for sharing your website with the Hyas community!
+              Thank you for sharing your website with the Thulite community!
 
-              What we look for when reviewing submissions to [Showcase](https://gethyas.com/showcase/):
+              What we look for when reviewing submissions to [Showcase](https://thulite.io/showcase/):
 
-              - Your website is built with Hyas
+              - Your website is built with Thulite
               - Your website is public
               - Your website is a showcase
     - type: input
@@ -44,5 +44,5 @@ body:
       attributes:
           label: Terms
           options:
-              - label: I agree to the [Terms of Service](https://gethyas.com/terms/).
+              - label: I agree to the [Terms of Service](https://thulite.io/terms/).
                 required: true
