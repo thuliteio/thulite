@@ -1,5 +1,11 @@
 # thulite
 
+## 2.5.0
+
+### Minor Changes
+
+- [#489](https://github.com/thuliteio/thulite/pull/489) [`7881fc7`](https://github.com/thuliteio/thulite/commit/7881fc73c8c6eeb39159974e92b4c062325fc479) Thanks [@h-enk](https://github.com/h-enk)! - Update for migration from Hyas to Thulite
+
 ## 2.4.2
 
 ### Patch Changes
