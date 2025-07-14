@@ -1,5 +1,11 @@
 # thulite
 
+## 2.6.0
+
+### Minor Changes
+
+- [#514](https://github.com/thuliteio/thulite/pull/514) [`ae2274a`](https://github.com/thuliteio/thulite/commit/ae2274a28097fea4fba6818a3ba90d8dc56ad672) Thanks [@h-enk](https://github.com/h-enk)! - Bump dependencies to their latest versions
+
 ## 2.5.0
 
 ### Minor Changes
