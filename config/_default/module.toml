@@ -30,11 +30,12 @@
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@thulite/core/layouts"
+  source = "layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "layouts"
+  excludeFiles = "index.html"
+  source = "node_modules/@thulite/core/layouts"
   target = "layouts"
 
 ## static
