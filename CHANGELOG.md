@@ -1,5 +1,13 @@
 # thulite
 
+## 2.6.1
+
+### Patch Changes
+
+- [#521](https://github.com/thuliteio/thulite/pull/521) [`fe06115`](https://github.com/thuliteio/thulite/commit/fe061150a9d4434b8889069f632c7e142b15c890) Thanks [@h-enk](https://github.com/h-enk)! - Update for new template system in Hugo v0.146.0
+
+- [#520](https://github.com/thuliteio/thulite/pull/520) [`513bac6`](https://github.com/thuliteio/thulite/commit/513bac67c7cff215d17f9c795332d68aa1b0f01c) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump vite from 7.0.4 to 7.0.5
+
 ## 2.6.0
 
 ### Minor Changes
