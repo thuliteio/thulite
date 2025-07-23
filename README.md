@@ -12,7 +12,7 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/) — `v20.11.0` or higher
-- [Hugo](https://gohugo.io/) extended edition — `v0.131.0` or higher
+- [Hugo](https://gohugo.io/) extended edition — `v0.148.1` or higher
 
 ## Install
 
@@ -48,8 +48,11 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.thulit
 | [@thulite/inline-svg](https://github.com/thuliteio/inline-svg)   | [![thulite-inline-svg version](https://img.shields.io/npm/v/@thulite/inline-svg.svg?label=%20)](https://github.com/thuliteio/inline-svg/releases/latest)    |
 | [@thulite/bootstrap](https://github.com/thuliteio/bootstrap)     | [![thulite-bootstrap version](https://img.shields.io/npm/v/@thulite/bootstrap.svg?label=%20)](https://github.com/thuliteio/bootstrap/releases/latest)       |
 | [@thulite/tailwindcss](https://github.com/thuliteio/tailwindcss) | [![thulite-tailwindcss version](https://img.shields.io/npm/v/@thulite/tailwindcss.svg?label=%20)](https://github.com/thuliteio/tailwindcss/releases/latest) |
+
+<!--
 | [@thulite/bolt-core](https://github.com/thuliteio/bolt-core)     | [![thulite-bolt-core version](https://img.shields.io/npm/v/@thulite/bolt-core.svg?label=%20)](https://github.com/thuliteio/bolt-core/releases/latest)       |
 | [@thulite/doks-core](https://github.com/thuliteio/doks-core)     | [![thulite-doks-core version](https://img.shields.io/npm/v/@thulite/doks-core.svg?label=%20)](https://github.com/thuliteio/doks-core/releases/latest)       |
+-->
 
 ## Links
 
