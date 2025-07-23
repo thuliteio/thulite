@@ -23,8 +23,8 @@
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@thulite/core/layouts"
-  target = "layouts"
+  source = 'node_modules/@thulite/core/layouts'
+  target = 'layouts'
 
 [[mounts]]
   disableWatch = false
@@ -48,8 +48,8 @@
 
 ## assets
 [[mounts]]
-  source = "node_modules/@thulite/core/assets"
-  target = "assets"
+  source = 'node_modules/@thulite/core/assets'
+  target = 'assets'
 
 [[mounts]]
   disableWatch = false
