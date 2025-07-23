@@ -19,11 +19,11 @@
 
 ## layouts
 [[mounts]]
-  source = "node_modules/@thulite/core/layouts"
+  source = "layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "layouts"
+  source = "node_modules/@thulite/core/layouts"
   target = "layouts"
 
 ## i18n
