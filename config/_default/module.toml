@@ -9,57 +9,43 @@
 
 ## content
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'content'
-  target = 'content'
+  source = "content"
+  target = "content"
 
 ## data
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'data'
-  target = 'data'
+  source = "data"
+  target = "data"
 
 ## layouts
 [[mounts]]
-  source = 'node_modules/@thulite/core/layouts'
-  target = 'layouts'
+  source = "node_modules/@thulite/core/layouts"
+  target = "layouts"
 
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'layouts'
-  target = 'layouts'
+  source = "layouts"
+  target = "layouts"
 
 ## i18n
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'i18n'
-  target = 'i18n'
+  source = "i18n"
+  target = "i18n"
 
 ## archetypes
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'archetypes'
-  target = 'archetypes'
+  source = "archetypes"
+  target = "archetypes"
 
 ## assets
 [[mounts]]
-  source = 'node_modules/@thulite/core/assets'
-  target = 'assets'
+  source = "node_modules/@thulite/core/assets"
+  target = "assets"
 
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'assets'
-  target = 'assets'
+  source = "assets"
+  target = "assets"
 
 ## static
 [[mounts]]
-  disableWatch = false
-  lang = ''
-  source = 'static'
-  target = 'static'
+  source = "static"
+  target = "static"
