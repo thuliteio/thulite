@@ -16,7 +16,7 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@thulite/core": "^1.5.2"
+    "@thulite/core": "^1.5.3"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
