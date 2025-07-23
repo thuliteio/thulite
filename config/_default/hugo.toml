@@ -1,6 +1,5 @@
 title = "Thulite"
 baseurl = "http://localhost/"
-canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
@@ -12,7 +11,7 @@ pagerSize = 7
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
-copyRight = "Copyright (c) 2020-2024 Thulite"
+copyRight = "Copyright (c) 2020-2025 Thulite"
 
 [build.buildStats]
   enable = true

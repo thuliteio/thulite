@@ -1,8 +1,51 @@
-# mounts
+# Module Configuration File
+#
+# This file configures Hugo module settings, particularly module mounts which
+# define how content is organized within the project.
+#
+# Mounts specify file paths in your project that Hugo should use when building
+# the site. They allow for custom directory structures and integrating content
+# from different locations.
+
+## content
+[[mounts]]
+  disableWatch = false
+  lang = ''
+  source = 'content'
+  target = 'content'
+
+## data
+[[mounts]]
+  disableWatch = false
+  lang = ''
+  source = 'data'
+  target = 'data'
+
+## layouts
+[[mounts]]
+  disableWatch = false
+  lang = ''
+  source = 'layouts'
+  target = 'layouts'
+
+[[mounts]]
+  excludeFiles = "index.html"
+  source = "node_modules/@thulite/core/layouts"
+  target = "layouts"
+
+## i18n
+[[mounts]]
+  disableWatch = false
+  lang = ''
+  source = 'i18n'
+  target = 'i18n'
+
 ## archetypes
 [[mounts]]
-  source = "archetypes"
-  target = "archetypes"
+  disableWatch = false
+  lang = ''
+  source = 'archetypes'
+  target = 'archetypes'
 
 ## assets
 [[mounts]]
@@ -10,35 +53,14 @@
   target = "assets"
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
-
-## content
-[[mounts]]
-  source = "content"
-  target = "content"
-
-## data
-[[mounts]]
-  source = "data"
-  target = "data"
-
-## i18n
-[[mounts]]
-  source = "i18n"
-  target = "i18n"
-
-## layouts
-[[mounts]]
-  source = "layouts"
-  target = "layouts"
-
-[[mounts]]
-  excludeFiles = "index.html"
-  source = "node_modules/@thulite/core/layouts"
-  target = "layouts"
+  disableWatch = false
+  lang = ''
+  source = 'assets'
+  target = 'assets'
 
 ## static
 [[mounts]]
-  source = "static"
-  target = "static"
+  disableWatch = false
+  lang = ''
+  source = 'static'
+  target = 'static'
