@@ -1,5 +1,11 @@
 # thulite
 
+## 2.6.3
+
+### Patch Changes
+
+- [#523](https://github.com/thuliteio/thulite/pull/523) [`2d3539f`](https://github.com/thuliteio/thulite/commit/2d3539fb15b741f57e98667e70437c5069fc1eb1) Thanks [@h-enk](https://github.com/h-enk)! - Bump dependencies to their latest versions
+
 ## 2.6.2
 
 ### Patch Changes
