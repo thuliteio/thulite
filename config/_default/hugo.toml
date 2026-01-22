@@ -31,6 +31,7 @@ copyRight = "Copyright (c) 2020-2025 Thulite"
   blog = "/:title/"
 
 [minify.tdewolff.html]
+  keepComments = true # If set to false, build signatures are removed
   keepWhitespace = false
 
 [related]
