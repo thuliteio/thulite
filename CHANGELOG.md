@@ -1,5 +1,15 @@
 # thulite
 
+## 2.6.4
+
+### Patch Changes
+
+- [#541](https://github.com/thuliteio/thulite/pull/541) [`7afe370`](https://github.com/thuliteio/thulite/commit/7afe3707f7e14d8a7d653f23e09763219f0733e6) Thanks [@h-enk](https://github.com/h-enk)! - Adds main landmark
+
+- [#526](https://github.com/thuliteio/thulite/pull/526) [`858a3d5`](https://github.com/thuliteio/thulite/commit/858a3d516b301652207d17485be4236d51a37d59) Thanks [@dependabot](https://github.com/apps/dependabot)! - build(deps-dev): bump vite from 7.0.6 to 7.1.1
+
+- [#552](https://github.com/thuliteio/thulite/pull/552) [`ab13f0a`](https://github.com/thuliteio/thulite/commit/ab13f0a7db5334a09a900f576f214568f2a2d9f0) Thanks [@h-enk](https://github.com/h-enk)! - Bump dependencies to their latest versions
+
 ## 2.6.3
 
 ### Patch Changes
