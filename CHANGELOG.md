@@ -1,5 +1,11 @@
 # thulite
 
+## 2.6.5
+
+### Patch Changes
+
+- [#556](https://github.com/thuliteio/thulite/pull/556) [`8449143`](https://github.com/thuliteio/thulite/commit/8449143d766738d897d5d2639ec48e7abadd79a9) Thanks [@h-enk](https://github.com/h-enk)! - Update for security fix, Netlify fix, Hugo v0.156.0, and update dependencies
+
 ## 2.6.4
 
 ### Patch Changes

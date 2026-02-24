@@ -1,6 +1,6 @@
 {
   "name": "thulite",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "description": "Thulite",
   "author": "Thulite",
   "license": "MIT",
@@ -19,8 +19,8 @@
     "@thulite/core": "^1.5.9"
   },
   "overrides": {
-      "minimatch": "^10.2.2",
-      "glob": "^13.0.6"
+    "minimatch": "^10.2.2",
+    "glob": "^13.0.6"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.2",
