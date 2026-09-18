@@ -18,15 +18,11 @@
   "dependencies": {
     "@thulite/core": "^1.5.9"
   },
-  "overrides": {
-    "minimatch": "^10.2.2",
-    "glob": "^13.0.6"
-  },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.2",
-    "@changesets/cli": "^2.29.8",
-    "prettier": "^3.8.1",
-    "vite": "^7.3.1"
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
+    "prettier": "^3.9.8",
+    "vite": "^8.3.0"
   },
   "engines": {
     "node": ">=20.11.0"
