@@ -18,14 +18,14 @@ command = """\
 command = """\
   git config core.quotepath false && \
   npm install && \
-  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" && \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" \
   """
 
 [context.branch-deploy]
 command = """\
   git config core.quotepath false && \
   npm install && \
-  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" && \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" \
   """
 
 [dev]
