@@ -1,12 +1,36 @@
-*.html
+# Prettier ignore patterns
+
+# Build and distribution directories
+dist/
+build/
+node_modules/
+resources/
+
+# Version control and CI
+.git/
+.github/
+.gitkeep
+
+# Editor and IDE
+.vscode/
+
+# Versioning
+.changeset/
+
+# Code coverage
+coverage/
+
+# Binary files (images, fonts, etc.)
 *.ico
 *.png
 *.jp*g
-*.toml
-*.*ignore
 *.svg
-*.xml
+*.woff*
+*.woff
+
+# Configuration and license files
 LICENSE
 .npmrc
-.gitkeep
-*.woff*
+*.xml
+*.toml
+*.*ignore

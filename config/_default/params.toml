@@ -1,7 +1,7 @@
 # Hugo
 title = "My Thulite project"
 description = "Congrats on setting up a new Thulite project!"
-images = ["cover.jpg"]
+images = ["cover.png"]
 
 [social]
-  twitter = "thuliteio"
+twitter = "thuliteio"

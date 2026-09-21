@@ -22,13 +22,13 @@
   source = "layouts"
   target = "layouts"
 
-# [[mounts]]
-#   source = "node_modules/@thulite/core/layouts"
-#   target = "layouts"
-
 [[mounts]]
-  source = "../core/layouts"
+  source = "node_modules/@thulite/core/layouts"
   target = "layouts"
+
+# [[mounts]]
+#   source = "../core/layouts"
+#   target = "layouts"
 
 ## i18n
 [[mounts]]
@@ -41,13 +41,13 @@
   target = "archetypes"
 
 ## assets
-# [[mounts]]
-#   source = "node_modules/@thulite/core/assets"
-#   target = "assets"
-
 [[mounts]]
-  source = "../core/assets"
+  source = "node_modules/@thulite/core/assets"
   target = "assets"
+
+# [[mounts]]
+#   source = "../core/assets"
+#   target = "assets"
 
 [[module.mounts]]
   source = "hugo_stats.json"
