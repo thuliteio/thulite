@@ -9,6 +9,10 @@ TZ = "Europe/Amsterdam"
 [build]
 publish = "public"
 command = """\
+  curl -sfLO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  export PATH="${HOME}/.local/dart-sass:${PATH}" && \
   git config core.quotepath false && \
   npm install && \
   hugo build --gc --minify --baseURL "${URL}"
@@ -16,16 +20,24 @@ command = """\
 
 [context.deploy-preview]
 command = """\
+  curl -sfLO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  export PATH="${HOME}/.local/dart-sass:${PATH}" && \
   git config core.quotepath false && \
   npm install && \
-  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL"
   """
 
 [context.branch-deploy]
 command = """\
+  curl -sfLO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  export PATH="${HOME}/.local/dart-sass:${PATH}" && \
   git config core.quotepath false && \
   npm install && \
-  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL" \
+  hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL"
   """
 
 [dev]

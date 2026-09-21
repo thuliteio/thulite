@@ -16,6 +16,10 @@ copyRight = "Copyright (c) 2020-2026 Thulite"
 [build.buildStats]
 enable = true
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [outputs]
 home = ["HTML"]
 
