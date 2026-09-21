@@ -26,6 +26,10 @@
   source = "node_modules/@thulite/core/layouts"
   target = "layouts"
 
+# [[mounts]]
+#   source = "../core/layouts"
+#   target = "layouts"
+
 ## i18n
 [[mounts]]
   source = "i18n"
@@ -40,6 +44,10 @@
 [[mounts]]
   source = "node_modules/@thulite/core/assets"
   target = "assets"
+
+# [[mounts]]
+#   source = "../core/assets"
+#   target = "assets"
 
 [[module.mounts]]
   source = "hugo_stats.json"

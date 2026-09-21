@@ -6,51 +6,52 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+locale = "en-US"
 pagerSize = 7
 rssLimit = 10
-summarylength = 20 # 70 (default)
+summarylength = 20                  # 70 (default)
 
-copyRight = "Copyright (c) 2020-2025 Thulite"
+copyRight = "Copyright (c) 2020-2026 Thulite"
 
 [build.buildStats]
-  enable = true
+enable = true
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
 
 [outputs]
-  home = ["HTML"]
+home = ["HTML"]
 
 [sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [taxonomies]
-  category = "categories"
+category = "categories"
 
 [permalinks]
-  blog = "/:title/"
+blog = "/:title/"
 
 [minify.tdewolff.html]
-  keepComments = true # If set to false, build signatures are removed
-  keepWhitespace = false
+keepComments = true    # If set to false, build signatures are removed
+keepWhitespace = false
 
 [related]
-  threshold = 80
-  includeNewer = true
-  toLower = false
-    [[related.indices]]
-    name = "categories"
-    weight = 100
-    [[related.indices]]
-    name = "tags"
-    weight = 80
-    [[related.indices]]
-    name = "date"
-    weight = 10
+threshold = 80
+includeNewer = true
+toLower = false
+[[related.indices]]
+name = "categories"
+weight = 100
+[[related.indices]]
+name = "tags"
+weight = 80
+[[related.indices]]
+name = "date"
+weight = 10
 
 [imaging]
-  anchor = "Center"
-  bgColor = "#ffffff"
-  hint = "photo"
-  quality = 85
-  resampleFilter = "Lanczos"
+anchor = "Center"
+resampleFilter = "Lanczos"

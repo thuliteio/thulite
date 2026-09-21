@@ -9,20 +9,23 @@
   <br/><br/>
 </p>
 
-## Requirements
+## Prerequisites
 
-- Node.js – [latest LTS version](https://nodejs.org/en/download)
-- Hugo – [latest extended version](https://github.com/gohugoio/hugo/releases/latest)
+- [Hugo](https://github.com/gohugoio/hugo/releases/latest) (latest extended or extended/deploy edition)
+- [Dart Sass](https://github.com/sass/dart-sass/releases/latest) (latest version)
+- [Node.js/npm](https://nodejs.org/en/download) (latest LTS version)
 
-## Install
+## Installation
 
-The recommended way to install the latest version of Thulite is by running the command below:
+The **recommended** way to install the latest version of Thulite is by running the command below:
 
 ```bash
 npm create thulite@latest
 ```
 
-Looking for help? Start with our [Getting Started](https://docs.thulite.io/getting-started/) guide.
+Looking for help? Start with our [Installation](https://docs.thulite.io/thulite/start-here/installation/) guide.
+
+Looking for templates? Check out our [templates](https://thulite.io/templates/).
 
 ## Documentation
 
@@ -32,11 +35,7 @@ Visit our [official documentation](https://docs.thulite.io).
 
 Having trouble? Get help in the official [Thulite Discussions](https://github.com/orgs/thuliteio/discussions).
 
-## Contributing
-
-New contributors welcome! Check out our [Contributor Guides](https://docs.thulite.io/contribute/) for help getting started.
-
-## Packages
+## Directory
 
 | Package                                                          | Release Notes                                                                                                                                               |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,6 +57,8 @@ New contributors welcome! Check out our [Contributor Guides](https://docs.thulit
 - [Project Funding](https://github.com/thuliteio/.github/blob/main/FUNDING.md)
 - [Website](https://thulite.io/)
 
-## Sponsors
+## Sponsoring
 
-Thulite is free and open-source, thanks to our amazing sponsors. Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development. [Sponsor Thulite](https://github.com/sponsors/thuliteio) ❤️
+Help keep Thulite sustainable by supporting maintenance, documentation, and long-term development.
+
+[Sponsor Thulite](https://github.com/sponsors/thuliteio) ❤️
