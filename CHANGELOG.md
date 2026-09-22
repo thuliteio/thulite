@@ -1,5 +1,11 @@
 # thulite
 
+## 3.0.1
+
+### Patch Changes
+
+- [#567](https://github.com/thuliteio/thulite/pull/567) [`3cb95d9`](https://github.com/thuliteio/thulite/commit/3cb95d92cbfbdfb20937e2549c1b9b74d59d9042) Thanks [@h-enk](https://github.com/h-enk)! - fix: update @thulite/core dependency version to ^2.0.2 and clean up module.toml formatting
+
 ## 3.0.0
 
 ### Major Changes
