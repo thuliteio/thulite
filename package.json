@@ -17,7 +17,7 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@thulite/core": "^2.0.0"
+    "@thulite/core": "^2.0.2"
   },
   "overrides": {
     "minimatch": "^10.2.6",
