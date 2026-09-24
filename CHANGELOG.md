@@ -1,5 +1,11 @@
 # thulite
 
+## 3.0.2
+
+### Patch Changes
+
+- [#568](https://github.com/thuliteio/thulite/pull/568) [`d52e17f`](https://github.com/thuliteio/thulite/commit/d52e17f2bab17e7442a5706eb755f3a4f9ad76f2) Thanks [@h-enk](https://github.com/h-enk)! - fix: update @thulite/core dependency version to ^2.0.3 and bump prettier to ^3.9.9
+
 ## 3.0.1
 
 ### Patch Changes
