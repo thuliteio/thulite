@@ -1,5 +1,11 @@
 # thulite
 
+## 3.0.3
+
+### Patch Changes
+
+- [#570](https://github.com/thuliteio/thulite/pull/570) [`57437d4`](https://github.com/thuliteio/thulite/commit/57437d409fd4a6be8c9870b6ea81fc052bfda7d8) Thanks [@h-enk](https://github.com/h-enk)! - fix: update @thulite/core to ^2.0.4, bump portless to ^0.15.7, and upgrade vite to ^8.3.2
+
 ## 3.0.2
 
 ### Patch Changes
