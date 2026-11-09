@@ -26,7 +26,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.3",
-    "portless": "^0.15.7",
+    "portless": "^0.16.0",
     "prettier": "^3.9.9",
     "vite": "^8.3.2"
   },
